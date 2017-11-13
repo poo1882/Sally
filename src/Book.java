@@ -7,7 +7,7 @@ public class Book
     private String writer;
     private float price;
 
-    public Book (String name, ArrayList<String> genre, String writer, float price, int amount)
+    public Book (String name, ArrayList<String> genre, String writer, float price)
     {
         this.name = name;
         this.genre = genre;
