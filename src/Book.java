@@ -19,7 +19,7 @@ public class Book
     {
         System.out.println("Name: "+name);
         System.out.println("Genre: ");
-        for (int i=0;i<genre;)
+        for (int i=0;i<genre.size();i++)
         {
             if ( i != 0)
             {
