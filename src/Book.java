@@ -13,7 +13,6 @@ public class Book
         this.genre = genre;
         this.writer = writer;
         this.price = price;
-        this.amount = amount;
     }
 
     public void printDetail()
