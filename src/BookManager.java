@@ -13,7 +13,10 @@ public class BookManager
 
     public static BookCollection searchByName (String keyword)
     {
-        
+        hm.put("Adventure", Book1);
+        BookCollection adw = hm.get("Drama");
+        adw.books.add
+        BookCollection matchBooks = hm.get(keyword);
     }
 
     public static BookCollection searchByWriter (String keyword)
