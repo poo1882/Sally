@@ -6,19 +6,20 @@ public class Book
     private ArrayList<String> genre;
     private String writer;
     private float price;
-
-    public Book (String name, ArrayList<String> genre, String writer, float price)
+    private  String bookId;
+    public Book (String name, ArrayList<String> genre, String writer, float price,String bookId)
     {
         this.name = name;
         this.genre = genre;
         this.writer = writer;
         this.price = price;
+        this.bookId = bookId;
     }
 
     public void printDetail()
     {
         System.out.println("Name: "+name);
-        System.out.println("Genre: ");
+        System.out.print("Genre: ");
         for (int i=0;i<genre.size();i++)
         {
             if ( i != 0)
@@ -27,8 +28,9 @@ public class Book
             }
             System.out.print(genre.get(i));
         }
-        System.out.println("Writer: "+writer);
-        System.out.println("Price: "+price); 
+        System.out.println("\nWriter: "+writer);
+        System.out.println("Price: "+price);
+        System.out.println("BookId: "+bookId);
     }
 
     public String getName()
@@ -44,5 +46,16 @@ public class Book
     public float getPrice()
     {
         return price;
+    }
+
+    public String getWriter()
+    {
+        return writer;
+    }
+
+    public String getBookId()
+
+    {
+        return bookId;
     }
 }
