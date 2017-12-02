@@ -1,0 +1,999 @@
+Harry Potter and the Philosopher's Stone by J. K. Rowling%712%000%Fantasy%Action
+Harry Potter and the Chamber of Secrets by J. K. Rowling %121%001%Fantasy%Action
+Harry Potter and the Prisoner of Azkaban by J. K. Rowling %576%002%Fantasy%Action
+Harry Potter and the Half-Blood Prince by J. K. Rowling %149%003%Fantasy%Action
+Harry Potter and the Order of the Phoenix by J. K. Rowling %163%004%%Fantasy%Action
+Harry Potter and the Goblet of Fire by J. K. Rowling %845%005%Fantasy%Action
+Harry Potter and the Deathly Hallows by J. K. Rowling %809%006%Fantasy%Action
+The Hobbit; or There and Back Again by J.R.R. Tolkien %926%007%Fantasy%Action
+1984 by George Orwell %475%008%Science%Horror
+Pride and Prejudice by Jane Austen %520%009%Horror%Action
+The Da Vinci Code by Dan Brown %171%010%Fantasy%Drama
+To Kill a Mockingbird by Harper Lee %881%011%Action%Guide
+The Catcher in the Rye by J. D. Salinger %205%012%Horror%Biography
+The Great Gatsby by F. Scott Fitzgerald %482%013%Fantasy%Science
+Twilight by Stephenie Meyer %195%014%Guide%Mystery
+The Hunger Games by Suzanne Collins %197%015%Health%Biography
+The Kite Runner by Khaled Hosseini %936%016%Drama%Health
+Jane Eyre by Charlotte Brontë %746%017%Science%Health
+Animal Farm by George Orwell %849%018%Action%Drama
+Brave New World by Aldous Huxley %237%019%Action%Fantasy
+The Lord of the Rings {complete} by J.R.R. Tolkien %896%020%Mystery%Guide
+New Moon by Stephenie Meyer %345%021%Biography%Fantasy
+Angels & Demons by Dan Brown %894%022%Drama%Biography
+The Fellowship of the Ring: Being the First Part of The Lord of the Rings by J.R.R. Tolkien %799%023%Mystery%Guide
+Fahrenheit 451 by Ray Bradbury %783%024%Drama%Science
+The Curious Incident of the Dog in the Night-Time by Mark Haddon %982%025%Action%Horror
+Wuthering Heights by Emily Brontë %441%026%Mystery%Science
+Lord of the Flies by William Golding %553%027%Biography%Action
+Life of Pi by Yann Martel %628%028%Biography%Investigation
+The Odyssey by Homer %746%029%Drama%Mystery
+Eclipse by Stephenie Meyer %392%030%Action%Drama
+One Hundred Years of Solitude by Gabriel Garcia Marquez %224%031%Biography%Science
+Slaughterhouse-Five by Kurt Vonnegut %100%032%Biography%Fantasy
+The Time Traveler's Wife by Audrey Niffenegger %546%033%Horror%Science
+The Two Towers: Being the Second Part of The Lord of the Rings by J.R.R. Tolkien %812%034%Biography%Investigation
+The Girl with the Dragon Tattoo by Stieg Larsson %250%035%Action%Drama
+Catching Fire by Suzanne Collins %226%036%Investigation%Science
+The Return of the King: Being the Third Part of The Lord of the Rings by J.R.R. Tolkien %127%037%Mystery%Health
+Crime and Punishment by Fyodor Dostoevsky %842%038%Action%Health
+Ender's Game by Orson Scott Card %859%039%Science%Action
+Breaking Dawn by Stephenie Meyer %524%040%Action%Investigation
+Catch-22 by Joseph Heller %644%041%Horror%Biography
+The Book Thief by Markus Zusak %498%042%Biography%Drama
+Memoirs of a Geisha by Arthur Golden %551%043%Mystery%Horror
+The Lovely Bones by Alice Sebold %984%044%Science%Mystery
+Adventures of Huckleberry Finn by Mark Twain %368%045%Investigation%Guide
+The Lion, the Witch and the Wardrobe by C. S. Lewis %409%046%Horror%Fantasy
+Mockingjay by Suzanne Collins %910%047%Health%Horror
+Game of Thrones by George R. R. Martin %432%048%Horror%Biography
+The Little Prince by Antoine de Saint-Exupéry %908%049%Science%Drama
+The Hitchhiker's Guide to the Galaxy by Douglas Adams %630%050%Fantasy%Mystery
+Of Mice and Men by John Steinbeck %653%051%Action%Drama
+Anna Karenina by Leo Tolstoy %169%052%Guide%Fantasy
+Sense and Sensibility by Jane Austen %515%053%Biography%Mystery
+The Handmaid's Tale by Margaret Atwood %372%054%Science%Horror
+Emma by Jane Austen %233%055%Fantasy%Guide
+The Alchemist by Paulo Coelho %595%056%Fantasy%Action
+The Golden Compass by Philip Pullman %741%057%Health%Guide
+Frankenstein by Mary Shelley %464%058%Guide%Mystery
+The Giver by Lois Lowry %616%059%Mystery%Drama
+Great Expectations by Charles Dickens %252%060%Science%Health
+Dune by Frank Herbert %863%061%Investigation%Action
+The Picture of Dorian Gray by Oscar Wilde %571%062%Investigation%Fantasy
+The Iliad by Homer %266%063%Investigation%Science
+American Gods by Neil Gaiman %528%064%Investigation%Science
+The Road by Cormac McCarthy %821%065%Guide%Investigation
+The Stranger by Albert Camus %530%066%Guide%Health
+A Wrinkle in Time by Madeleine L'Engle %376%067%Investigation%Mystery
+The Chronicles of Narnia by C. S. Lewis %435%068%Health%Mystery
+The Scarlet Letter by Nathaniel Hawthorne %247%069%Drama%Science
+The Grapes of Wrath by John Steinbeck %675%070%Horror%Mystery
+A Tale of Two Cities by Charles Dickens %370%071%Science%Biography
+Lolita by Vladimir Nabokov %118%072%Mystery%Science
+Good Omens: The Nice and Accurate Prophecies of Agnes Nutter, Witch by Terry Pratchett %127%073%Fantasy%Investigation
+The Silmarillion by J.R.R. Tolkien %664%074%Science%Drama
+Moby Dick by Herman Melville %431%075%Action%Biography
+The Complete Works of William Shakespeare by William Shakespeare %582%076%Fantasy%Biography
+Water for Elephants: A Novel by Sara Gruen %929%077%Guide%Horror
+A Thousand Splendid Suns by Khaled Hosseini %564%078%Guide%Action
+Dracula by Bram Stoker %142%079%Action%Investigation
+The Girl Who Played with Fire by Stieg Larsson %314%080%Guide%Action
+Eragon by Christopher Paolini %615%081%Action%Guide
+Hamlet by William Shakespeare %474%082%Mystery%Horror
+Wicked by Gregory Maguire %526%083%Drama%Horror
+Middlesex by Jeffrey Eugenides %871%084%Horror%Investigation
+Charlotte's Web by E. B. White %228%085%Horror%Drama
+The Help by Kathryn Stockett %319%086%Guide%Science
+On the Road by Jack Kerouac %652%087%Science%Health
+The Secret Life of Bees by Sue Monk Kidd %239%088%Fantasy%Health
+The Secret Garden by Frances Hodgson Burnett %124%089%Mystery%Science
+Atonement by Ian McEwan %374%090%Health%Fantasy
+Jonathan Strange & Mr. Norrell: A Novel by Susanna Clarke %480%091%Fantasy%Science
+The Poisonwood Bible by Barbara Kingsolver %441%092%Mystery%Science
+The Shadow of the Wind by Carlos Ruiz Zafón %427%093%Drama%Science
+Love in The Time of Cholera by Gabriel Garcia Marquez %904%094%Mystery%Health
+The Old Man and The Sea by Ernest Hemingway %656%095%Fantasy%Biography
+The Brothers Karamazov by Fyodor Dostoevsky %790%096%Horror%Mystery
+Freakonomics: A Rogue Economist Explores the Hidden Side of Everything by Steven D. Levitt %684%097%Action%Drama
+Treasure Island by Robert Louis Stevenson %575%098%Mystery%Investigation
+The Bell Jar by Sylvia Plath %368%099%Science%Drama
+A Clash of Kings by George R. R. Martin %815%100%Action%Biography
+Siddhartha by Hermann Hesse %588%101%Horror%Science
+The Pillars of the Earth by Ken Follett %972%102%Guide%Fantasy
+The Adventures of Tom Sawyer by Mark Twain %135%103%Fantasy%Mystery
+Persuasion by Jane Austen %984%104%Biography%Guide
+Neverwhere by Neil Gaiman %989%105%Health%Biography
+Don Quixote by Miguel de Cervantes Saavedra %820%106%Guide%Fantasy
+War and Peace by Leo Tolstoy %578%107%Health%Investigation
+Romeo and Juliet by William Shakespeare %558%108%Investigation%Guide
+A Clockwork Orange by Anthony Burgess %658%109%Science%Horror
+Anne Frank: The Diary of a Young Girl by Anne Frank %165%110%Science%Drama
+The Subtle Knife by Philip Pullman %962%111%Mystery%Horror
+Madame Bovary by Gustave Flaubert %226%112%Science%Biography
+The Girl Who Kicked the Hornet's Nest by Stieg Larsson %385%113%Drama%Horror
+Night by Elie Wiesel %250%114%Health%Mystery
+The Magician's Nephew by C. S. Lewis %253%115%Health%Drama
+Guns, Germs, and Steel: The Fates of Human Societies by Jared Diamond %425%116%Mystery%Action
+One Flew Over the Cuckoo's Nest by Ken Kesey %417%117%Biography%Science
+Watership Down by Richard Adams %797%118%Mystery%Drama
+The Amber Spyglass by Philip Pullman %576%119%Mystery%Drama
+Angela's Ashes by Frank McCourt %185%120%Guide%Fantasy
+Me Talk Pretty One Day by David Sedaris %522%121%Investigation%Guide
+Eat, Pray, Love by Elizabeth Gilbert %553%122%Horror%Fantasy
+Atlas Shrugged by Ayn Rand %759%123%Horror%Health
+The Historian by Elizabeth Kostova %951%124%Science%Drama
+Macbeth by William Shakespeare %520%125%Action%Mystery
+The Unbearable Lightness of Being by Milan Kundera %560%126%Health%Action
+Interview with the Vampire by Anne Rice %123%127%Fantasy%Mystery
+Ulysses by James Joyce %803%128%Guide%Mystery
+The Lightning Thief by Rick Riordan %653%129%Science%Investigation
+A Short History of Nearly Everything by Bill Bryson %755%130%Action%Guide
+Mere Christianity by C. S. Lewis %650%131%Mystery%Biography
+The Princess Bride by William Goldman %698%132%Biography%Drama
+Gone With the Wind by Margaret Mitchell %305%133%Investigation%Health
+Les Misérables by Victor Hugo %533%134%Guide%Fantasy
+Neuromancer by William Gibson %912%135%Drama%Investigation
+The Sun Also Rises by Ernest Hemingway %530%136%Health%Science
+My Sister's Keeper by Jodi Picoult %227%137%Biography%Action
+The Tipping Point: How Little Things Can Make a Big Difference by Malcolm Gladwell %827%138%Investigation%Science
+Alice's Adventures in Wonderland and Through the Looking Glass by Lewis Carroll %857%139%Science%Guide
+A Storm of Swords (A Song of Ice and Fire, Book 3) by George R. R. Martin %951%140%Mystery%Horror
+Cat's Cradle by Kurt Vonnegut %166%141%Action%Guide
+In Cold Blood by Truman Capote %989%142%Action%Drama
+Holes by Louis Sachar %935%143%Biography%Health
+A Feast for Crows by George R. R. Martin %565%144%Action%Biography
+Alice's Adventures in Wonderland by Lewis Carroll %981%145%Mystery%Investigation
+Heart of Darkness by Joseph Conrad %769%146%Fantasy%Health
+Anne of Green Gables by L. M. Montgomery %688%147%Health%Biography
+Prince Caspian by C. S. Lewis %185%148%Health%Mystery
+Blink: The Power of Thinking Without Thinking by Malcolm Gladwell %196%149%Action%Health
+Beowulf by Beowulf Poet %453%150%Horror%Action
+The Count of Monte Cristo by Alexandre Dumas père %122%151%Science%Drama
+East of Eden by John Steinbeck %967%152%Horror%Fantasy
+Stardust by Neil Gaiman %305%153%Biography%Mystery
+A Confederacy of Dunces by John Kennedy Toole %817%154%Health%Guide
+The Inferno by Dante Alighieri %943%155%Drama%Mystery
+A Farewell to Arms by Ernest Hemingway %803%156%Mystery%Drama
+Mansfield Park by Jane Austen %564%157%Science%Drama
+Where the Wild Things Are by Maurice Sendak %363%158%Science%Guide
+Deception Point by Dan Brown %142%159%Action%Science
+Never Let Me Go by Kazuo Ishiguro %526%160%Guide%Drama
+Outlander by Diana Gabaldon %226%161%Drama%Science
+Digital Fortress by Dan Brown %428%162%Horror%Investigation
+Anansi Boys by Neil Gaiman %315%163%Biography%Investigation
+A Portrait of the Artist as a Young Man by James Joyce %638%164%Mystery%Health
+The Voyage of the Dawn Treader by C. S. Lewis %797%165%Action%Mystery
+Robinson Crusoe by Daniel Defoe %984%166%Mystery%Fantasy
+The Horse and His Boy by C. S. Lewis %906%167%Horror%Fantasy
+Oliver Twist by Charles Dickens %187%168%Drama%Biography
+Beloved by Toni Morrison %871%169%Mystery%Drama
+The Gunslinger by Stephen King %136%170%Science%Fantasy
+Charlie and the Chocolate Factory by Roald Dahl %527%171%Science%Drama
+The Colour of Magic by Terry Pratchett %111%172%Fantasy%Health
+Gulliver's Travels by Jonathan Swift %482%173%Fantasy%Science
+The Prince by Niccolò Machiavelli %890%174%Health%Action
+Eldest by Christopher Paolini %284%175%Guide%Fantasy
+The Devil in the White City: Murder, Magic, and Madness at the Fair that Changed America by Erik Larson %759%176%Mystery%Health
+The Fountainhead by Ayn Rand %710%177%Science%Mystery
+Snow Crash by Neal Stephenson %603%178%Action%Biography
+The Canterbury Tales by Geoffrey Chaucer %945%179%Drama%Biography
+The Aeneid by Virgil %757%180%Action%Science
+The Elements of Style by William Jr. Strunk %794%181%Drama%Mystery
+The Shining by Stephen King %254%182%Mystery%Fantasy
+Northanger Abbey by Jane Austen %891%183%Biography%Drama
+Little Women / Good Wives by Louisa May Alcott %659%184%Fantasy%Guide
+The Amazing Adventures of Kavalier & Clay by Michael Chabon %827%185%Drama%Investigation
+The Graveyard Book by Neil Gaiman %231%186%Horror%Health
+The Glass Castle by Jeannette Walls %820%187%Biography%Mystery
+The Lost Symbol by Dan Brown %745%188%Horror%Action
+Fight Club by Chuck Palahniuk %975%189%Science%Health
+A Christmas Carol by Charles Dickens %630%190%Drama%Fantasy
+The Silver Chair by C. S. Lewis %304%191%Mystery%Health
+Tuesdays with Morrie: An Old Man, a Young Man, and Life's Greatest Lesson by Mitch Albom %812%192%Drama%Biography
+Plato's Republic by Plato %759%193%Guide%Mystery
+The God of Small Things by Arundhati Roy %963%194%Fantasy%Investigation
+Candide by Voltaire %605%195%Mystery%Horror
+A Prayer for Owen Meany by John Irving %524%196%Fantasy%Horror
+The Stand: The Complete and Uncut Edition by Stephen King %415%197%Guide%Science
+The Name of the Rose by Umberto Eco %150%198%Fantasy%Science
+The Fault in Our Stars by John Green %176%199%Guide%Horror
+A Brief History of Time: From the Big Bang to Black Holes by Stephen Hawking %377%200%Fantasy%Action
+Mrs. Dalloway by Virginia Woolf %407%201%Drama%Horror
+David Copperfield by Charles Dickens %832%202%Biography%Mystery
+The Trial by Franz Kafka %805%203%Drama%Science
+The Last Battle by C. S. Lewis %188%204%Science%Horror
+The Ultimate Hitchhiker's Guide by Douglas Adams %171%205%Science%Horror
+Watchmen by Alan Moore %898%206%Horror%Drama
+Coraline by Neil Gaiman %256%207%Action%Guide
+The Three Musketeers by Alexandre Dumas %962%208%Fantasy%Science
+Zen and the Art of Motorcycle Maintenance: An Inquiry into Values by Robert M. Pirsig %974%209%Fantasy%Biography
+The Five People You Meet in Heaven by Mitch Albom %582%210%Fantasy%Health
+The Memory Keeper's Daughter by Kim Edwards %143%211%Guide%Horror
+The Wind in the Willows by Kenneth Grahame %690%212%Guide%Science
+Confessions by Augustine %991%213%Fantasy%Investigation
+Girl with a Pearl Earring by Tracy Chevalier %401%214%Science%Guide
+Bridget Jones's Diary by Helen Fielding %683%215%Biography%Action
+Sophie's World by Jostein Gaarder %442%216%Mystery%Health
+The Tales of Beedle the Bard by J. K. Rowling %250%217%Horror%Fantasy
+Jurassic Park by Michael Crichton %927%218%Biography%Horror
+The Art of War by Sun Tzu %287%219%Guide%Fantasy
+Tess of the D'Urbervilles by Thomas Hardy %114%220%Science%Drama
+Foundation by Isaac Asimov %273%221%Health%Mystery
+The Guernsey Literary and Potato Peel Pie Society by Mary Ann Shaffer %520%222%Horror%Health
+Dubliners by James Joyce %283%223%Guide%Drama
+The Master and Margarita by Mikhail Bulgakov %796%224%Biography%Drama
+Divergent by Veronica Roth %954%225%Drama%Horror
+The Restaurant at the End of the Universe by Douglas Adams %156%226%Fantasy%Health
+Artemis Fowl by Eoin Colfer %182%227%Drama%Horror
+Things Fall Apart by Chinua Achebe %161%228%Health%Drama
+It by Stephen King %364%229%Mystery%Horror
+The Perks of Being a Wallflower by Stephen Chbosky %830%230%Fantasy%Guide
+The Bad Beginning by Lemony Snicket %937%231%Guide%Biography
+Foucault's Pendulum by Umberto Eco %175%232%Fantasy%Guide
+The Color Purple by Alice Walker %807%233%Horror%Fantasy
+The Red Tent by Anita Diamant %252%234%Investigation%Science
+Rebecca by Daphne du Maurier %742%235%Horror%Action
+Cryptonomicon by Neal Stephenson %268%236%Investigation%Biography
+The Thirteenth Tale by Diane Setterfield %902%237%Action%Guide
+The Wind-Up Bird Chronicle by Haruki Murakami %595%238%Drama%Health
+Perfume: The Story of a Murderer by Patrick Süskind %148%239%Investigation%Mystery
+The Corrections by Jonathan Franzen %288%240%Horror%Biography
+Matilda by Roald Dahl %134%241%Science%Action
+For Whom the Bell Tolls by Ernest Hemingway %809%242%Fantasy%Drama
+The Joy Luck Club by Amy Tan %517%243%Horror%Health
+A Midsummer Night's Dream by William Shakespeare %858%244%Investigation%Horror
+The Divine Comedy by Dante Alighieri %482%245%Investigation%Mystery
+The Wonderful Wizard of Oz by L. Frank Baum %777%246%Science%Investigation
+A Heartbreaking Work of Staggering Genius by Dave Eggers %395%247%Investigation%Health
+Bridge to Terabithia by Katherine Paterson %643%248%Action%Health
+The God Delusion by Richard Dawkins %514%249%Fantasy%Guide
+The Host by Stephenie Meyer %671%250%Investigation%Horror
+Kafka on the Shore by Haruki Murakami %238%251%Fantasy%Action
+Extremely Loud and Incredibly Close by Jonathan Safran Foer %667%252%Guide%Mystery
+Gone Girl by Gillian Flynn %867%253%Mystery%Biography
+Do Androids Dream of Electric Sheep? by Philip K. Dick %350%254%Guide%Mystery
+Where the Sidewalk Ends: Poems and Drawings by Shel Silverstein %423%255%Fantasy%Investigation
+The Mists of Avalon by Marion Zimmer Bradley %608%256%Science%Guide
+The Blind Assassin by Margaret Atwood %723%257%Science%Guide
+The Plague by Albert Camus %653%258%Action%Investigation
+To the Lighthouse by Virginia Woolf %743%259%Science%Investigation
+The Outsiders by S. E. Hinton %529%260%Biography%Guide
+The Secret History by Donna Tartt %662%261%Investigation%Fantasy
+The Eyre Affair by Jasper Fforde %962%262%Biography%Action
+Cloud Atlas by David Mitchell %272%263%Guide%Health
+Into the Wild by Jon Krakauer %235%264%Investigation%Science
+The Other Boleyn Girl by Philippa Gregory %726%265%Biography%Drama
+Breakfast of Champions by Kurt Vonnegut %802%266%Action%Biography
+Oryx and Crake by Margaret Atwood %171%267%Investigation%Guide
+Their Eyes Were Watching God by Zora Neale Hurston %309%268%Science%Biography
+Inkheart by Cornelia Funke %489%269%Guide%Drama
+A Walk in the Woods: Rediscovering America on the Appalachian Trail by Bill Bryson %848%270%Health%Investigation
+On Writing by Stephen King %502%271%Science%Health
+All Quiet on the Western Front by Erich Maria Remarque %502%272%Fantasy%Science
+The Very Hungry Caterpillar by Eric Carle %362%273%Investigation%Guide
+The World According to Garp by John Irving %224%274%Health%Horror
+Running With Scissors by Augusten Burroughs %671%275%Biography%Fantasy
+High Fidelity by Nick Hornby %746%276%Guide%Science
+Eats, Shoots & Leaves: The Zero Tolerance Approach to Punctuation by Lynne Truss %914%277%Action%Investigation
+The Sound and the Fury by William Faulkner %601%278%Action%Biography
+Dead Until Dark by Charlaine Harris %205%279%Drama%Fantasy
+Tao Te Ching by Lao Tzu %961%280%Guide%Action
+Middlemarch by George Eliot %948%281%Fantasy%Horror
+Speaker for the Dead by Orson Scott Card %791%282%Guide%Mystery
+The Eye of the World by Robert Jordan %723%283%Investigation%Action
+And Then There Were None by Agatha Christie %851%284%Science%Health
+The Sea of Monsters by Rick Riordan %742%285%Health%Fantasy
+Green Eggs and Ham by Dr. Seuss %384%286%Guide%Health
+The Time Machine by H. G. Wells %478%287%Drama%Health
+City of Bones by Cassandra Clare %699%288%Drama%Fantasy
+James and the Giant Peach by Roald Dahl %966%289%Action%Mystery
+Everything Is Illuminated by Jonathan Safran Foer %269%290%Fantasy%Horror
+The Pilgrim's Progress by John Bunyan %212%291%Biography%Fantasy
+Franny and Zooey by J. D. Salinger %655%292%Fantasy%Mystery
+Life, the Universe and Everything by Douglas Adams %397%293%Science%Guide
+Looking for Alaska by John Green %411%294%Guide%Action
+The Once and Future King by T. H. White %874%295%Investigation%Guide
+The War of the Worlds by H. G. Wells %916%296%Guide%Action
+The Martian Chronicles by Ray Bradbury %674%297%Action%Biography
+The Screwtape Letters (with Screwtape Proposes a Toast) by C. S. Lewis %340%298%Investigation%Biography
+The Idiot by Fyodor Dostoevsky %688%299%Drama%Fantasy
+The Giving Tree by Shel Silverstein %127%300%Fantasy%Biography
+Number the Stars by Lois Lowry %260%301%Fantasy%Guide
+The Call of the Wild by Jack London %611%302%Health%Investigation
+The 7 Habits of Highly Effective People by Stephen R. Covey %174%303%Horror%Fantasy
+The BFG by Roald Dahl %710%304%Mystery%Action
+The Cat in the Hat by Dr. Seuss %174%305%Drama%Guide
+Island of the Blue Dolphins by Scott O'Dell %294%306%Science%Health
+Little Women by Louisa May Alcott %848%307%Biography%Horror
+Norwegian Wood by Haruki Murakami %461%308%Guide%Investigation
+Dress Your Family in Corduroy and Denim by David Sedaris %692%309%Biography%Investigation
+Mort by Terry Pratchett %432%310%Guide%Mystery
+A Tree Grows in Brooklyn by Betty Smith %498%311%Fantasy%Mystery
+Othello by William Shakespeare %229%312%Science%Drama
+Invisible Man by Ralph Ellison %186%313%Biography%Mystery
+The Drawing Of The Three by Stephen King %455%314%Health%Science
+The Phantom Tollbooth by Norton Juster %316%315%Health%Mystery
+The Notebook by Nicholas Sparks %154%316%Horror%Health
+Fear and Loathing in Las Vegas by Hunter S. Thompson %632%317%Drama%Fantasy
+His Dark Materials by Philip Pullman %592%318%Guide%Science
+The Strange Case of Dr. Jekyll and Mr. Hyde by Robert Louis Stevenson %862%319%Action%Biography
+The Name of the Wind by Patrick Rothfuss %189%320%Guide%Investigation
+The Shipping News: A Novel by E. Annie Proulx %684%321%Horror%Drama
+The No. 1 Ladiesʼ Detective Agency by Alexander McCall Smith %347%322%Guide%Drama
+So Long, and Thanks for All the Fish by Douglas Adams %748%323%Fantasy%Investigation
+The Remains of the Day by Kazuo Ishiguro %346%324%Horror%Investigation
+The Titan's Curse by Rick Riordan %303%325%Horror%Fantasy
+The Light Fantastic by Terry Pratchett %981%326%Investigation%Health
+Peter Pan by J. M. Barrie %337%327%Investigation%Mystery
+Dune Messiah by Frank Herbert %919%328%Investigation%Health
+Salem's Lot by Stephen King %103%329%Drama%Horror
+The Omnivore's Dilemma: A Natural History of Four Meals by Michael Pollan %704%330%Science%Investigation
+Uncle Tom's Cabin by Harriet Beecher Stowe %389%331%Science%Drama
+She's Come Undone by Wally Lamb %285%332%Biography%Mystery
+The Vampire Lestat by Anne Rice %433%333%Horror%Science
+Outliers: The Story of Success by Malcolm Gladwell %977%334%Biography%Science
+Cold Mountain by Charles Frazier %935%335%Mystery%Action
+Dirk Gently's Holistic Detective Agency by Douglas Adams %408%336%Horror%Action
+Vanity Fair by William Makepeace Thackeray %887%337%Biography%Science
+20,000 Leagues under the Sea by Jules Verne %912%338%Fantasy%Mystery
+Goodnight Moon by Margaret Wise Brown %954%339%Guide%Horror
+As I Lay Dying by William Faulkner %718%340%Science%Drama
+Naked by David Sedaris %515%341%Science%Horror
+Fast Food Nation by Eric Schlosser %198%342%Drama%Horror
+The World is Flat: A Brief History of the Twenty-First Century by Thomas L. Friedman %228%343%Drama%Investigation
+The Reader by Bernhard Schlink %149%344%Mystery%Investigation
+World War Z: An Oral History of the Zombie War by Max Brooks %376%345%Drama%Science
+White Teeth by Zadie Smith %664%346%Mystery%Guide
+Reading Lolita in Tehran: A Memoir in Books by Azar Nafisi %615%347%Action%Science
+Speak by Laurie Halse Anderson %167%348%Action%Mystery
+Midnight's Children by Salman Rushdie %284%349%Investigation%Mystery
+Three Cups of Tea: One Man's Mission to Promote Peace ... One School at a Time by Greg Mortenson %989%350%Drama%Mystery
+Bel Canto by Ann Patchett %732%351%Health%Biography
+The Crucible by Arthur Miller %671%352%Guide%Horror
+Midnight in the Garden of Good and Evil by John Berendt %711%353%Mystery%Drama
+A Wizard of Earthsea by Ursula K. Le Guin %690%354%Horror%Mystery
+Equal Rites by Terry Pratchett %750%355%Guide%Mystery
+Possession by A. S. Byatt %480%356%Fantasy%Guide
+The Purpose Driven Life by Rick Warren %614%357%Fantasy%Mystery
+The Shack by William P. Young %603%358%Science%Drama
+Hatchet by Gary Paulsen %173%359%Health%Fantasy
+Gödel, Escher, Bach: An Eternal Golden Braid by Douglas Hofstadter %774%360%Health%Action
+A People's History of the United States by Howard Zinn %805%361%Drama%Horror
+King Lear by William Shakespeare %550%362%Horror%Biography
+The House of the Spirits by Isabel Allende %520%363%Action%Fantasy
+Into Thin Air: A Personal Account of the Mt. Everest Disaster by Jon Krakauer %546%364%Horror%Investigation
+The Good Earth by Pearl S. Buck %373%365%Action%Fantasy
+American Psycho by Bret Easton Ellis %588%366%Action%Biography
+Snow Falling on Cedars: A Novel by David Guterson %970%367%Health%Biography
+Guards! Guards! by Terry Pratchett %762%368%Guide%Investigation
+Uglies by Scott Westerfeld %949%369%Mystery%Drama
+Flowers for Algernon by Daniel Keyes %522%370%Horror%Science
+The Hours by Michael Cunningham %117%371%Action%Science
+Choke by Chuck Palahniuk %434%372%Health%Guide
+I, Robot by Isaac Asimov %979%373%Investigation%Biography
+The Battle of the Labyrinth by Rick Riordan %423%374%Mystery%Drama
+Timeline by Michael Crichton %434%375%Investigation%Action
+Storm Front by Jim Butcher %470%376%Guide%Horror
+Brisingr by Christopher Paolini %115%377%Fantasy%Science
+Around the World in Eighty Days by Jules Verne %949%378%Health%Action
+The Waste Lands by Stephen King %765%379%Drama%Investigation
+Room by Emma Donoghue %459%380%Action%Fantasy
+Lady Chatterley's Lover by D. H. Lawrence %465%381%Guide%Health
+House of Leaves by Mark Z. Danielewski %829%382%Guide%Biography
+A Dance With Dragons by George R. R. Martin %429%383%Investigation%Biography
+Misery by Stephen King %827%384%Horror%Science
+Black Beauty by Anna Sewell %188%385%Fantasy%Guide
+The Age of Innocence by Edith Wharton %210%386%Horror%Science
+The Virgin Suicides by Jeffrey Eugenides %800%387%Science%Biography
+Steppenwolf by Hermann Hesse %440%388%Action%Science
+The Namesake by Jhumpa Lahiri %536%389%Fantasy%Guide
+The Left Hand of Darkness by Ursula K. Le Guin %723%390%Investigation%Horror
+My Ántonia by Willa Cather %539%391%Drama%Guide
+From the Mixed-Up Files of Mrs. Basil E. Frankweiler by E. L. Konigsburg %487%392%Fantasy%Horror
+Antigone / Oedipus at Colonus / Oedipus Rex by Sophocles %181%393%Science%Action
+Bleak House by Charles Dickens %893%394%Investigation%Fantasy
+Miss Peregrine's Home For Peculiar Children by Ransom Riggs %375%395%Science%Horror
+A Little Princess by Frances Hodgson Burnett %755%396%Biography%Drama
+The Things They Carried by Tim O'Brien %960%397%Biography%Horror
+Dragonfly in Amber by Diana Gabaldon %946%398%Action%Horror
+The Communist Manifesto by Karl Marx %966%399%Fantasy%Biography
+The hound of the Baskervilles by Sir Arthur Conan Doyle %948%400%Horror%Drama
+The Brief Wondrous Life of Oscar Wao by Junot Diaz %426%401%Horror%Science
+The Night Circus by Erin Morgenstern %820%402%Horror%Action
+The Clan of the Cave Bear by Jean M. Auel %802%403%Drama%Science
+Carrie by Stephen King %423%404%Guide%Action
+The Long Dark Tea-Time of the Soul by Douglas Adams %597%405%Horror%Investigation
+The Prophet by Kahlil Gibran %994%406%Mystery%Horror
+The Cider House Rules by John Irving %416%407%Biography%Mystery
+On the Origin of Species by Charles Darwin %750%408%Biography%Science
+Wizard And Glass by Stephen King %630%409%Fantasy%Guide
+John Adams by David McCullough %742%410%Health%Mystery
+The Reptile Room by Lemony Snicket %482%411%Fantasy%Guide
+Children of Dune by Frank Herbert %326%412%Investigation%Action
+A Separate Peace by John Knowles %268%413%Science%Horror
+The Great Hunt by Robert Jordan %243%414%Science%Guide
+The Devil Wears Prada by Lauren Weisberger %397%415%Horror%Science
+I Know Why the Caged Bird Sings by Maya Angelou %894%416%Mystery%Drama
+Blindness by José Saramago %863%417%Guide%Investigation
+Tender is the Night by F. Scott Fitzgerald %200%418%Fantasy%Action
+Mostly Harmless by Douglas Adams %873%419%Drama%Science
+Nine Stories by J. D. Salinger %124%420%Horror%Health
+Collapse: How Societies Choose to Fail or Succeed by Jared Diamond %247%421%Fantasy%Mystery
+Waiting for Godot by Samuel Beckett %853%422%Biography%Science
+The Witches by Roald Dahl %366%423%Action%Health
+Little House in the Big Woods by Laura Ingalls Wilder %808%424%Biography%Health
+One for the Money (Stephanie Plum, No. 1) by Janet Evanovich %582%425%Investigation%Health
+2001: A Space Odyssey by Arthur C. Clarke %695%426%Mystery%Investigation
+The Boy in the Striped Pajamas by John Boyne %977%427%Biography%Guide
+The Last Olympian by Rick Riordan %853%428%Biography%Investigation
+Walden by Henry David Thoreau %396%429%Action%Guide
+Mythology by Edith Hamilton %183%430%Guide%Fantasy
+Snow Flower and the Secret Fan: A Novel by Lisa See %807%431%Guide%Investigation
+Foundation and Empire by Isaac Asimov %671%432%Mystery%Investigation
+One Day in the Life of Ivan Denisovich by Alexander Solzhenitsyn %779%433%Fantasy%Science
+A Passage to India by E. M. Forster %302%434%Drama%Health
+Wyrd Sisters by Terry Pratchett %499%435%Biography%Science
+Interpreter of Maladies by Jhumpa Lahiri %765%436%Investigation%Science
+The Tempest by William Shakespeare %750%437%Drama%Science
+Pet Sematary by Stephen King %608%438%Biography%Action
+Murder on the Orient Express by Agatha Christie %686%439%Drama%Health
+Infinite Jest by David Foster Wallace %603%440%Horror%Science
+The Woman in White by Wilkie Collins %971%441%Investigation%Guide
+Living Dead In Dallas by Charlaine Harris %813%442%Investigation%Action
+White Oleander by Janet Fitch %989%443%Action%Science
+Tuck Everlasting by Natalie Babbitt %516%444%Investigation%Science
+Like Water for Chocolate by Laura Esquivel %243%445%Fantasy%Action
+Brideshead Revisited by Evelyn Waugh %781%446%Health%Fantasy
+The Hunchback of Notre Dame by Victor Hugo %464%447%Guide%Biography
+A Time to Kill by John Grisham %448%448%Drama%Mystery
+Ella Enchanted by Gail Carson Levine %393%449%Fantasy%Guide
+The Queen of the Damned (Vampire Chronicles) by Anne Rice %715%450%Guide%Horror
+Little House on the Prairie by Laura Ingalls Wilder %961%451%Horror%Mystery
+If on a Winter's Night a Traveler by Italo Calvino %335%452%Guide%Action
+Xenocide by Orson Scott Card %840%453%Drama%Horror
+The Pearl by John Steinbeck %428%454%Fantasy%Investigation
+World Without End by Ken Follett %338%455%Investigation%Science
+Thus Spoke Zarathustra by Friedrich Nietzsche %929%456%Guide%Science
+Ender's Shadow by Orson Scott Card %253%457%Science%Health
+The Professor and the Madman: A Tale of Murder, Insanity, and the Making of the Oxford English Dictionary (P.S.) by Simon Winchester %812%458%Fantasy%Action
+Divine Secrets of the Ya-Ya Sisterhood: A Novel by Rebecca Wells %170%459%Guide%Health
+The Diamond Age by Neal Stephenson %963%460%Horror%Mystery
+Small Gods by Terry Pratchett %520%461%Investigation%Fantasy
+The Firm by John Grisham %214%462%Fantasy%Biography
+1776 by David McCullough %608%463%Action%Science
+Starship Troopers by Robert A. Heinlein %608%464%Investigation%Health
+The Satanic Verses by Salman Rushdie %342%465%Fantasy%Action
+Marley & Me by John Grogan %159%466%Health%Biography
+The Sandman: Preludes and Nocturnes by Neil Gaiman %398%467%Horror%Health
+Metamorphoses by Ovid %912%468%Fantasy%Health
+Journey to the Center of the Earth by Jules Verne %277%469%Mystery%Drama
+Wolf Hall by Hilary Mantel %773%470%Health%Guide
+Going Postal by Terry Pratchett %775%471%Science%Fantasy
+The Man in the High Castle by Philip K. Dick %291%472%Science%Mystery
+The English Patient by Michael Ondaatje %684%473%Investigation%Mystery
+The Silence Of The Lambs by Thomas Harris %893%474%Drama%Fantasy
+The Dragon Reborn by Robert Jordan %477%475%Biography%Drama
+A Wind in the Door by Madeleine L'Engle %974%476%Investigation%Action
+The Elegance of the Hedgehog by Muriel Barbery %704%477%Biography%Science
+The Bluest Eye by Toni Morrison %719%478%Investigation%Mystery
+The Immortal Life of Henrietta Lacks by Rebecca Skloot %443%479%Guide%Biography
+Paper Towns by John Green %812%480%Health%Biography
+Nickel and Dimed: On (Not) Getting By in America by Barbara Ehrenreich %238%481%Science%Investigation
+Saturday by Ian McEwan %970%482%Investigation%Mystery
+Paradise Lost by John Milton %417%483%Fantasy%Guide
+Getting Things Done: The Art of Stress-Free Productivity by David Allen %584%484%Horror%Fantasy
+Naked Lunch by William S. Burroughs %806%485%Investigation%Health
+Because of Winn-Dixie by Kate DiCamillo %583%486%Drama%Fantasy
+Second Foundation by Isaac Asimov %546%487%Mystery%Science
+The Complete Tales and Poems of Edgar Allan Poe by Edgar Allan Poe %526%488%Health%Investigation
+Alias Grace by Margaret Atwood %716%489%Action%Health
+The Secret Dreamworld of a Shopaholic by Sophie Kinsella %585%490%Horror%Biography
+Ivanhoe by Sir Walter Scott %843%491%Biography%Guide
+Cell by Stephen King %586%492%Drama%Mystery
+Night Watch by Terry Pratchett %230%493%Fantasy%Health
+The Tale of Despereaux: Being the Story of a Mouse, a Princess, Some Soup and a Spool of Thread by Kate DiCamillo %134%494%Science%Horror
+Where the Red Fern Grows by Wilson Rawls %185%495%Investigation%Biography
+Nineteen Minutes by Jodi Picoult %754%496%Fantasy%Drama
+Reaper Man by Terry Pratchett %681%497%Fantasy%Horror
+The Adventures of Sherlock Holmes by Sir Arthur Conan Doyle %423%498%Health%Horror
+If You Give a Mouse a Cookie by Laura Joffe Numeroff %392%499%Drama%Mystery
+The Green Mile by Stephen King %238%500%Horror%Drama
+Disgrace by J. M. Coetzee %969%501%Fantasy%Drama
+A Swiftly Tilting Planet by Madeleine L'Engle %729%502%Investigation%Biography
+Notes from Underground by Fyodor Dostoevsky %991%503%Action%Guide
+The Wide Window by Lemony Snicket %599%504%Fantasy%Biography
+Lamb: The Gospel According to Biff, Christ's Childhood Pal by Christopher Moore %149%505%Horror%Guide
+I Know This Much is True by Wally Lamb %535%506%Biography%Guide
+The Pelican Brief by John Grisham %686%507%Mystery%Drama
+About a Boy by Nick Hornby %624%508%Fantasy%Science
+The Crying of Lot 49 by Thomas Pynchon %843%509%Horror%Action
+The Complete Fairy Tales of the Brothers Grimm by Jacob Grimm %630%510%Guide%Drama
+The Sisterhood of the Traveling Pants by Ann Brashares %544%511%Drama%Health
+Alexander and the Terrible, Horrible, No Good, Very Bad Day by Judith Viorst %491%512%Biography%Guide
+Wolves Of The Calla by Stephen King %641%513%Investigation%Action
+Man's Search for Meaning by Viktor E. Frankl %1000%514%Guide%Science
+Sarah's Key by Tatiana de Rosnay %709%515%Drama%Mystery
+Hogfather by Terry Pratchett %528%516%Science%Guide
+Death of a Salesman by Arthur Miller %772%517%Science%Biography
+The Last of the Mohicans by James Fenimore Cooper %918%518%Horror%Action
+Jonathan Livingston Seagull by Richard Bach %812%519%Fantasy%Horror
+Club Dead by Charlaine Harris %354%520%Investigation%Action
+One fish, two fish, red fish, blue fish by Dr. Seuss %972%521%Action%Guide
+Winnie-the-Pooh by A. A. Milne %969%522%Fantasy%Science
+A Room of One's Own by Virginia Woolf %684%523%Action%Fantasy
+The Arctic Incident by Eoin Colfer %811%524%Mystery%Fantasy
+The Shadow Rising by Robert Jordan %925%525%Investigation%Drama
+Fantastic Beasts and Where to Find Them by J. K. Rowling %327%526%Horror%Action
+Insurgent by Veronica Roth %671%527%Horror%Fantasy
+The Maze Runner by James Dashner %645%528%Drama%Horror
+A Canticle for Leibowitz by Walter M. Miller Jr. %408%529%Health%Investigation
+Stuart Little by E. B. White %271%530%Science%Horror
+City of Ashes by Cassandra Clare %331%531%Fantasy%Biography
+Sourcery by Terry Pratchett %230%532%Drama%Horror
+Pyramids by Terry Pratchett %958%533%Investigation%Action
+A Million Little Pieces by James Frey %465%534%Guide%Science
+Stranger in a Strange Land by Robert A. Heinlein %432%535%Health%Horror
+Voyager by Diana Gabaldon %136%536%Action%Fantasy
+Utopia by Thomas More %813%537%Horror%Biography
+White Noise by Don DeLillo %740%538%Science%Drama
+Julius Caesar by William Shakespeare %772%539%Drama%Guide
+The Yiddish Policemen's Union by Michael Chabon %804%540%Science%Action
+The Jungle by Upton Sinclair %657%541%Biography%Investigation
+The Velveteen Rabbit by Margery Williams %373%542%Health%Biography
+Smoke and Mirrors: Short Fictions and Illusions by Neil Gaiman %275%543%Horror%Action
+A Room with a View by E. M. Forster %808%544%Science%Mystery
+Gravity's Rainbow by Thomas Pynchon %174%545%Health%Action
+The Portrait of a Lady by Henry James %958%546%Science%Guide
+The Girl On The Train by Paula Hawkins %559%547%Horror%Mystery
+The Phantom of the Opera by Gaston Leroux %198%548%Science%Guide
+Assassin's Apprentice by Robin Hobb %138%549%Guide%Health
+The Neverending Story by Michael Ende %510%550%Guide%Investigation
+A Great and Terrible Beauty by Libba Bray %559%551%Horror%Fantasy
+The Hunt for Red October by Tom Clancy %978%552%Action%Horror
+How to Win Friends and Influence People by Dale Carnegie %405%553%Horror%Fantasy
+Anthem by Ayn Rand %593%554%Fantasy%Guide
+The Selfish Gene by Richard Dawkins %165%555%Science%Mystery
+Dead To The World by Charlaine Harris %362%556%Mystery%Action
+No Country for Old Men by Cormac McCarthy %597%557%Investigation%Drama
+The Client by John Grisham %349%558%Mystery%Guide
+Diary of a Wimpy Kid by Jeff Kinney %997%559%Guide%Investigation
+Harry Potter Box Set (Books 1-7) by J. K. Rowling %132%560%Action%Fantasy
+The Fires of Heaven by Robert Jordan %503%561%Science%Mystery
+The Bean Trees by Barbara Kingsolver %796%562%Health%Science
+Pride and Prejudice and Zombies by Seth Grahame-Smith %671%563%Mystery%Guide
+Stiff: The Curious Lives of Human Cadavers by Mary Roach %330%564%Guide%Mystery
+Thud! by Terry Pratchett %645%565%Guide%Action
+A Light in the Attic by Shel Silverstein %769%566%Mystery%Horror
+The Man Who Mistook His Wife for a Hat and Other Clinical Tales by Oliver Sacks %679%567%Investigation%Mystery
+Bag of Bones by Stephen King %455%568%Science%Mystery
+Gilead by Marilynne Robinson %726%569%Horror%Biography
+The Martian by Andy Weir %493%570%Drama%Biography
+Suite Française by Irène Némirovsky %224%571%Biography%Drama
+Wizard's First Rule by Terry Goodkind %761%572%Fantasy%Biography
+The Wee Free Men by Terry Pratchett %400%573%Health%Mystery
+Song Of Susannah by Stephen King %892%574%Biography%Drama
+Lost in a Good Book by Jasper Fforde %782%575%Horror%Drama
+The Heart Is a Lonely Hunter by Carson McCullers %540%576%Guide%Biography
+The Dark Tower by Stephen King %968%577%Horror%Drama
+The Complete Sherlock Holmes by Arthur Conan Doyle %961%578%Health%Biography
+Under The Dome by Stephen King %870%579%Fantasy%Guide
+Oh, the Places You'll Go! by Dr. Seuss %422%580%Guide%Investigation
+The Godfather by Mario Puzo %189%581%Fantasy%Guide
+The Absolutely True Diary of a Part-Time Indian by Sherman Alexie %424%582%Mystery%Fantasy
+Men at Arms by Terry Pratchett %811%583%Investigation%Drama
+Lord of Chaos by Robert Jordan %820%584%Health%Biography
+The Ocean at the End of the Lane by Neil Gaiman %262%585%Science%Biography
+The Eternity Code by Eoin Colfer %186%586%Horror%Drama
+The Rainmaker by John Grisham %910%587%Mystery%Action
+Corduroy by Don Freeman %289%588%Investigation%Drama
+A Connecticut Yankee in King Arthur's Court by Mark Twain %629%589%Health%Science
+Doctor Zhivago by Boris Pasternak %531%590%Guide%Science
+Anne of Avonlea by L. M. Montgomery %942%591%Action%Investigation
+Far from the Madding Crowd by Thomas Hardy %156%592%Action%Mystery
+Thirteen Reasons Why by Jay Asher %365%593%Fantasy%Mystery
+The Testament by John Grisham %543%594%Investigation%Fantasy
+Soul Music by Terry Pratchett %409%595%Action%Guide
+Notes from a Small Island by Bill Bryson %468%596%Action%Guide
+People of the Book by Geraldine Brooks %718%597%Mystery%Action
+The Runaway Jury by John Grisham %144%598%Health%Guide
+All the Pretty Horses by Cormac McCarthy %147%599%Drama%Horror
+Silas Marner by George Eliot %361%600%Guide%Mystery
+Hard Times by Charles Dickens %786%601%Guide%Drama
+Heidi by Johanna Spyri %779%602%Science%Horror
+V for Vendetta by Alan Moore %424%603%Mystery%Action
+The Sirens of Titan by Kurt Vonnegut %913%604%Horror%Drama
+The Importance of Being Earnest by Oscar Wilde %417%605%Health%Biography
+Sabriel by Garth Nix %827%606%Drama%Guide
+The New York Trilogy by Paul Auster %257%607%Guide%Biography
+Ready Player One by Ernest Cline %785%608%Investigation%Guide
+Something Wicked This Way Comes by Ray Bradbury %779%609%Horror%Investigation
+Drums of Autumn by Diana Gabaldon %582%610%Investigation%Science
+The Moon is a Harsh Mistress by Robert A. Heinlein %288%611%Health%Biography
+The Fifth Elephant by Terry Pratchett %179%612%Action%Fantasy
+The Histories by Herodotus %775%613%Science%Action
+The Moonstone by Wilkie Collins %154%614%Mystery%Investigation
+Blood Meridian or the Evening Redness in the West by Cormac McCarthy %593%615%Investigation%Fantasy
+Redwall by Brian Jacques %122%616%Biography%Fantasy
+The Merchant of Venice by William Shakespeare %549%617%Investigation%Fantasy
+Needful Things by Stephen King %949%618%Horror%Investigation
+Thief of Time by Terry Pratchett %173%619%Drama%Science
+Hyperion by Dan Simmons %630%620%Fantasy%Horror
+On Beauty by Zadie Smith %644%621%Science%Horror
+God Emperor of Dune by Frank Herbert %205%622%Horror%Health
+All the Light We Cannot See by Anthony Doerr %443%623%Science%Action
+Brown Bear, Brown Bear, What Do You See? by Bill Jr. Martin %559%624%Mystery%Horror
+Swann's Way by Marcel Proust %959%625%Science%Health
+Insomnia by Stephen King %733%626%Drama%Health
+Feet of Clay by Terry Pratchett %688%627%Action%Horror
+The Miserable Mill by Lemony Snicket %783%628%Investigation%Fantasy
+Witches Abroad by Terry Pratchett %588%629%Drama%Biography
+Jude the Obscure by Thomas Hardy %420%630%Mystery%Science
+The Eyes of the Dragon by Stephen King %970%631%Guide%Biography
+A Long Way Down by Nick Hornby %525%632%Mystery%Fantasy
+The History of Love by Nicole Krauss %238%633%Mystery%Guide
+The Great Divorce by C. S. Lewis %457%634%Investigation%Biography
+11/22/63: A Novel by Stephen King %900%635%Action%Investigation
+Prey by Michael Crichton %921%636%Science%Guide
+Dead As A Doornail by Charlaine Harris %280%637%Science%Drama
+Quidditch Through the Ages by J. K. Rowling %841%638%Science%Fantasy
+A Crown of Swords by Robert Jordan %534%639%Fantasy%Horror
+Quicksilver by Neal Stephenson %981%640%Mystery%Biography
+Song of Solomon by Toni Morrison %636%641%Action%Guide
+Inkspell by Cornelia Funke %742%642%Mystery%Health
+The Westing Game by Ellen Raskin %557%643%Action%Science
+The Goldfinch by Donna Tartt %835%644%Guide%Biography
+Fragile Things: Short Fictions and Wonders by Neil Gaiman %800%645%Mystery%Biography
+The Snowy Day by Ezra Jack Keats %552%646%Action%Investigation
+Prodigal Summer by Barbara Kingsolver %715%647%Science%Mystery
+Chicka Chicka Boom Boom by Bill Jr. Martin %398%648%Biography%Guide
+Leaves of Grass by Walt Whitman %637%649%Science%Fantasy
+The Bourne Identity by Robert Ludlum %452%650%Mystery%Investigation
+The Witching Hour by Anne Rice %116%651%Mystery%Guide
+City of Glass by Cassandra Clare %948%652%Horror%Action
+Unbroken: A World War II Story of Survival, Resilience, and Redemption by Laura Hillenbrand %326%653%Drama%Biography
+Survivor by Chuck Palahniuk %206%654%Horror%Investigation
+The White Tiger by Aravind Adiga %137%655%Mystery%Biography
+Definitely Dead by Charlaine Harris %440%656%Science%Guide
+White Fang by Jack London %681%657%Drama%Fantasy
+Out of the Silent Planet by C. S. Lewis %831%658%Biography%Science
+The Lost World by Michael Crichton %479%659%Action%Drama
+The Year of Magical Thinking by Joan Didion %770%660%Drama%Guide
+Hard-Boiled Wonderland and the End of the World by Haruki Murakami %174%661%Science%Investigation
+Lords and Ladies by Terry Pratchett %108%662%Guide%Health
+Sphere by Michael Crichton %720%663%Guide%Health
+Empire Falls by Richard Russo %721%664%Science%Investigation
+A Walk to Remember by Nicholas Sparks %868%665%Science%Guide
+Pattern Recognition by William Gibson %780%666%Health%Mystery
+Fool Moon by Jim Butcher %191%667%Science%Action
+Moving Pictures by Terry Pratchett %590%668%Health%Investigation
+Howl's Moving Castle by Diana Wynne Jones %955%669%Fantasy%Biography
+The Talisman by Stephen King %266%670%Investigation%Mystery
+Maus I: A Survivor's Tale: My Father Bleeds History by Art Spiegelman %494%671%Health%Action
+Ringworld by Larry Niven %387%672%Guide%Health
+An Abundance of Katherines by John Green %203%673%Biography%Fantasy
+Sons and Lovers by D. H. Lawrence %938%674%Health%Horror
+Freedom by Jonathan Franzen %452%675%Horror%Science
+A Fine Balance by Rohinton Mistry %235%676%Action%Health
+Perdido Street Station by China Miéville %716%677%Health%Action
+The Andromeda Strain by Michael Crichton %847%678%Biography%Horror
+Bridget Jones: The Edge of Reason by Helen Fielding %998%679%Science%Guide
+Stargirl by Jerry Spinelli %618%680%Mystery%Fantasy
+Cat's Eye by Margaret Atwood %343%681%Action%Drama
+Orlando by Virginia Woolf %796%682%Drama%Mystery
+The Austere Academy by Lemony Snicket %343%683%Fantasy%Investigation
+The Invention of Hugo Cabret by Brian Selznick %998%684%Drama%Guide
+When You Are Engulfed in Flames by David Sedaris %952%685%Horror%Investigation
+Cannery Row by John Steinbeck %295%686%Drama%Biography
+The Children of Húrin by J.R.R. Tolkien %317%687%Health%Horror
+The Partner by John Grisham %509%688%Drama%Horror
+The City of Ember by Jeanne DuPrau %331%689%Health%Guide
+Hannibal by Thomas Harris %422%690%Action%Fantasy
+The Big Sleep by Raymond Chandler %943%691%Science%Drama
+In a Sunburned Country by Bill Bryson %252%692%Mystery%Guide
+The Path of Daggers by Robert Jordan %248%693%Mystery%Horror
+Jingo by Terry Pratchett %998%694%Biography%Investigation
+Graceling by Kristin Cashore %784%695%Fantasy%Biography
+Cutting for Stone by Abraham Verghese %295%696%Investigation%Mystery
+The House of Mirth by Edith Wharton %362%697%Health%Drama
+Twelfth Night by William Shakespeare %665%698%Guide%Biography
+The Red Badge of Courage by Stephen Crane %443%699%Science%Horror
+Foundation's Edge by Isaac Asimov %694%700%Fantasy%Health
+Red Dragon by Thomas Harris %597%701%Health%Mystery
+Monstrous Regiment by Terry Pratchett %783%702%Biography%Horror
+Breakfast at Tiffany's: A Short Novel and Three Stories by Truman Capote %755%703%Guide%Health
+Carpe Jugulum by Terry Pratchett %887%704%Horror%Investigation
+Bird by Bird: Some Instructions on Writing and Life by Anne Lamott %324%705%Biography%Investigation
+Nausea by Jean-Paul Sartre %603%706%Health%Fantasy
+The Audacity of Hope: Thoughts on Reclaiming the American Dream by Barack Obama %307%707%Biography%Science
+Ethan Frome by Edith Wharton %990%708%Fantasy%Drama
+Guilty Pleasures by Laurell K. Hamilton %462%709%Guide%Mystery
+Lullaby by Chuck Palahniuk %853%710%Guide%Action
+Surely You're Joking, Mr. Feynman!: Adventures of a Curious Character by Richard Feynman %856%711%Drama%Action
+Kitchen Confidential: Adventures in the Culinary Underbelly by Anthony Bourdain %860%712%Guide%Action
+A Widow for One Year by John Irving %116%713%Biography%Mystery
+Childhood's End by Arthur C. Clarke %829%714%Mystery%Drama
+Persepolis: The Story of a Childhood by Marjane Satrapi %256%715%Biography%Health
+Maskerade by Terry Pratchett %634%716%Health%Biography
+The Street Lawyer by John Grisham %876%717%Health%Fantasy
+The Dead Zone by Stephen King %880%718%Biography%Horror
+The Tale of Peter Rabbit by Beatrix Potter %679%719%Drama%Investigation
+The Invisible Man by H. G. Wells %866%720%Guide%Mystery
+A Painted House by John Grisham %541%721%Science%Fantasy
+Stranger in a Strange Land (Uncut Edition) by Robert A. Heinlein %558%722%Science%Biography
+The Story of Edgar Sawtelle by David Wroblewski %570%723%Guide%Action
+Pretties by Scott Westerfeld %745%724%Action%Guide
+The Nanny Diaries by Emma McLaughlin %687%725%Guide%Science
+Rendezvous With Rama by Arthur C. Clarke %190%726%Health%Horror
+Oresteia by Aeschylus %628%727%Mystery%Fantasy
+Much Ado About Nothing by William Shakespeare %950%728%Biography%Horror
+Marked (House of Night, Book 1) by P. C. Cast %293%729%Fantasy%Horror
+The Fiery Cross by Diana Gabaldon %783%730%Investigation%Fantasy
+Fifty Shades of Grey by E. L. James %210%731%Science%Biography
+Winter's Heart by Robert Jordan %460%732%Biography%Action
+The Tale of the Body Thief by Anne Rice %716%733%Guide%Drama
+Dreams from My Father: A Story of Race and Inheritance by Barack Obama %750%734%Science%Investigation
+The Epic of Gilgamesh by Anonymous %180%735%Guide%Health
+The Bonfire of the Vanities by Tom Wolfe %592%736%Action%Horror
+The Pact by Jodi Picoult %424%737%Mystery%Biography
+The Witch of Blackbird Pond by Elizabeth George Speare %106%738%Science%Investigation
+Confessions of an Ugly Stepsister by Gregory Maguire %443%739%Horror%Fantasy
+All Together Dead by Charlaine Harris %932%740%Fantasy%Science
+The Name of the Rose; and, Postscript to the Name of the Rose by Umberto Eco %126%741%Guide%Action
+Flatland: A Romance of Many Dimensions by Edwin A. Abbott %946%742%Guide%Health
+Everything's Eventual: 14 Dark Tales by Stephen King %778%743%Horror%Mystery
+The Last Lecture by Randy Pausch %526%744%Fantasy%Guide
+On Chesil Beach by Ian McEwan %617%745%Horror%Fantasy
+The Art of Racing in the Rain by Garth Stein %159%746%Guide%Mystery
+The Broker by John Grisham %764%747%Guide%Investigation
+The Awakening by Kate Chopin %678%748%Mystery%Horror
+The Brethren by John Grisham %279%749%Action%Biography
+Children of the Mind by Orson Scott Card %836%750%Health%Drama
+The Elegant Universe: Superstrings, Hidden Dimensions, and the Quest for the Ultimate Theory by Brian Greene %121%751%Science%Horror
+Desperation by Stephen King %596%752%Science%Investigation
+I Capture the Castle by Dodie Smith %466%753%Horror%Mystery
+The Metamorphosis by Franz Kafka %241%754%Mystery%Investigation
+The Rule of Four by Ian Caldwell %204%755%Health%Mystery
+Light in August by William Faulkner %514%756%Horror%Science
+Unfinished Tales of Númenor and Middle-earth by J.R.R. Tolkien %466%757%Horror%Health
+The Well of Lost Plots by Jasper Fforde %246%758%Mystery%Health
+Two for the Dough (Stephanie Plum, No. 2) by Janet Evanovich %874%759%Health%Fantasy
+The Alienist by Caleb Carr %335%760%Action%Horror
+The Plot Against America by Philip Roth %449%761%Biography%Health
+Olive Kitteridge by Elizabeth Strout %534%762%Drama%Mystery
+Meditations by Marcus Aurelius %105%763%Health%Horror
+Year of Wonders by Geraldine Brooks %167%764%Guide%Mystery
+Cujo by Stephen King %479%765%Biography%Science
+Kidnapped by Robert Louis Stevenson %684%766%Mystery%Biography
+The Ersatz Elevator by Lemony Snicket %272%767%Horror%Science
+Cry, the Beloved Country by Alan Paton %193%768%Drama%Action
+How to Be Good by Nick Hornby %379%769%Health%Science
+Team of Rivals: The Political Genius of Abraham Lincoln by Doris Kearns Goodwin %428%770%Guide%Horror
+Invisible Monsters by Chuck Palahniuk %760%771%Drama%Investigation
+Roll of Thunder, Hear My Cry by Mildred D. Taylor %345%772%Health%Fantasy
+The True Story of the Three Little Pigs by Jon Scieszka %625%773%Guide%Health
+This Side of Paradise by F. Scott Fitzgerald %659%774%Health%Biography
+Under the Banner of Heaven: A Story of Violent Faith by Jon Krakauer %398%775%Biography%Investigation
+The Decameron by Giovanni Boccaccio %735%776%Fantasy%Horror
+Daughter of Fortune by Isabel Allende %902%777%Biography%Science
+Master and Commander by Patrick O'Brian %358%778%Drama%Science
+Dreamcatcher by Stephen King %138%779%Fantasy%Biography
+Firestarter by Stephen King %632%780%Action%Biography
+The House on Mango Street by Sandra Cisneros %737%781%Drama%Action
+I, Claudius by Robert Graves %513%782%Mystery%Health
+The Opal Deception by Eoin Colfer %878%783%Biography%Guide
+A Moveable Feast by Ernest Hemingway %949%784%Horror%Investigation
+State of Fear by Michael Crichton %394%785%Fantasy%Guide
+Dragonflight by Anne McCaffrey %855%786%Investigation%Mystery
+Mrs. Frisby and the Rats of NIMH by Robert C. O'Brien %941%787%Health%Biography
+The Dispossessed by Ursula K. Le Guin %723%788%Science%Horror
+The Forever War by Joe Haldeman %552%789%Investigation%Drama
+The Red and the Black by Stendhal %829%790%Action%Fantasy
+Tropic of Cancer by Henry Miller %606%791%Science%Investigation
+The Tommyknockers by Stephen King %941%792%Mystery%Health
+Dr. Seuss's ABC: An Amazing Alphabet Book! by Dr. Seuss %927%793%Drama%Guide
+Are You My Mother? by P. D. Eastman %142%794%Science%Biography
+Memnoch the Devil by Anne Rice %418%795%Biography%Investigation
+Anne of the Island by L. M. Montgomery %652%796%Science%Action
+The Amulet of Samarkand by Jonathan Stroud %792%797%Fantasy%Action
+Son of a Witch by Gregory Maguire %549%798%Mystery%Science
+Nicomachean Ethics by Aristotle %138%799%Guide%Health
+Tales of a Fourth Grade Nothing by Judy Blume %869%800%Horror%Fantasy
+The Girl Who Loved Tom Gordon by Stephen King %140%801%Health%Drama
+Crossroads of Twilight by Robert Jordan %987%802%Action%Science
+Lord Jim by Joseph Conrad %845%803%Fantasy%Drama
+Odd Thomas by Dean Koontz %559%804%Guide%Health
+The Magic Mountain by Thomas Mann %774%805%Horror%Drama
+Eric by Terry Pratchett %813%806%Science%Mystery
+Go Ask Alice by Beatrice Sparks %994%807%Biography%Health
+Chronicle of a Death Foretold by Gabriel Garcia Marquez %355%808%Science%Mystery
+The Thief Lord by Cornelia Funke %883%809%Biography%Health
+The Last Continent by Terry Pratchett %116%810%Biography%Science
+Different Seasons by Stephen King %533%811%Investigation%Guide
+The Chamber by John Grisham %154%812%Investigation%Biography
+From Dead to Worse by Charlaine Harris %563%813%Mystery%Biography
+Beyond Good and Evil: Prelude to a Philosophy of the Future by Friedrich Nietzsche %491%814%Investigation%Fantasy
+The Tao of Pooh by Benjamin Hoff %517%815%Horror%Investigation
+The Maltese Falcon by Dashiell Hammett %324%816%Action%Drama
+Dead Souls by Nikolai Gogol %674%817%Horror%Action
+Howards End by E. M. Forster %225%818%Biography%Action
+The Truth by Terry Pratchett %224%819%Investigation%Fantasy
+On the Banks of Plum Creek by Laura Ingalls Wilder %641%820%Biography%Science
+Sarah, Plain and Tall by Patricia MacLachlan %753%821%Fantasy%Guide
+Longitude: The True Story of a Lone Genius Who Solved the Greatest Scientific Problem of His Time by Dava Sobel %547%822%Horror%Action
+The Pilot's Wife by Anita Shreve %205%823%Science%Biography
+Charlie and the Great Glass Elevator by Roald Dahl %916%824%Fantasy%Guide
+The Bhagavad Gita by Anonymous %736%825%Horror%Fantasy
+The Passage by Justin Cronin %449%826%Investigation%Action
+The Hostile Hospital by Lemony Snicket %796%827%Biography%Guide
+The Federalist Papers by Alexander Hamilton %268%828%Fantasy%Mystery
+Interesting Times by Terry Pratchett %167%829%Investigation%Action
+The Valley of Horses by Jean M. Auel %633%830%Biography%Fantasy
+Little Bee: A Novel by Chris Cleave %233%831%Health%Mystery
+America (The Book): A Citizen's Guide to Democracy Inaction by Jon Stewart %271%832%Investigation%Fantasy
+The Sandman: The Doll's House by Neil Gaiman %373%833%Action%Investigation
+Invisible Cities by Italo Calvino %259%834%Fantasy%Science
+In the Woods by Tana French %126%835%Guide%Biography
+Grave Peril by Jim Butcher %475%836%Health%Science
+'Tis, a Memoir by Frank McCourt %136%837%Action%Science
+My Side of the Mountain by Jean Craighead George %733%838%Mystery%Health
+Fried Green Tomatoes at the Whistle Stop Cafe by Fannie Flagg %115%839%Action%Fantasy
+Wild Swans: Three Daughters of China by Jung Chang %515%840%Action%Horror
+The Killer Angels by Michael Shaara %282%841%Fantasy%Investigation
+A Child Called "It" by Dave Pelzer %908%842%Guide%Investigation
+A Breath of Snow and Ashes by Diana Gabaldon %261%843%Action%Guide
+Making Money by Terry Pratchett %630%844%Drama%Action
+Contact by Carl Sagan %466%845%Horror%Biography
+Night Shift by Stephen King %898%846%Action%Biography
+Holidays on Ice: Stories by David Sedaris %470%847%Horror%Biography
+Captain Corelli's Mandolin by Louis De Bernières %913%848%Investigation%Action
+Of Human Bondage by W. Somerset Maugham %750%849%Fantasy%Drama
+The Tombs of Atuan by Ursula K. Le Guin %179%850%Investigation%Fantasy
+The Magicians: A Novel by Lev Grossman %200%851%Mystery%Science
+The Bonesetter's Daughter by Amy Tan %880%852%Horror%Mystery
+Love You Forever by Robert Munsch %824%853%Horror%Health
+The Angel's Game by Carlos Ruiz Zafón %171%854%Action%Fantasy
+Bossypants by Tina Fey %128%855%Action%Science
+The Last Juror by John Grisham %279%856%Drama%Guide
+Walk Two Moons by Sharon Creech %835%857%Mystery%Horror
+Chocolat by Joanne Harris %699%858%Mystery%Guide
+The Twits by Roald Dahl %173%859%Horror%Mystery
+Villette by Charlotte Brontë %118%860%Mystery%Fantasy
+The Pickwick Papers by Charles Dickens %351%861%Guide%Horror
+Allegiant by Veronica Roth %456%862%Biography%Horror
+The Mill on the Floss by George Eliot %136%863%Science%Horror
+The Trumpet of the Swan by E. B. White %563%864%Investigation%Biography
+The Hero with a Thousand Faces by Joseph Campbell %156%865%Action%Science
+Underworld by Don DeLillo %880%866%Biography%Action
+The Dark Is Rising by Susan Cooper %648%867%Biography%Action
+Animal, Vegetable, Miracle: A Year of Food Life by Barbara Kingsolver %937%868%Health%Mystery
+Shogun: A Novel of Japan by James Clavell %448%869%Biography%Drama
+The Casual Vacancy by J. K. Rowling %576%870%Science%Fantasy
+The Imitation of Christ by Thomas à Kempis %151%871%Guide%Drama
+Quiet: The Power of Introverts in a World That Can't Stop Talking by Susan Cain %134%872%Action%Guide
+The Mayor of Casterbridge by Thomas Hardy %247%873%Action%Investigation
+Christine by Stephen King %760%874%Science%Mystery
+The Hotel New Hampshire by John Irving %326%875%Biography%Drama
+God Is Not Great : How Religion Poisons Everything by Christopher Hitchens %396%876%Mystery%Investigation
+The Vile Village by Lemony Snicket %688%877%Biography%Action
+Case Histories: A Novel by Kate Atkinson %344%878%Action%Investigation
+The Autobiography of Malcolm X by Malcolm X %286%879%Action%Health
+The Slippery Slope by Lemony Snicket %689%880%Health%Biography
+The Carnivorous Carnival by Lemony Snicket %368%881%Mystery%Fantasy
+The Summons by John Grisham %387%882%Science%Mystery
+The Mammoth Hunters by Jean M. Auel %164%883%Fantasy%Mystery
+The King of Torts by John Grisham %386%884%Drama%Fantasy
+Guess How Much I Love You by Sam McBratney %619%885%Fantasy%Guide
+Maniac Magee by Jerry Spinelli %677%886%Mystery%Health
+Tom Jones by Henry Fielding %126%887%Fantasy%Guide
+Baudolino by Umberto Eco %216%888%Investigation%Horror
+Gathering Blue by Lois Lowry %976%889%Drama%Fantasy
+Dead and Gone by Charlaine Harris %288%890%Horror%Action
+Perelandra by C. S. Lewis %307%891%Drama%Mystery
+The Illustrated Man by Ray Bradbury %378%892%Fantasy%Biography
+Anathem by Neal Stephenson %980%893%Horror%Mystery
+The Lost Hero by Rick Riordan %152%894%Science%Guide
+Three to Get Deadly (Stephanie Plum, No. 3) by Janet Evanovich %444%895%Horror%Investigation
+Holy Bible: by King James Version %310%896%Science%Horror
+Matched by Ally Condie %420%897%Biography%Health
+Congo by Michael Crichton %754%898%Horror%Health
+The Dark Half by Stephen King %452%899%Guide%Horror
+Who Moved My Cheese? by Spencer Johnson %506%900%Guide%Science
+Fathers and Sons by Ivan Turgenev %349%901%Fantasy%Drama
+Make Way for Ducklings by Robert McCloskey %357%902%Guide%Drama
+The Jungle Book by Rudyard Kipling %680%903%Fantasy%Biography
+Haunted by Chuck Palahniuk %748%904%Health%Biography
+The Angel Experiment by James Patterson %405%905%Fantasy%Guide
+Rosencrantz and Guildenstern Are Dead by Tom Stoppard %528%906%Horror%Guide
+The Dante Club by Matthew Pearl %954%907%Health%Biography
+Bud, Not Buddy by Christopher Paul Curtis %433%908%Action%Fantasy
+A Hat Full of Sky by Terry Pratchett %109%909%Drama%Fantasy
+A Wild Sheep Chase by Haruki Murakami %804%910%Guide%Drama
+Four to Score (Stephanie Plum, No. 4) by Janet Evanovich %577%911%Action%Biography
+Trainspotting by Irvine Welsh %106%912%Investigation%Action
+Wintersmith by Terry Pratchett %814%913%Drama%Horror
+Hearts In Atlantis by Stephen King %470%914%Action%Fantasy
+The House of the Seven Gables by Nathaniel Hawthorne %979%915%Biography%Horror
+Miss Smilla's Feeling for Snow by Peter Høeg %307%916%Horror%Drama
+Inferno by Dan Brown %916%917%Mystery%Action
+1st To Die by James Patterson %697%918%Horror%Investigation
+Amsterdam by Ian McEwan %976%919%Health%Investigation
+Skeleton Crew by Stephen King %217%920%Mystery%Health
+Kim by Rudyard Kipling %805%921%Guide%Health
+The Lies of Locke Lamora by Scott Lynch %529%922%Horror%Mystery
+The Robber Bride by Margaret Atwood %998%923%Action%Mystery
+Something Rotten by Jasper Fforde %657%924%Biography%Guide
+Just So Stories by Rudyard Kipling %586%925%Investigation%Science
+We Need To Talk About Kevin by Lionel Shriver %336%926%Health%Investigation
+The Return of the Native by Thomas Hardy %178%927%Horror%Mystery
+Lisey's Story by Stephen King %584%928%Action%Guide
+A Discovery of Witches by Deborah Harkness %357%929%Biography%Drama
+Travels with Charley: In Search of America by John Steinbeck %230%930%Action%Science
+Specials by Scott Westerfeld %385%931%Drama%Biography
+Fingersmith by Sarah Waters %358%932%Mystery%Drama
+Royal Assassin by Robin Hobb %481%933%Fantasy%Investigation
+Knife of Dreams by Robert Jordan %880%934%Guide%Science
+Duma Key by Stephen King %221%935%Drama%Guide
+High Five (Stephanie Plum, No. 5) by Janet Evanovich %409%936%Guide%Health
+The Hobbit and The Lord of the Rings by J.R.R. Tolkien %959%937%Guide%Mystery
+I'm a Stranger Here Myself: Notes on Returning to America After 20 Years Away by Bill Bryson %351%938%Biography%Drama
+Heretics of Dune by Frank Herbert %936%939%Mystery%Action
+Prelude to Foundation by Isaac Asimov %441%940%Investigation%Mystery
+Diary by Chuck Palahniuk %640%941%Mystery%Horror
+American Pastoral by Philip Roth %686%942%Investigation%Fantasy
+Farmer Boy by Laura Ingalls Wilder %213%943%Biography%Mystery
+The Long Winter by Laura Ingalls Wilder %416%944%Fantasy%Science
+The Mother Tongue by Bill Bryson %884%945%Action%Fantasy
+Summer Knight by Jim Butcher %507%946%Guide%Action
+Pawn of Prophecy by David Eddings %685%947%Health%Guide
+The Murder of Roger Ackroyd by Agatha Christie %284%948%Biography%Drama
+Pale Fire by Vladimir Nabokov %494%949%Drama%Mystery
+The Dharma Bums by Jack Kerouac %536%950%Investigation%Fantasy
+Wide Sargasso Sea by Jean Rhys %247%951%Health%Science
+By the Shores of Silver Lake by Laura Ingalls Wilder %374%952%Fantasy%Health
+Doomsday Book by Connie Willis %684%953%Drama%Guide
+The Black Swan: The Impact of the Highly Improbable by Nassim Nicholas Taleb %761%954%Guide%Horror
+Click, Clack, Moo: Cows That Type by Doreen Cronin %567%955%Drama%Health
+Shadow of the Hegemon by Orson Scott Card %180%956%Mystery%Biography
+The Sword of Shannara by Terry Brooks %356%957%Investigation%Fantasy
+His Majesty's Dragon by Naomi Novik %199%958%Biography%Action
+Cloudy With A Chance Of Meatballs by Judi Barrett %916%959%Investigation%Action
+The Scarlet Pimpernel by Emmuska, Baroness Orczy %245%960%Mystery%Action
+Hoot by Carl Hiaasen %649%961%Biography%Fantasy
+Foundation and Earth by Isaac Asimov %777%962%Drama%Investigation
+Hot Six (Stephanie Plum, No. 6) by Janet Evanovich %832%963%Horror%Investigation
+The Castle by Franz Kafka %304%964%Biography%Investigation
+Shiver by Maggie Stiefvater %183%965%Mystery%Drama
+In Defense of Food: An Eater's Manifesto by Michael Pollan %935%966%Drama%Mystery
+Seven Up (Stephanie Plum, No. 7) by Janet Evanovich %800%967%Mystery%Investigation
+Girl, Interrupted by Susanna Kaysen %991%968%Drama%Biography
+The Taming of the Shrew by William Shakespeare %176%969%Guide%Action
+The Mermaid Chair by Sue Monk Kidd %579%970%Health%Investigation
+Dolores Claiborne by Stephen King %213%971%Guide%Horror
+Red Mars by Kim Stanley Robinson %365%972%Action%Investigation
+The Sonnets by William Shakespeare %983%973%Drama%Science
+Till We Have Faces by C. S. Lewis %805%974%Drama%Horror
+Mistborn: The Final Empire by Brandon Sanderson %945%975%Health%Action
+Four Past Midnight by Stephen King %812%976%Health%Mystery
+Seabiscuit: An American Legend by Laura Hillenbrand %922%977%Action%Mystery
+A Visit from the Goon Squad by Jennifer Egan %635%978%Investigation%Action
+Her Fearful Symmetry by Audrey Niffenegger %801%979%Horror%Drama
+Gerald's Game by Stephen King %690%980%Investigation%Action
+The Kitchen God's Wife by Amy Tan %252%981%Horror%Biography
+Labyrinth by Kate Mosse %627%982%Health%Fantasy
+Dear John by Nicholas Sparks %688%983%Science%Mystery
+Bury My Heart at Wounded Knee by Dee Brown %139%984%Science%Action
+The Tin Drum by Günter Grass %384%985%Horror%Fantasy
+Madeline by Ludwig Bemelmans %584%986%Biography%Fantasy
+Portnoy's Complaint by Philip Roth %439%987%Biography%Action
+Esperanza Rising by Pam Muñoz Ryan %396%988%Drama%Health
+The Screwtape Letters by C. S. Lewis %746%989%Mystery%Biography
+A History of God by Karen Armstrong %276%990%Health%Horror
+Can You Keep A Secret? by Sophie Kinsella %730%991%Investigation%Fantasy
+Veronika Decides to Die by Paulo Coelho %200%992%Science%Biography
+The Sweetness at the Bottom of the Pie by Alan Bradley %739%993%Investigation%Action
+The Quiet American by Graham Greene %443%994%Biography%Mystery
+The Forgotten Garden by Kate Morton %391%995%Action%Drama
+Hard Eight (Stephanie Plum, No. 8) by Janet Evanovich %432%996%Drama%Science
+Tears of the Giraffe by Alexander McCall Smith %706%997%Mystery%Fantasy
+The Farthest Shore by Ursula K. Le Guin%810%998%Action%Fantasy
