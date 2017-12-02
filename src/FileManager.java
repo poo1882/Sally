@@ -7,27 +7,36 @@ import java.util.Random;
 public class FileManager extends TextFileReader
 {
 
+    private static FileManager instance;
 
     private TextFileReader bookFile = new TextFileReader();
-
+    private TextFileReader hisFile = new TextFileReader();
 
     private ArrayList<String> randomGenre =new ArrayList<String>();
 
+    private FileManager()
+    {
 
-    public void initializeReader()
+    }
+
+    public static FileManager getInstance()
+    {
+        if(instance==null)
+        {
+            instance = new FileManager();
+            instance.initializeReader();
+            return instance;
+        }
+        else
+        {
+            return instance;
+        }
+    }
+
+    private void initializeReader()
     {
         bookFile.open("bookdatanew.txt");
-        randomGenre.add("Fantasy");
-        randomGenre.add("Action");
-        randomGenre.add("Horror");
-        randomGenre.add("Investigation");
-        randomGenre.add("Guide");
-        randomGenre.add("Health");
-        randomGenre.add("Mystery");
-        randomGenre.add("Science");
-        randomGenre.add("Biography");
-        randomGenre.add("Drama");
-
+        hisFile.open("history.txt");
     }
 
     public Book readBookFile()
@@ -41,6 +50,10 @@ public class FileManager extends TextFileReader
         String line;
 
         line = bookFile.getNextLine();
+        if(line==null)
+        {
+            return null;
+        }
         String fields[] = line.split(" by ");
         if(fields.length>2)
         {
@@ -192,10 +205,42 @@ public class FileManager extends TextFileReader
     }
 
 
+    public ArrayList<String> readHistory()
+    {
+        ArrayList<String> bookHistory = new ArrayList<String>();
+        String line;
+        line=hisFile.getNextLine();
+        if(line==null)
+        {
+            return null;
+        }
+        String fields[] = line.split(",");
+        String fields2[] = fields[1].split("%");
+        if(fields2.length==1)
+        {
+            bookHistory.add(fields2[0]);
+
+            return bookHistory;
+        }
+        else
+        {
+            int i=0;
+            while (i<fields2.length)
+            {
+                bookHistory.add(fields2[i]);
+                i++;
+            }
+
+            return bookHistory;
+        }
+
+
+
+    }
 
     public static void main(String[] args)
     {
-        FileManager fileManager = new FileManager();
+        FileManager fileManager = FileManager.getInstance();
         fileManager.initializeReader();
         Book book;
         int i=0;
