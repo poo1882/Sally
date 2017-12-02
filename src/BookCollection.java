@@ -1,14 +1,21 @@
-import java.awt.print.Book;
 import java.util.ArrayList;
 
 public class BookCollection {
     private ArrayList<Book> books = null;
-    private String genre;
 
+    
+    public BookCollection() {
 
-    public BookCollection(String genreType)
+    }
+
+    public float calPrice()
     {
-        genre=genreType;
+        float price=0;
+        for (int i=0;i<books.size();i++)
+        {
+            price += books.get(i).getPrice();
+        }
+        return price;
     }
 
     public boolean keepBook(Book newBook)
@@ -64,6 +71,9 @@ public class BookCollection {
     {
         books = null;
     }
+
+
+
 
 
 }
