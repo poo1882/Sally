@@ -1,15 +1,12 @@
-import com.sun.xml.internal.ws.api.ha.StickyFeature;
-
 public class Customer {
-    private String accountName;
     private BookCollection cart;
     private String username;
     private String password;
     private BookCollection history;
 
-    public Customer(String accountName, String username,String password)
+
+    public Customer(String username,String password)
     {
-        this.accountName=accountName;
         this.username=username;
         this.password=password;
         cart = new BookCollection("cart");
@@ -32,5 +29,9 @@ public class Customer {
             System.out.println("added");
         else
             System.out.println("error");
+    }
+    public BookCollection getCart()
+    {
+        return cart;
     }
 }

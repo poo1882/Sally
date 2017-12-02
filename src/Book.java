@@ -47,4 +47,15 @@ public class Book
     {
         return price;
     }
+
+    public String getWriter()
+    {
+        return writer;
+    }
+
+    public String getBookId()
+
+    {
+        return bookId;
+    }
 }
