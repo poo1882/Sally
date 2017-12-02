@@ -1,2 +1,999 @@
-ABC|novel,fantasy|au|124
-sad|comic|auau|141
+Harry Potter and the Philosopher's Stone by J. K. Rowling
+Harry Potter and the Chamber of Secrets by J. K. Rowling 
+Harry Potter and the Prisoner of Azkaban by J. K. Rowling 
+Harry Potter and the Half-Blood Prince by J. K. Rowling 
+Harry Potter and the Order of the Phoenix by J. K. Rowling 
+Harry Potter and the Goblet of Fire by J. K. Rowling 
+Harry Potter and the Deathly Hallows by J. K. Rowling 
+The Hobbit; or There and Back Again by J.R.R. Tolkien 
+1984 by George Orwell 
+Pride and Prejudice by Jane Austen 
+The Da Vinci Code by Dan Brown 
+To Kill a Mockingbird by Harper Lee 
+The Catcher in the Rye by J. D. Salinger 
+The Great Gatsby by F. Scott Fitzgerald 
+Twilight by Stephenie Meyer 
+The Hunger Games by Suzanne Collins 
+The Kite Runner by Khaled Hosseini 
+Jane Eyre by Charlotte Brontë 
+Animal Farm by George Orwell 
+Brave New World by Aldous Huxley 
+The Lord of the Rings {complete} by J.R.R. Tolkien 
+New Moon by Stephenie Meyer 
+Angels & Demons by Dan Brown 
+The Fellowship of the Ring: Being the First Part of The Lord of the Rings by J.R.R. Tolkien 
+Fahrenheit 451 by Ray Bradbury 
+The Curious Incident of the Dog in the Night-Time by Mark Haddon 
+Wuthering Heights by Emily Brontë 
+Lord of the Flies by William Golding 
+Life of Pi by Yann Martel 
+The Odyssey by Homer 
+Eclipse by Stephenie Meyer 
+One Hundred Years of Solitude by Gabriel Garcia Marquez 
+Slaughterhouse-Five by Kurt Vonnegut 
+The Time Traveler's Wife by Audrey Niffenegger 
+The Two Towers: Being the Second Part of The Lord of the Rings by J.R.R. Tolkien 
+The Girl with the Dragon Tattoo by Stieg Larsson 
+Catching Fire by Suzanne Collins 
+The Return of the King: Being the Third Part of The Lord of the Rings by J.R.R. Tolkien 
+Crime and Punishment by Fyodor Dostoevsky 
+Ender's Game by Orson Scott Card 
+Breaking Dawn by Stephenie Meyer 
+Catch-22 by Joseph Heller 
+The Book Thief by Markus Zusak 
+Memoirs of a Geisha by Arthur Golden 
+The Lovely Bones by Alice Sebold 
+Adventures of Huckleberry Finn by Mark Twain 
+The Lion, the Witch and the Wardrobe by C. S. Lewis 
+Mockingjay by Suzanne Collins 
+Game of Thrones by George R. R. Martin 
+The Little Prince by Antoine de Saint-Exupéry 
+The Hitchhiker's Guide to the Galaxy by Douglas Adams 
+Of Mice and Men by John Steinbeck 
+Anna Karenina by Leo Tolstoy 
+Sense and Sensibility by Jane Austen 
+The Handmaid's Tale by Margaret Atwood 
+Emma by Jane Austen 
+The Alchemist by Paulo Coelho 
+The Golden Compass by Philip Pullman 
+Frankenstein by Mary Shelley 
+The Giver by Lois Lowry 
+Great Expectations by Charles Dickens 
+Dune by Frank Herbert 
+The Picture of Dorian Gray by Oscar Wilde 
+The Iliad by Homer 
+American Gods by Neil Gaiman 
+The Road by Cormac McCarthy 
+The Stranger by Albert Camus 
+A Wrinkle in Time by Madeleine L'Engle 
+The Chronicles of Narnia by C. S. Lewis 
+The Scarlet Letter by Nathaniel Hawthorne 
+The Grapes of Wrath by John Steinbeck 
+A Tale of Two Cities by Charles Dickens 
+Lolita by Vladimir Nabokov 
+Good Omens: The Nice and Accurate Prophecies of Agnes Nutter, Witch by Terry Pratchett 
+The Silmarillion by J.R.R. Tolkien 
+Moby Dick by Herman Melville 
+The Complete Works of William Shakespeare by William Shakespeare 
+Water for Elephants: A Novel by Sara Gruen 
+A Thousand Splendid Suns by Khaled Hosseini 
+Dracula by Bram Stoker 
+The Girl Who Played with Fire by Stieg Larsson 
+Eragon by Christopher Paolini 
+Hamlet by William Shakespeare 
+Wicked by Gregory Maguire 
+Middlesex by Jeffrey Eugenides 
+Charlotte's Web by E. B. White 
+The Help by Kathryn Stockett 
+On the Road by Jack Kerouac 
+The Secret Life of Bees by Sue Monk Kidd 
+The Secret Garden by Frances Hodgson Burnett 
+Atonement by Ian McEwan 
+Jonathan Strange & Mr. Norrell: A Novel by Susanna Clarke 
+The Poisonwood Bible by Barbara Kingsolver 
+The Shadow of the Wind by Carlos Ruiz Zafón 
+Love in The Time of Cholera by Gabriel Garcia Marquez 
+The Old Man and The Sea by Ernest Hemingway 
+The Brothers Karamazov by Fyodor Dostoevsky 
+Freakonomics: A Rogue Economist Explores the Hidden Side of Everything by Steven D. Levitt 
+Treasure Island by Robert Louis Stevenson 
+The Bell Jar by Sylvia Plath 
+A Clash of Kings by George R. R. Martin 
+Siddhartha by Hermann Hesse 
+The Pillars of the Earth by Ken Follett 
+The Adventures of Tom Sawyer by Mark Twain 
+Persuasion by Jane Austen 
+Neverwhere by Neil Gaiman 
+Don Quixote by Miguel de Cervantes Saavedra 
+War and Peace by Leo Tolstoy 
+Romeo and Juliet by William Shakespeare 
+A Clockwork Orange by Anthony Burgess 
+Anne Frank: The Diary of a Young Girl by Anne Frank 
+The Subtle Knife by Philip Pullman 
+Madame Bovary by Gustave Flaubert 
+The Girl Who Kicked the Hornet's Nest by Stieg Larsson 
+Night by Elie Wiesel 
+The Magician's Nephew by C. S. Lewis 
+Guns, Germs, and Steel: The Fates of Human Societies by Jared Diamond 
+One Flew Over the Cuckoo's Nest by Ken Kesey 
+Watership Down by Richard Adams 
+The Amber Spyglass by Philip Pullman 
+Angela's Ashes by Frank McCourt 
+Me Talk Pretty One Day by David Sedaris 
+Eat, Pray, Love by Elizabeth Gilbert 
+Atlas Shrugged by Ayn Rand 
+The Historian by Elizabeth Kostova 
+Macbeth by William Shakespeare 
+The Unbearable Lightness of Being by Milan Kundera 
+Interview with the Vampire by Anne Rice 
+Ulysses by James Joyce 
+The Lightning Thief by Rick Riordan 
+A Short History of Nearly Everything by Bill Bryson 
+Mere Christianity by C. S. Lewis 
+The Princess Bride by William Goldman 
+Gone With the Wind by Margaret Mitchell 
+Les Misérables by Victor Hugo 
+Neuromancer by William Gibson 
+The Sun Also Rises by Ernest Hemingway 
+My Sister's Keeper by Jodi Picoult 
+The Tipping Point: How Little Things Can Make a Big Difference by Malcolm Gladwell 
+Alice's Adventures in Wonderland and Through the Looking Glass by Lewis Carroll 
+A Storm of Swords (A Song of Ice and Fire, Book 3) by George R. R. Martin 
+Cat's Cradle by Kurt Vonnegut 
+In Cold Blood by Truman Capote 
+Holes by Louis Sachar 
+A Feast for Crows by George R. R. Martin 
+Alice's Adventures in Wonderland by Lewis Carroll 
+Heart of Darkness by Joseph Conrad 
+Anne of Green Gables by L. M. Montgomery 
+Prince Caspian by C. S. Lewis 
+Blink: The Power of Thinking Without Thinking by Malcolm Gladwell 
+Beowulf by Beowulf Poet 
+The Count of Monte Cristo by Alexandre Dumas père 
+East of Eden by John Steinbeck 
+Stardust by Neil Gaiman 
+A Confederacy of Dunces by John Kennedy Toole 
+The Inferno by Dante Alighieri 
+A Farewell to Arms by Ernest Hemingway 
+Mansfield Park by Jane Austen 
+Where the Wild Things Are by Maurice Sendak 
+Deception Point by Dan Brown 
+Never Let Me Go by Kazuo Ishiguro 
+Outlander by Diana Gabaldon 
+Digital Fortress by Dan Brown 
+Anansi Boys by Neil Gaiman 
+A Portrait of the Artist as a Young Man by James Joyce 
+The Voyage of the Dawn Treader by C. S. Lewis 
+Robinson Crusoe by Daniel Defoe 
+The Horse and His Boy by C. S. Lewis 
+Oliver Twist by Charles Dickens 
+Beloved by Toni Morrison 
+The Gunslinger by Stephen King 
+Charlie and the Chocolate Factory by Roald Dahl 
+The Colour of Magic by Terry Pratchett 
+Gulliver's Travels by Jonathan Swift 
+The Prince by Niccolò Machiavelli 
+Eldest by Christopher Paolini 
+The Devil in the White City: Murder, Magic, and Madness at the Fair that Changed America by Erik Larson 
+The Fountainhead by Ayn Rand 
+Snow Crash by Neal Stephenson 
+The Canterbury Tales by Geoffrey Chaucer 
+The Aeneid by Virgil 
+The Elements of Style by William Jr. Strunk 
+The Shining by Stephen King 
+Northanger Abbey by Jane Austen 
+Little Women / Good Wives by Louisa May Alcott 
+The Amazing Adventures of Kavalier & Clay by Michael Chabon 
+The Graveyard Book by Neil Gaiman 
+The Glass Castle by Jeannette Walls 
+The Lost Symbol by Dan Brown 
+Fight Club by Chuck Palahniuk 
+A Christmas Carol by Charles Dickens 
+The Silver Chair by C. S. Lewis 
+Tuesdays with Morrie: An Old Man, a Young Man, and Life's Greatest Lesson by Mitch Albom 
+Plato's Republic by Plato 
+The God of Small Things by Arundhati Roy 
+Candide by Voltaire 
+A Prayer for Owen Meany by John Irving 
+The Stand: The Complete and Uncut Edition by Stephen King 
+The Name of the Rose by Umberto Eco 
+The Fault in Our Stars by John Green 
+A Brief History of Time: From the Big Bang to Black Holes by Stephen Hawking 
+Mrs. Dalloway by Virginia Woolf 
+David Copperfield by Charles Dickens 
+The Trial by Franz Kafka 
+The Last Battle by C. S. Lewis 
+The Ultimate Hitchhiker's Guide by Douglas Adams 
+Watchmen by Alan Moore 
+Coraline by Neil Gaiman 
+The Three Musketeers by Alexandre Dumas 
+Zen and the Art of Motorcycle Maintenance: An Inquiry into Values by Robert M. Pirsig 
+The Five People You Meet in Heaven by Mitch Albom 
+The Memory Keeper's Daughter by Kim Edwards 
+The Wind in the Willows by Kenneth Grahame 
+Confessions by Augustine 
+Girl with a Pearl Earring by Tracy Chevalier 
+Bridget Jones's Diary by Helen Fielding 
+Sophie's World by Jostein Gaarder 
+The Tales of Beedle the Bard by J. K. Rowling 
+Jurassic Park by Michael Crichton 
+The Art of War by Sun Tzu 
+Tess of the D'Urbervilles by Thomas Hardy 
+Foundation by Isaac Asimov 
+The Guernsey Literary and Potato Peel Pie Society by Mary Ann Shaffer 
+Dubliners by James Joyce 
+The Master and Margarita by Mikhail Bulgakov 
+Divergent by Veronica Roth 
+The Restaurant at the End of the Universe by Douglas Adams 
+Artemis Fowl by Eoin Colfer 
+Things Fall Apart by Chinua Achebe 
+It by Stephen King 
+The Perks of Being a Wallflower by Stephen Chbosky 
+The Bad Beginning by Lemony Snicket 
+Foucault's Pendulum by Umberto Eco 
+The Color Purple by Alice Walker 
+The Red Tent by Anita Diamant 
+Rebecca by Daphne du Maurier 
+Cryptonomicon by Neal Stephenson 
+The Thirteenth Tale by Diane Setterfield 
+The Wind-Up Bird Chronicle by Haruki Murakami 
+Perfume: The Story of a Murderer by Patrick Süskind 
+The Corrections by Jonathan Franzen 
+Matilda by Roald Dahl 
+For Whom the Bell Tolls by Ernest Hemingway 
+The Joy Luck Club by Amy Tan 
+A Midsummer Night's Dream by William Shakespeare 
+The Divine Comedy by Dante Alighieri 
+The Wonderful Wizard of Oz by L. Frank Baum 
+A Heartbreaking Work of Staggering Genius by Dave Eggers 
+Bridge to Terabithia by Katherine Paterson 
+The God Delusion by Richard Dawkins 
+The Host by Stephenie Meyer 
+Kafka on the Shore by Haruki Murakami 
+Extremely Loud and Incredibly Close by Jonathan Safran Foer 
+Gone Girl by Gillian Flynn 
+Do Androids Dream of Electric Sheep? by Philip K. Dick 
+Where the Sidewalk Ends: Poems and Drawings by Shel Silverstein 
+The Mists of Avalon by Marion Zimmer Bradley 
+The Blind Assassin by Margaret Atwood 
+The Plague by Albert Camus 
+To the Lighthouse by Virginia Woolf 
+The Outsiders by S. E. Hinton 
+The Secret History by Donna Tartt 
+The Eyre Affair by Jasper Fforde 
+Cloud Atlas by David Mitchell 
+Into the Wild by Jon Krakauer 
+The Other Boleyn Girl by Philippa Gregory 
+Breakfast of Champions by Kurt Vonnegut 
+Oryx and Crake by Margaret Atwood 
+Their Eyes Were Watching God by Zora Neale Hurston 
+Inkheart by Cornelia Funke 
+A Walk in the Woods: Rediscovering America on the Appalachian Trail by Bill Bryson 
+On Writing by Stephen King 
+All Quiet on the Western Front by Erich Maria Remarque 
+The Very Hungry Caterpillar by Eric Carle 
+The World According to Garp by John Irving 
+Running With Scissors by Augusten Burroughs 
+High Fidelity by Nick Hornby 
+Eats, Shoots & Leaves: The Zero Tolerance Approach to Punctuation by Lynne Truss 
+The Sound and the Fury by William Faulkner 
+Dead Until Dark by Charlaine Harris 
+Tao Te Ching by Lao Tzu 
+Middlemarch by George Eliot 
+Speaker for the Dead by Orson Scott Card 
+The Eye of the World by Robert Jordan 
+And Then There Were None by Agatha Christie 
+The Sea of Monsters by Rick Riordan 
+Green Eggs and Ham by Dr. Seuss 
+The Time Machine by H. G. Wells 
+City of Bones by Cassandra Clare 
+James and the Giant Peach by Roald Dahl 
+Everything Is Illuminated by Jonathan Safran Foer 
+The Pilgrim's Progress by John Bunyan 
+Franny and Zooey by J. D. Salinger 
+Life, the Universe and Everything by Douglas Adams 
+Looking for Alaska by John Green 
+The Once and Future King by T. H. White 
+The War of the Worlds by H. G. Wells 
+The Martian Chronicles by Ray Bradbury 
+The Screwtape Letters (with Screwtape Proposes a Toast) by C. S. Lewis 
+The Idiot by Fyodor Dostoevsky 
+The Giving Tree by Shel Silverstein 
+Number the Stars by Lois Lowry 
+The Call of the Wild by Jack London 
+The 7 Habits of Highly Effective People by Stephen R. Covey 
+The BFG by Roald Dahl 
+The Cat in the Hat by Dr. Seuss 
+Island of the Blue Dolphins by Scott O'Dell 
+Little Women by Louisa May Alcott 
+Norwegian Wood by Haruki Murakami 
+Dress Your Family in Corduroy and Denim by David Sedaris 
+Mort by Terry Pratchett 
+A Tree Grows in Brooklyn by Betty Smith 
+Othello by William Shakespeare 
+Invisible Man by Ralph Ellison 
+The Drawing Of The Three by Stephen King 
+The Phantom Tollbooth by Norton Juster 
+The Notebook by Nicholas Sparks 
+Fear and Loathing in Las Vegas by Hunter S. Thompson 
+His Dark Materials by Philip Pullman 
+The Strange Case of Dr. Jekyll and Mr. Hyde by Robert Louis Stevenson 
+The Name of the Wind by Patrick Rothfuss 
+The Shipping News: A Novel by E. Annie Proulx 
+The No. 1 Ladiesʼ Detective Agency by Alexander McCall Smith 
+So Long, and Thanks for All the Fish by Douglas Adams 
+The Remains of the Day by Kazuo Ishiguro 
+The Titan's Curse by Rick Riordan 
+The Light Fantastic by Terry Pratchett 
+Peter Pan by J. M. Barrie 
+Dune Messiah by Frank Herbert 
+Salem's Lot by Stephen King 
+The Omnivore's Dilemma: A Natural History of Four Meals by Michael Pollan 
+Uncle Tom's Cabin by Harriet Beecher Stowe 
+She's Come Undone by Wally Lamb 
+The Vampire Lestat by Anne Rice 
+Outliers: The Story of Success by Malcolm Gladwell 
+Cold Mountain by Charles Frazier 
+Dirk Gently's Holistic Detective Agency by Douglas Adams 
+Vanity Fair by William Makepeace Thackeray 
+20,000 Leagues under the Sea by Jules Verne 
+Goodnight Moon by Margaret Wise Brown 
+As I Lay Dying by William Faulkner 
+Naked by David Sedaris 
+Fast Food Nation by Eric Schlosser 
+The World is Flat: A Brief History of the Twenty-First Century by Thomas L. Friedman 
+The Reader by Bernhard Schlink 
+World War Z: An Oral History of the Zombie War by Max Brooks 
+White Teeth by Zadie Smith 
+Reading Lolita in Tehran: A Memoir in Books by Azar Nafisi 
+Speak by Laurie Halse Anderson 
+Midnight's Children by Salman Rushdie 
+Three Cups of Tea: One Man's Mission to Promote Peace ... One School at a Time by Greg Mortenson 
+Bel Canto by Ann Patchett 
+The Crucible by Arthur Miller 
+Midnight in the Garden of Good and Evil by John Berendt 
+A Wizard of Earthsea by Ursula K. Le Guin 
+Equal Rites by Terry Pratchett 
+Possession by A. S. Byatt 
+The Purpose Driven Life by Rick Warren 
+The Shack by William P. Young 
+Hatchet by Gary Paulsen 
+Gödel, Escher, Bach: An Eternal Golden Braid by Douglas Hofstadter 
+A People's History of the United States by Howard Zinn 
+King Lear by William Shakespeare 
+The House of the Spirits by Isabel Allende 
+Into Thin Air: A Personal Account of the Mt. Everest Disaster by Jon Krakauer 
+The Good Earth by Pearl S. Buck 
+American Psycho by Bret Easton Ellis 
+Snow Falling on Cedars: A Novel by David Guterson 
+Guards! Guards! by Terry Pratchett 
+Uglies by Scott Westerfeld 
+Flowers for Algernon by Daniel Keyes 
+The Hours by Michael Cunningham 
+Choke by Chuck Palahniuk 
+I, Robot by Isaac Asimov 
+The Battle of the Labyrinth by Rick Riordan 
+Timeline by Michael Crichton 
+Storm Front by Jim Butcher 
+Brisingr by Christopher Paolini 
+Around the World in Eighty Days by Jules Verne 
+The Waste Lands by Stephen King 
+Room by Emma Donoghue 
+Lady Chatterley's Lover by D. H. Lawrence 
+House of Leaves by Mark Z. Danielewski 
+A Dance With Dragons by George R. R. Martin 
+Misery by Stephen King 
+Black Beauty by Anna Sewell 
+The Age of Innocence by Edith Wharton 
+The Virgin Suicides by Jeffrey Eugenides 
+Steppenwolf by Hermann Hesse 
+The Namesake by Jhumpa Lahiri 
+The Left Hand of Darkness by Ursula K. Le Guin 
+My Ántonia by Willa Cather 
+From the Mixed-Up Files of Mrs. Basil E. Frankweiler by E. L. Konigsburg 
+Antigone / Oedipus at Colonus / Oedipus Rex by Sophocles 
+Bleak House by Charles Dickens 
+Miss Peregrine's Home For Peculiar Children by Ransom Riggs 
+A Little Princess by Frances Hodgson Burnett 
+The Things They Carried by Tim O'Brien 
+Dragonfly in Amber by Diana Gabaldon 
+The Communist Manifesto by Karl Marx 
+The hound of the Baskervilles by Sir Arthur Conan Doyle 
+The Brief Wondrous Life of Oscar Wao by Junot Diaz 
+The Night Circus by Erin Morgenstern 
+The Clan of the Cave Bear by Jean M. Auel 
+Carrie by Stephen King 
+The Long Dark Tea-Time of the Soul by Douglas Adams 
+The Prophet by Kahlil Gibran 
+The Cider House Rules by John Irving 
+On the Origin of Species by Charles Darwin 
+Wizard And Glass by Stephen King 
+John Adams by David McCullough 
+The Reptile Room by Lemony Snicket 
+Children of Dune by Frank Herbert 
+A Separate Peace by John Knowles 
+The Great Hunt by Robert Jordan 
+The Devil Wears Prada by Lauren Weisberger 
+I Know Why the Caged Bird Sings by Maya Angelou 
+Blindness by José Saramago 
+Tender is the Night by F. Scott Fitzgerald 
+Mostly Harmless by Douglas Adams 
+Nine Stories by J. D. Salinger 
+Collapse: How Societies Choose to Fail or Succeed by Jared Diamond 
+Waiting for Godot by Samuel Beckett 
+The Witches by Roald Dahl 
+Little House in the Big Woods by Laura Ingalls Wilder 
+One for the Money (Stephanie Plum, No. 1) by Janet Evanovich 
+2001: A Space Odyssey by Arthur C. Clarke 
+The Boy in the Striped Pajamas by John Boyne 
+The Last Olympian by Rick Riordan 
+Walden by Henry David Thoreau 
+Mythology by Edith Hamilton 
+Snow Flower and the Secret Fan: A Novel by Lisa See 
+Foundation and Empire by Isaac Asimov 
+One Day in the Life of Ivan Denisovich by Alexander Solzhenitsyn 
+A Passage to India by E. M. Forster 
+Wyrd Sisters by Terry Pratchett 
+Interpreter of Maladies by Jhumpa Lahiri 
+The Tempest by William Shakespeare 
+Pet Sematary by Stephen King 
+Murder on the Orient Express by Agatha Christie 
+Infinite Jest by David Foster Wallace 
+The Woman in White by Wilkie Collins 
+Living Dead In Dallas by Charlaine Harris 
+White Oleander by Janet Fitch 
+Tuck Everlasting by Natalie Babbitt 
+Like Water for Chocolate by Laura Esquivel 
+Brideshead Revisited by Evelyn Waugh 
+The Hunchback of Notre Dame by Victor Hugo 
+A Time to Kill by John Grisham 
+Ella Enchanted by Gail Carson Levine 
+The Queen of the Damned (Vampire Chronicles) by Anne Rice 
+Little House on the Prairie by Laura Ingalls Wilder 
+If on a Winter's Night a Traveler by Italo Calvino 
+Xenocide by Orson Scott Card 
+The Pearl by John Steinbeck 
+World Without End by Ken Follett 
+Thus Spoke Zarathustra by Friedrich Nietzsche 
+Ender's Shadow by Orson Scott Card 
+The Professor and the Madman: A Tale of Murder, Insanity, and the Making of the Oxford English Dictionary (P.S.) by Simon Winchester 
+Divine Secrets of the Ya-Ya Sisterhood: A Novel by Rebecca Wells 
+The Diamond Age by Neal Stephenson 
+Small Gods by Terry Pratchett 
+The Firm by John Grisham 
+1776 by David McCullough 
+Starship Troopers by Robert A. Heinlein 
+The Satanic Verses by Salman Rushdie 
+Marley & Me by John Grogan 
+The Sandman: Preludes and Nocturnes by Neil Gaiman 
+Metamorphoses by Ovid 
+Journey to the Center of the Earth by Jules Verne 
+Wolf Hall by Hilary Mantel 
+Going Postal by Terry Pratchett 
+The Man in the High Castle by Philip K. Dick 
+The English Patient by Michael Ondaatje 
+The Silence Of The Lambs by Thomas Harris 
+The Dragon Reborn by Robert Jordan 
+A Wind in the Door by Madeleine L'Engle 
+The Elegance of the Hedgehog by Muriel Barbery 
+The Bluest Eye by Toni Morrison 
+The Immortal Life of Henrietta Lacks by Rebecca Skloot 
+Paper Towns by John Green 
+Nickel and Dimed: On (Not) Getting By in America by Barbara Ehrenreich 
+Saturday by Ian McEwan 
+Paradise Lost by John Milton 
+Getting Things Done: The Art of Stress-Free Productivity by David Allen 
+Naked Lunch by William S. Burroughs 
+Because of Winn-Dixie by Kate DiCamillo 
+Second Foundation by Isaac Asimov 
+The Complete Tales and Poems of Edgar Allan Poe by Edgar Allan Poe 
+Alias Grace by Margaret Atwood 
+The Secret Dreamworld of a Shopaholic by Sophie Kinsella 
+Ivanhoe by Sir Walter Scott 
+Cell by Stephen King 
+Night Watch by Terry Pratchett 
+The Tale of Despereaux: Being the Story of a Mouse, a Princess, Some Soup and a Spool of Thread by Kate DiCamillo 
+Where the Red Fern Grows by Wilson Rawls 
+Nineteen Minutes by Jodi Picoult 
+Reaper Man by Terry Pratchett 
+The Adventures of Sherlock Holmes by Sir Arthur Conan Doyle 
+If You Give a Mouse a Cookie by Laura Joffe Numeroff 
+The Green Mile by Stephen King 
+Disgrace by J. M. Coetzee 
+A Swiftly Tilting Planet by Madeleine L'Engle 
+Notes from Underground by Fyodor Dostoevsky 
+The Wide Window by Lemony Snicket 
+Lamb: The Gospel According to Biff, Christ's Childhood Pal by Christopher Moore 
+I Know This Much is True by Wally Lamb 
+The Pelican Brief by John Grisham 
+About a Boy by Nick Hornby 
+The Crying of Lot 49 by Thomas Pynchon 
+The Complete Fairy Tales of the Brothers Grimm by Jacob Grimm 
+The Sisterhood of the Traveling Pants by Ann Brashares 
+Alexander and the Terrible, Horrible, No Good, Very Bad Day by Judith Viorst 
+Wolves Of The Calla by Stephen King 
+Man's Search for Meaning by Viktor E. Frankl 
+Sarah's Key by Tatiana de Rosnay 
+Hogfather by Terry Pratchett 
+Death of a Salesman by Arthur Miller 
+The Last of the Mohicans by James Fenimore Cooper 
+Jonathan Livingston Seagull by Richard Bach 
+Club Dead by Charlaine Harris 
+One fish, two fish, red fish, blue fish by Dr. Seuss 
+Winnie-the-Pooh by A. A. Milne 
+A Room of One's Own by Virginia Woolf 
+The Arctic Incident by Eoin Colfer 
+The Shadow Rising by Robert Jordan 
+Fantastic Beasts and Where to Find Them by J. K. Rowling 
+Insurgent by Veronica Roth 
+The Maze Runner by James Dashner 
+A Canticle for Leibowitz by Walter M. Miller Jr. 
+Stuart Little by E. B. White 
+City of Ashes by Cassandra Clare 
+Sourcery by Terry Pratchett 
+Pyramids by Terry Pratchett 
+A Million Little Pieces by James Frey 
+Stranger in a Strange Land by Robert A. Heinlein 
+Voyager by Diana Gabaldon 
+Utopia by Thomas More 
+White Noise by Don DeLillo 
+Julius Caesar by William Shakespeare 
+The Yiddish Policemen's Union by Michael Chabon 
+The Jungle by Upton Sinclair 
+The Velveteen Rabbit by Margery Williams 
+Smoke and Mirrors: Short Fictions and Illusions by Neil Gaiman 
+A Room with a View by E. M. Forster 
+Gravity's Rainbow by Thomas Pynchon 
+The Portrait of a Lady by Henry James 
+The Girl On The Train by Paula Hawkins 
+The Phantom of the Opera by Gaston Leroux 
+Assassin's Apprentice by Robin Hobb 
+The Neverending Story by Michael Ende 
+A Great and Terrible Beauty by Libba Bray 
+The Hunt for Red October by Tom Clancy 
+How to Win Friends and Influence People by Dale Carnegie 
+Anthem by Ayn Rand 
+The Selfish Gene by Richard Dawkins 
+Dead To The World by Charlaine Harris 
+No Country for Old Men by Cormac McCarthy 
+The Client by John Grisham 
+Diary of a Wimpy Kid by Jeff Kinney 
+Harry Potter Box Set (Books 1-7) by J. K. Rowling 
+The Fires of Heaven by Robert Jordan 
+The Bean Trees by Barbara Kingsolver 
+Pride and Prejudice and Zombies by Seth Grahame-Smith 
+Stiff: The Curious Lives of Human Cadavers by Mary Roach 
+Thud! by Terry Pratchett 
+A Light in the Attic by Shel Silverstein 
+The Man Who Mistook His Wife for a Hat and Other Clinical Tales by Oliver Sacks 
+Bag of Bones by Stephen King 
+Gilead by Marilynne Robinson 
+The Martian by Andy Weir 
+Suite Française by Irène Némirovsky 
+Wizard's First Rule by Terry Goodkind 
+The Wee Free Men by Terry Pratchett 
+Song Of Susannah by Stephen King 
+Lost in a Good Book by Jasper Fforde 
+The Heart Is a Lonely Hunter by Carson McCullers 
+The Dark Tower by Stephen King 
+The Complete Sherlock Holmes by Arthur Conan Doyle 
+Under The Dome by Stephen King 
+Oh, the Places You'll Go! by Dr. Seuss 
+The Godfather by Mario Puzo 
+The Absolutely True Diary of a Part-Time Indian by Sherman Alexie 
+Men at Arms by Terry Pratchett 
+Lord of Chaos by Robert Jordan 
+The Ocean at the End of the Lane by Neil Gaiman 
+The Eternity Code by Eoin Colfer 
+The Rainmaker by John Grisham 
+Corduroy by Don Freeman 
+A Connecticut Yankee in King Arthur's Court by Mark Twain 
+Doctor Zhivago by Boris Pasternak 
+Anne of Avonlea by L. M. Montgomery 
+Far from the Madding Crowd by Thomas Hardy 
+Thirteen Reasons Why by Jay Asher 
+The Testament by John Grisham 
+Soul Music by Terry Pratchett 
+Notes from a Small Island by Bill Bryson 
+People of the Book by Geraldine Brooks 
+The Runaway Jury by John Grisham 
+All the Pretty Horses by Cormac McCarthy 
+Silas Marner by George Eliot 
+Hard Times by Charles Dickens 
+Heidi by Johanna Spyri 
+V for Vendetta by Alan Moore 
+The Sirens of Titan by Kurt Vonnegut 
+The Importance of Being Earnest by Oscar Wilde 
+Sabriel by Garth Nix 
+The New York Trilogy by Paul Auster 
+Ready Player One by Ernest Cline 
+Something Wicked This Way Comes by Ray Bradbury 
+Drums of Autumn by Diana Gabaldon 
+The Moon is a Harsh Mistress by Robert A. Heinlein 
+The Fifth Elephant by Terry Pratchett 
+The Histories by Herodotus 
+The Moonstone by Wilkie Collins 
+Blood Meridian or the Evening Redness in the West by Cormac McCarthy 
+Redwall by Brian Jacques 
+The Merchant of Venice by William Shakespeare 
+Needful Things by Stephen King 
+Thief of Time by Terry Pratchett 
+Hyperion by Dan Simmons 
+On Beauty by Zadie Smith 
+God Emperor of Dune by Frank Herbert 
+All the Light We Cannot See by Anthony Doerr 
+Brown Bear, Brown Bear, What Do You See? by Bill Jr. Martin 
+Swann's Way by Marcel Proust 
+Insomnia by Stephen King 
+Feet of Clay by Terry Pratchett 
+The Miserable Mill by Lemony Snicket 
+Witches Abroad by Terry Pratchett 
+Jude the Obscure by Thomas Hardy 
+The Eyes of the Dragon by Stephen King 
+A Long Way Down by Nick Hornby 
+The History of Love by Nicole Krauss 
+The Great Divorce by C. S. Lewis 
+11/22/63: A Novel by Stephen King 
+Prey by Michael Crichton 
+Dead As A Doornail by Charlaine Harris 
+Quidditch Through the Ages by J. K. Rowling 
+A Crown of Swords by Robert Jordan 
+Quicksilver by Neal Stephenson 
+Song of Solomon by Toni Morrison 
+Inkspell by Cornelia Funke 
+The Westing Game by Ellen Raskin 
+The Goldfinch by Donna Tartt 
+Fragile Things: Short Fictions and Wonders by Neil Gaiman 
+The Snowy Day by Ezra Jack Keats 
+Prodigal Summer by Barbara Kingsolver 
+Chicka Chicka Boom Boom by Bill Jr. Martin 
+Leaves of Grass by Walt Whitman 
+The Bourne Identity by Robert Ludlum 
+The Witching Hour by Anne Rice 
+City of Glass by Cassandra Clare 
+Unbroken: A World War II Story of Survival, Resilience, and Redemption by Laura Hillenbrand 
+Survivor by Chuck Palahniuk 
+The White Tiger by Aravind Adiga 
+Definitely Dead by Charlaine Harris 
+White Fang by Jack London 
+Out of the Silent Planet by C. S. Lewis 
+The Lost World by Michael Crichton 
+The Year of Magical Thinking by Joan Didion 
+Hard-Boiled Wonderland and the End of the World by Haruki Murakami 
+Lords and Ladies by Terry Pratchett 
+Sphere by Michael Crichton 
+Empire Falls by Richard Russo 
+A Walk to Remember by Nicholas Sparks 
+Pattern Recognition by William Gibson 
+Fool Moon by Jim Butcher 
+Moving Pictures by Terry Pratchett 
+Howl's Moving Castle by Diana Wynne Jones 
+The Talisman by Stephen King 
+Maus I: A Survivor's Tale: My Father Bleeds History by Art Spiegelman 
+Ringworld by Larry Niven 
+An Abundance of Katherines by John Green 
+Sons and Lovers by D. H. Lawrence 
+Freedom by Jonathan Franzen 
+A Fine Balance by Rohinton Mistry 
+Perdido Street Station by China Miéville 
+The Andromeda Strain by Michael Crichton 
+Bridget Jones: The Edge of Reason by Helen Fielding 
+Stargirl by Jerry Spinelli 
+Cat's Eye by Margaret Atwood 
+Orlando by Virginia Woolf 
+The Austere Academy by Lemony Snicket 
+The Invention of Hugo Cabret by Brian Selznick 
+When You Are Engulfed in Flames by David Sedaris 
+Cannery Row by John Steinbeck 
+The Children of Húrin by J.R.R. Tolkien 
+The Partner by John Grisham 
+The City of Ember by Jeanne DuPrau 
+Hannibal by Thomas Harris 
+The Big Sleep by Raymond Chandler 
+In a Sunburned Country by Bill Bryson 
+The Path of Daggers by Robert Jordan 
+Jingo by Terry Pratchett 
+Graceling by Kristin Cashore 
+Cutting for Stone by Abraham Verghese 
+The House of Mirth by Edith Wharton 
+Twelfth Night by William Shakespeare 
+The Red Badge of Courage by Stephen Crane 
+Foundation's Edge by Isaac Asimov 
+Red Dragon by Thomas Harris 
+Monstrous Regiment by Terry Pratchett 
+Breakfast at Tiffany's: A Short Novel and Three Stories by Truman Capote 
+Carpe Jugulum by Terry Pratchett 
+Bird by Bird: Some Instructions on Writing and Life by Anne Lamott 
+Nausea by Jean-Paul Sartre 
+The Audacity of Hope: Thoughts on Reclaiming the American Dream by Barack Obama 
+Ethan Frome by Edith Wharton 
+Guilty Pleasures by Laurell K. Hamilton 
+Lullaby by Chuck Palahniuk 
+Surely You're Joking, Mr. Feynman!: Adventures of a Curious Character by Richard Feynman 
+Kitchen Confidential: Adventures in the Culinary Underbelly by Anthony Bourdain 
+A Widow for One Year by John Irving 
+Childhood's End by Arthur C. Clarke 
+Persepolis: The Story of a Childhood by Marjane Satrapi 
+Maskerade by Terry Pratchett 
+The Street Lawyer by John Grisham 
+The Dead Zone by Stephen King 
+The Tale of Peter Rabbit by Beatrix Potter 
+The Invisible Man by H. G. Wells 
+A Painted House by John Grisham 
+Stranger in a Strange Land (Uncut Edition) by Robert A. Heinlein 
+The Story of Edgar Sawtelle by David Wroblewski 
+Pretties by Scott Westerfeld 
+The Nanny Diaries by Emma McLaughlin 
+Rendezvous With Rama by Arthur C. Clarke 
+Oresteia by Aeschylus 
+Much Ado About Nothing by William Shakespeare 
+Marked (House of Night, Book 1) by P. C. Cast 
+The Fiery Cross by Diana Gabaldon 
+Fifty Shades of Grey by E. L. James 
+Winter's Heart by Robert Jordan 
+The Tale of the Body Thief by Anne Rice 
+Dreams from My Father: A Story of Race and Inheritance by Barack Obama 
+The Epic of Gilgamesh by Anonymous 
+The Bonfire of the Vanities by Tom Wolfe 
+The Pact by Jodi Picoult 
+The Witch of Blackbird Pond by Elizabeth George Speare 
+Confessions of an Ugly Stepsister by Gregory Maguire 
+All Together Dead by Charlaine Harris 
+The Name of the Rose; and, Postscript to the Name of the Rose by Umberto Eco 
+Flatland: A Romance of Many Dimensions by Edwin A. Abbott 
+Everything's Eventual: 14 Dark Tales by Stephen King 
+The Last Lecture by Randy Pausch 
+On Chesil Beach by Ian McEwan 
+The Art of Racing in the Rain by Garth Stein 
+The Broker by John Grisham 
+The Awakening by Kate Chopin 
+The Brethren by John Grisham 
+Children of the Mind by Orson Scott Card 
+The Elegant Universe: Superstrings, Hidden Dimensions, and the Quest for the Ultimate Theory by Brian Greene 
+Desperation by Stephen King 
+I Capture the Castle by Dodie Smith 
+The Metamorphosis by Franz Kafka 
+The Rule of Four by Ian Caldwell 
+Light in August by William Faulkner 
+Unfinished Tales of Númenor and Middle-earth by J.R.R. Tolkien 
+The Well of Lost Plots by Jasper Fforde 
+Two for the Dough (Stephanie Plum, No. 2) by Janet Evanovich 
+The Alienist by Caleb Carr 
+The Plot Against America by Philip Roth 
+Olive Kitteridge by Elizabeth Strout 
+Meditations by Marcus Aurelius 
+Year of Wonders by Geraldine Brooks 
+Cujo by Stephen King 
+Kidnapped by Robert Louis Stevenson 
+The Ersatz Elevator by Lemony Snicket 
+Cry, the Beloved Country by Alan Paton 
+How to Be Good by Nick Hornby 
+Team of Rivals: The Political Genius of Abraham Lincoln by Doris Kearns Goodwin 
+Invisible Monsters by Chuck Palahniuk 
+Roll of Thunder, Hear My Cry by Mildred D. Taylor 
+The True Story of the Three Little Pigs by Jon Scieszka 
+This Side of Paradise by F. Scott Fitzgerald 
+Under the Banner of Heaven: A Story of Violent Faith by Jon Krakauer 
+The Decameron by Giovanni Boccaccio 
+Daughter of Fortune by Isabel Allende 
+Master and Commander by Patrick O'Brian 
+Dreamcatcher by Stephen King 
+Firestarter by Stephen King 
+The House on Mango Street by Sandra Cisneros 
+I, Claudius by Robert Graves 
+The Opal Deception by Eoin Colfer 
+A Moveable Feast by Ernest Hemingway 
+State of Fear by Michael Crichton 
+Dragonflight by Anne McCaffrey 
+Mrs. Frisby and the Rats of NIMH by Robert C. O'Brien 
+The Dispossessed by Ursula K. Le Guin 
+The Forever War by Joe Haldeman 
+The Red and the Black by Stendhal 
+Tropic of Cancer by Henry Miller 
+The Tommyknockers by Stephen King 
+Dr. Seuss's ABC: An Amazing Alphabet Book! by Dr. Seuss 
+Are You My Mother? by P. D. Eastman 
+Memnoch the Devil by Anne Rice 
+Anne of the Island by L. M. Montgomery 
+The Amulet of Samarkand by Jonathan Stroud 
+Son of a Witch by Gregory Maguire 
+Nicomachean Ethics by Aristotle 
+Tales of a Fourth Grade Nothing by Judy Blume 
+The Girl Who Loved Tom Gordon by Stephen King 
+Crossroads of Twilight by Robert Jordan 
+Lord Jim by Joseph Conrad 
+Odd Thomas by Dean Koontz 
+The Magic Mountain by Thomas Mann 
+Eric by Terry Pratchett 
+Go Ask Alice by Beatrice Sparks 
+Chronicle of a Death Foretold by Gabriel Garcia Marquez 
+The Thief Lord by Cornelia Funke 
+The Last Continent by Terry Pratchett 
+Different Seasons by Stephen King 
+The Chamber by John Grisham 
+From Dead to Worse by Charlaine Harris 
+Beyond Good and Evil: Prelude to a Philosophy of the Future by Friedrich Nietzsche 
+The Tao of Pooh by Benjamin Hoff 
+The Maltese Falcon by Dashiell Hammett 
+Dead Souls by Nikolai Gogol 
+Howards End by E. M. Forster 
+The Truth by Terry Pratchett 
+On the Banks of Plum Creek by Laura Ingalls Wilder 
+Sarah, Plain and Tall by Patricia MacLachlan 
+Longitude: The True Story of a Lone Genius Who Solved the Greatest Scientific Problem of His Time by Dava Sobel 
+The Pilot's Wife by Anita Shreve 
+Charlie and the Great Glass Elevator by Roald Dahl 
+The Bhagavad Gita by Anonymous 
+The Passage by Justin Cronin 
+The Hostile Hospital by Lemony Snicket 
+The Federalist Papers by Alexander Hamilton 
+Interesting Times by Terry Pratchett 
+The Valley of Horses by Jean M. Auel 
+Little Bee: A Novel by Chris Cleave 
+America (The Book): A Citizen's Guide to Democracy Inaction by Jon Stewart 
+The Sandman: The Doll's House by Neil Gaiman 
+Invisible Cities by Italo Calvino 
+In the Woods by Tana French 
+Grave Peril by Jim Butcher 
+'Tis, a Memoir by Frank McCourt 
+My Side of the Mountain by Jean Craighead George 
+Fried Green Tomatoes at the Whistle Stop Cafe by Fannie Flagg 
+Wild Swans: Three Daughters of China by Jung Chang 
+The Killer Angels by Michael Shaara 
+A Child Called "It" by Dave Pelzer 
+A Breath of Snow and Ashes by Diana Gabaldon 
+Making Money by Terry Pratchett 
+Contact by Carl Sagan 
+Night Shift by Stephen King 
+Holidays on Ice: Stories by David Sedaris 
+Captain Corelli's Mandolin by Louis De Bernières 
+Of Human Bondage by W. Somerset Maugham 
+The Tombs of Atuan by Ursula K. Le Guin 
+The Magicians: A Novel by Lev Grossman 
+The Bonesetter's Daughter by Amy Tan 
+Love You Forever by Robert Munsch 
+The Angel's Game by Carlos Ruiz Zafón 
+Bossypants by Tina Fey 
+The Last Juror by John Grisham 
+Walk Two Moons by Sharon Creech 
+Chocolat by Joanne Harris 
+The Twits by Roald Dahl 
+Villette by Charlotte Brontë 
+The Pickwick Papers by Charles Dickens 
+Allegiant by Veronica Roth 
+The Mill on the Floss by George Eliot 
+The Trumpet of the Swan by E. B. White 
+The Hero with a Thousand Faces by Joseph Campbell 
+Underworld by Don DeLillo 
+The Dark Is Rising by Susan Cooper 
+Animal, Vegetable, Miracle: A Year of Food Life by Barbara Kingsolver 
+Shogun: A Novel of Japan by James Clavell 
+The Casual Vacancy by J. K. Rowling 
+The Imitation of Christ by Thomas à Kempis 
+Quiet: The Power of Introverts in a World That Can't Stop Talking by Susan Cain 
+The Mayor of Casterbridge by Thomas Hardy 
+Christine by Stephen King 
+The Hotel New Hampshire by John Irving 
+God Is Not Great : How Religion Poisons Everything by Christopher Hitchens 
+The Vile Village by Lemony Snicket 
+Case Histories: A Novel by Kate Atkinson 
+The Autobiography of Malcolm X by Malcolm X 
+The Slippery Slope by Lemony Snicket 
+The Carnivorous Carnival by Lemony Snicket 
+The Summons by John Grisham 
+The Mammoth Hunters by Jean M. Auel 
+The King of Torts by John Grisham 
+Guess How Much I Love You by Sam McBratney 
+Maniac Magee by Jerry Spinelli 
+Tom Jones by Henry Fielding 
+Baudolino by Umberto Eco 
+Gathering Blue by Lois Lowry 
+Dead and Gone by Charlaine Harris 
+Perelandra by C. S. Lewis 
+The Illustrated Man by Ray Bradbury 
+Anathem by Neal Stephenson 
+The Lost Hero by Rick Riordan 
+Three to Get Deadly (Stephanie Plum, No. 3) by Janet Evanovich 
+Holy Bible: King James Version 
+Matched by Ally Condie 
+Congo by Michael Crichton 
+The Dark Half by Stephen King 
+Who Moved My Cheese? by Spencer Johnson 
+Fathers and Sons by Ivan Turgenev 
+Make Way for Ducklings by Robert McCloskey 
+The Jungle Book by Rudyard Kipling 
+Haunted by Chuck Palahniuk 
+The Angel Experiment by James Patterson 
+Rosencrantz and Guildenstern Are Dead by Tom Stoppard 
+The Dante Club by Matthew Pearl 
+Bud, Not Buddy by Christopher Paul Curtis 
+A Hat Full of Sky by Terry Pratchett 
+A Wild Sheep Chase by Haruki Murakami 
+Four to Score (Stephanie Plum, No. 4) by Janet Evanovich 
+Trainspotting by Irvine Welsh 
+Wintersmith by Terry Pratchett 
+Hearts In Atlantis by Stephen King 
+The House of the Seven Gables by Nathaniel Hawthorne 
+Miss Smilla's Feeling for Snow by Peter Høeg 
+Inferno by Dan Brown 
+1st To Die by James Patterson 
+Amsterdam by Ian McEwan 
+Skeleton Crew by Stephen King 
+Kim by Rudyard Kipling 
+The Lies of Locke Lamora by Scott Lynch 
+The Robber Bride by Margaret Atwood 
+Something Rotten by Jasper Fforde 
+Just So Stories by Rudyard Kipling 
+We Need To Talk About Kevin by Lionel Shriver 
+The Return of the Native by Thomas Hardy 
+Lisey's Story by Stephen King 
+A Discovery of Witches by Deborah Harkness 
+Travels with Charley: In Search of America by John Steinbeck 
+Specials by Scott Westerfeld 
+Fingersmith by Sarah Waters 
+Royal Assassin by Robin Hobb 
+Knife of Dreams by Robert Jordan 
+Duma Key by Stephen King 
+High Five (Stephanie Plum, No. 5) by Janet Evanovich 
+The Hobbit and The Lord of the Rings by J.R.R. Tolkien 
+I'm a Stranger Here Myself: Notes on Returning to America After 20 Years Away by Bill Bryson 
+Heretics of Dune by Frank Herbert 
+Prelude to Foundation by Isaac Asimov 
+Diary by Chuck Palahniuk 
+American Pastoral by Philip Roth 
+Farmer Boy by Laura Ingalls Wilder 
+The Long Winter by Laura Ingalls Wilder 
+The Mother Tongue by Bill Bryson 
+Summer Knight by Jim Butcher 
+Pawn of Prophecy by David Eddings 
+The Murder of Roger Ackroyd by Agatha Christie 
+Pale Fire by Vladimir Nabokov 
+The Dharma Bums by Jack Kerouac 
+Wide Sargasso Sea by Jean Rhys 
+By the Shores of Silver Lake by Laura Ingalls Wilder 
+Doomsday Book by Connie Willis 
+The Black Swan: The Impact of the Highly Improbable by Nassim Nicholas Taleb 
+Click, Clack, Moo: Cows That Type by Doreen Cronin 
+Shadow of the Hegemon by Orson Scott Card 
+The Sword of Shannara by Terry Brooks 
+His Majesty's Dragon by Naomi Novik 
+Cloudy With A Chance Of Meatballs by Judi Barrett 
+The Scarlet Pimpernel by Emmuska, Baroness Orczy 
+Hoot by Carl Hiaasen 
+Foundation and Earth by Isaac Asimov 
+Hot Six (Stephanie Plum, No. 6) by Janet Evanovich 
+The Castle by Franz Kafka 
+Shiver by Maggie Stiefvater 
+In Defense of Food: An Eater's Manifesto by Michael Pollan 
+Seven Up (Stephanie Plum, No. 7) by Janet Evanovich 
+Girl, Interrupted by Susanna Kaysen 
+The Taming of the Shrew by William Shakespeare 
+The Mermaid Chair by Sue Monk Kidd 
+Dolores Claiborne by Stephen King 
+Red Mars by Kim Stanley Robinson 
+The Sonnets by William Shakespeare 
+Till We Have Faces by C. S. Lewis 
+Mistborn: The Final Empire by Brandon Sanderson 
+Four Past Midnight by Stephen King 
+Seabiscuit: An American Legend by Laura Hillenbrand 
+A Visit from the Goon Squad by Jennifer Egan 
+Her Fearful Symmetry by Audrey Niffenegger 
+Gerald's Game by Stephen King 
+The Kitchen God's Wife by Amy Tan 
+Labyrinth by Kate Mosse 
+Dear John by Nicholas Sparks 
+Bury My Heart at Wounded Knee by Dee Brown 
+The Tin Drum by Günter Grass 
+Madeline by Ludwig Bemelmans 
+Portnoy's Complaint by Philip Roth 
+Esperanza Rising by Pam Muñoz Ryan 
+The Screwtape Letters by C. S. Lewis 
+A History of God by Karen Armstrong 
+Can You Keep A Secret? by Sophie Kinsella 
+Veronika Decides to Die by Paulo Coelho 
+The Sweetness at the Bottom of the Pie by Alan Bradley 
+The Quiet American by Graham Greene 
+The Forgotten Garden by Kate Morton 
+Hard Eight (Stephanie Plum, No. 8) by Janet Evanovich 
+Tears of the Giraffe by Alexander McCall Smith 
+The Farthest Shore by Ursula K. Le Guin

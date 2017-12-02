@@ -62,22 +62,91 @@ public class FileManager extends TextFileReader
             fields2 = fields[1].split("%");
         }
 
-
-
-
-
-
         author = fields2[0];
         price=Float.parseFloat(fields2[1]);
         bookId=fields2[2];
         genre.add(fields2[3]);
         genre.add(fields2[4]);
-
-
-
-
         return new Book(name,genre,author,price,bookId);
 
+
+    }
+
+    private boolean checkSameHis(int[] array,int toCheck)
+    {
+        int i=0;
+        while (i<array.length)
+        {
+            if(toCheck==array[i])
+            {
+                return false;
+            }
+            i++;
+        }
+
+        return true;
+    }
+
+    public void randomlyGenHis()
+    {
+        Random rn = new Random();
+        int i=0;
+        int[] bookId=new int[5];
+        while (i<100)
+        {
+            String line="";
+            line+=getSaltString()+",";
+            int j=0;
+
+            while (j<5)
+            {
+                int temp=rn.nextInt(998 - 0 + 1) + 0;
+                while(checkSameHis(bookId,temp)==false)
+                {
+                    temp=rn.nextInt(998 - 0 + 1) + 0;
+                }
+                bookId[j]=temp;
+                if(j==0)
+                {
+                    if (temp < 10) {
+                        line += "" + "00" + bookId[j];
+                    } else if (temp < 100) {
+                        line += "" + "0" + bookId[j];
+                    } else if (temp < 1000) {
+                        line += "" + bookId[j];
+                    }
+                }
+                else
+                {
+                    if (temp < 10) {
+                        line += "%" + "00" + bookId[j];
+                    } else if (temp < 100) {
+                        line += "%" + "0" + bookId[j];
+                    } else if (temp < 1000) {
+                        line += "%" + bookId[j];
+                    }
+                }
+
+                j++;
+            }
+
+
+
+            System.out.println(line);
+            i++;
+        }
+    }
+
+    private String getSaltString() {
+        String SALTCHARS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
+        StringBuilder salt = new StringBuilder();
+        Random rnd = new Random();
+        while (salt.length() < 15) { // length of the random string.
+            int index = (int) (rnd.nextFloat() * SALTCHARS.length());
+            salt.append(SALTCHARS.charAt(index));
+        }
+        String saltStr = salt.toString();
+        return saltStr;
 
     }
 
@@ -122,6 +191,8 @@ public class FileManager extends TextFileReader
         }
     }
 
+
+
     public static void main(String[] args)
     {
         FileManager fileManager = new FileManager();
@@ -130,16 +201,7 @@ public class FileManager extends TextFileReader
         int i=0;
 
 
-        while (i<999)
-        {
-            book = fileManager.readBookFile();
-            book.printDetail();
-            System.out.println(i);
-            System.out.println();
-
-            i++;
-        }
-
+        fileManager.randomlyGenHis();
 
 
         System.out.println(i);
