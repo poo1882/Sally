@@ -1,10 +1,11 @@
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.HashMap;
 
 public class BookEngine {
 
     private static HashMap<String, ArrayList<ArrayList<String>>> booksByCom = new HashMap<>();
+
+
 
     private FileManager fileManager=null;
     private static BookEngine instance;
@@ -26,6 +27,7 @@ public class BookEngine {
             return instance;
         }
     }
+
 
     private void createHistoryHash()
     {
@@ -166,7 +168,7 @@ public class BookEngine {
             i++;
         }
         System.out.println();
-    
+
         System.out.println(engine.filterHashResult(hashResult));
     }
 
