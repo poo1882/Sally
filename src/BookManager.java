@@ -15,6 +15,37 @@ public class BookManager
 
     }
 
+    public BookCollection getRecByCom()
+    {
+        BookCollection reBooks = new BookCollection();
+        ArrayList<String> readBooksString=new ArrayList<>();
+        ArrayList<ArrayList<String>> recString = new ArrayList<>();
+        Customer customer = Customer.getInstance();
+        BookEngine engine = BookEngine.getInstance();
+        int i=0;
+        while(i<customer.getHistory().getLength())
+        {
+            readBooksString.add(customer.getHistory().getBookIDByIndex(i));
+            i++;
+        }
+        i=0;
+        while (i<readBooksString.size())
+        {
+            recString.add(engine.searchHash(readBooksString.get(i)));
+            i++;
+        }
+        i=0;
+
+        while (i<0)
+        {
+
+                String bookId=engine.filterHashResult(recString.get(i));
+                reBooks.keepBook(booksById.get(bookId));
+                i++;
+        }
+        return reBooks;
+    }
+
     private static int getSearchMode ()
     {
         boolean isValid = false;
