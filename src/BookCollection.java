@@ -3,7 +3,7 @@ import java.util.ArrayList;
 public class BookCollection {
     private ArrayList<Book> books = null;
 
-    
+
     public BookCollection() {
 
     }

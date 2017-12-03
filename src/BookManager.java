@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
 import java.util.Scanner;
 
@@ -7,6 +8,7 @@ public class BookManager
     private static HashMap<Character, ArrayList<Book>> booksByName = new HashMap<>();
     private static HashMap<Character, ArrayList<Book>> booksByWriter = new HashMap<>();
     private static HashMap<String, ArrayList<Book>> booksByGenre = new HashMap<>();
+    private static HashMap<String, Book> booksById = new HashMap<>();
 
     public BookManager()
     {
@@ -16,37 +18,82 @@ public class BookManager
     public static void search(String keyword, int mode)
     {
         if(mode == 1 || mode == 0)
-            searchByName(keyword).viewAllBook();
+        {
+            if(searchByName(keyword) != null)
+            {
+                searchByName(keyword).viewAllBook();
+                System.out.println("size: "+searchByName(keyword).getLength());
+            }
+            else
+            {
+                System.out.println("No matched books in name");
+            }
+        }
+
         else if (mode == 2 || mode == 0)
-            searchByWriter(keyword).viewAllBook();
+        {
+            if(searchByWriter(keyword) != null)
+            {
+                searchByWriter(keyword).viewAllBook();
+            }
+            else
+            {
+                System.out.println("No matched books in writer");
+            }
+        }
         else if (mode == 3 || mode == 0)
-            searchByGenre(keyword).viewAllBook();
+        {
+            if(searchByGenre(keyword) != null)
+            {
+                searchByGenre(keyword).viewAllBook();
+            }
+            else
+            {
+                System.out.println("No matched books in genre");
+            }
+        }
     }
 
     private static BookCollection searchByName (String keyword)
     {
         BookCollection matchedBooks = new BookCollection();
         String keywords[] = keyword.split(" ");
+        System.out.println("poo");
 
-        for (int i = 0;i<booksByName.get(keywords[0]).size(); i++)
+        if (booksByName.get(keywords[0].toLowerCase().charAt(0))!=null)
         {
-            int found = -1;
-            int j;
-            for (j=0;keywords[j]!= null;j++)
+            for (int i = 0;i<booksByName.get(keywords[0].toLowerCase().charAt(0)).size();i++)
             {
-                Book thisBook = new Book() ;
-                thisBook.getName();
-                if (booksByName.get(keywords[0]).get(i).getName().toLowerCase().contains(keywords[j].toLowerCase()))
+
+                int found = 0;
+                int j;
+                for (j=0;j<keywords.length;j++)
                 {
-                    found++;
+                    //System.out.println("name: "+booksByName.get(keywords[0].toLowerCase().charAt(0)).get(i).getName());
+                    //System.out.println("key:"+ keywords[j]);
+                    if (booksByName.get(keywords[0].toLowerCase().charAt(0)).get(i).getName().toLowerCase().contains(keywords[j]))
+                    {
+                        found++;
+                    }
+                }
+                //System.out.println("found = "+found);
+                //System.out.println("j = "+j);
+                if (found == j)
+                {
+
+                    boolean reval = matchedBooks.keepBook(booksByName.get(keywords[0].toLowerCase().charAt(0)).get(i));
                 }
             }
-            if (found == j)
+            if (matchedBooks.getLength() == 0)
             {
-                boolean reval = matchedBooks.keepBook(booksByName.get(keywords[0]).get(i));
+                return null;
             }
+            return matchedBooks;
         }
-        return matchedBooks;
+        else
+        {
+            return null;
+        }
     }
 
     private static BookCollection searchByWriter (String keyword)
@@ -54,35 +101,52 @@ public class BookManager
         BookCollection matchedBooks = new BookCollection();
         String keywords[] = keyword.split(" ");
 
-        for (int i = 0;i<booksByWriter.get(keywords[0]).size(); i++)
+        if (booksByWriter.get(keywords[0].charAt(0))!=null)
         {
-            int found = -1;
-            int j;
-            for (j=0;keywords[j]!= null;j++)
+            for (int i = 0;i<booksByWriter.get(keywords[0].charAt(0)).size(); i++)
             {
-                Book thisBook = new Book() ;
-                thisBook.getName();
-                if (booksByWriter.get(keywords[0]).get(i).getWriter().toLowerCase().contains(keywords[j].toLowerCase()))
+                int found = 0;
+                int j;
+                for (j=0;j<keywords.length;j++)
                 {
-                    found++;
+                    if (booksByWriter.get(keywords[0]).get(i).getWriter().toLowerCase().contains(keywords[j].toLowerCase())==true)
+                    {
+                        found++;
+                    }
+                }
+                if (found == j)
+                {
+                    boolean reval = matchedBooks.keepBook(booksByWriter.get(keywords[0].charAt(0)).get(i));
                 }
             }
-            if (found == j)
-            {
-                boolean reval = matchedBooks.keepBook(booksByWriter.get(keywords[0]).get(i));
-            }
+            return matchedBooks;
         }
-        return matchedBooks;
+        else
+        {
+            matchedBooks = null;
+            return matchedBooks;
+        }
+
     }
 
-    private static BookCollection searchByGenre (String genre)
+    private static BookCollection searchByGenre (String keyword)
     {
         BookCollection matchedBooks =  new BookCollection();
-        for (int i=0;i<booksByGenre.get(genre).size();i++)
+        if (booksByGenre.get(keyword)!=null)
         {
-            boolean reval = matchedBooks.keepBook(booksByGenre.get(genre).get(i));
+            for (int i=0;i<booksByGenre.get(keyword).size();i++)
+            {
+                boolean reval = matchedBooks.keepBook(booksByGenre.get(keyword).get(i));
+            }
+            return matchedBooks;
         }
-        return matchedBooks;
+
+        else
+        {
+            matchedBooks = null;
+            return matchedBooks;
+        }
+
     }
 
     public static boolean checkOut(Customer newCustomer)
@@ -92,7 +156,7 @@ public class BookManager
         System.out.println("Confirm cart? (Y/N)");
         Scanner scanner = new Scanner(System.in);
         String confirm = scanner.nextLine();
-        if(confirm == "Y")
+        if(confirm.equals("Y"))
             return true;
         else
             return false;
@@ -100,7 +164,7 @@ public class BookManager
 
     public static void initializeBooks()
     {
-        FileManager manager = new FileManager();
+        FileManager manager = FileManager.getInstance();
         Book newBook = manager.readBookFile();
         while (newBook != null)
         {
@@ -118,16 +182,19 @@ public class BookManager
         String name = newBook.getName();
         String fields[] = name.split(" ");
         //ArrayList<String> names = new ArrayList<>();
-        while (fields[i] != null)
+        while (i<fields.length)
         {
-            if (booksByName.get(fields[i].charAt(0)) == null)
+            if (booksByName.get(fields[i].toLowerCase().charAt(0)) == null)
             {
-                booksByName.put(fields[i].charAt(0),new ArrayList<>());
-                booksByName.get(fields[i].charAt(0)).add(newBook);
+                booksByName.put(fields[i].toLowerCase().charAt(0),new ArrayList<>());
+                booksByName.get(fields[i].toLowerCase().charAt(0)).add(newBook);
             }
             else
             {
-                booksByName.get(fields[i].charAt(0)).add(newBook);
+                if(newBook.equals(booksByName.get(fields[i].toLowerCase().charAt(0)).get(booksByName.get(fields[i].toLowerCase().charAt(0)).size()-1)) == false)
+                {
+                    booksByName.get(fields[i].toLowerCase().charAt(0)).add(newBook);
+                }
             }
             i++;
         }
@@ -139,16 +206,19 @@ public class BookManager
         String writer = newBook.getWriter();
         String fields[] = writer.split(" ");
 
-        while (fields[i] != null)
+        while (i<fields.length)
         {
-            if (booksByWriter.get(fields[i].charAt(0)) == null)
+            if (booksByWriter.get(fields[i].toLowerCase().charAt(0)) == null)
             {
-                booksByWriter.put(fields[i].charAt(0),new ArrayList<>());
-                booksByWriter.get(fields[i].charAt(0)).add(newBook);
+                booksByWriter.put(fields[i].toLowerCase().charAt(0),new ArrayList<>());
+                booksByWriter.get(fields[i].toLowerCase().charAt(0)).add(newBook);
             }
             else
             {
-                booksByWriter.get(fields[i].charAt(0)).add(newBook);
+                if(newBook.equals(booksByWriter.get(fields[i].toLowerCase().charAt(0)).get(booksByWriter.get(fields[i].toLowerCase().charAt(0)).size()-1)) == false)
+                {
+                    booksByWriter.get(fields[i].toLowerCase().charAt(0)).add(newBook);
+                }
             }
             i++;
         }
@@ -175,13 +245,50 @@ public class BookManager
         }
     }
 
+    private static int mainMenu()
+    {
+        boolean isValid = false;
+        int choice = 0;
+        while(isValid == false)
+        {
+            System.out.println("1. Create account");
+            System.out.println("2. Log in");
+            Scanner scan = new Scanner(System.in);
+            String option = scan.next();
+            choice = Integer.parseInt(option);
+            if (choice == 1 || choice == 2)
+            {
+                isValid = true;
+            }
+        }
+        return choice;
+    }
+
     public static void main(String[] args)
     {
-        Customer thisCustomer = new Customer("Bobby","1234");
-        ArrayList<String> genres = "aaa",
-        Book book1 = new Book("Operating System",ArrayList<String> genres = )
-        search("Operating System",0);
+        initializeBooks();
 
+        int choice = mainMenu();
+
+        if(choice == 1)
+        {
+
+            AccountManager.getInstance().createAccount();
+            AccountManager.getInstance().login();
+        }
+
+        else
+        {
+
+        }
+
+        Customer thisCustomer = new Customer("Bobby","1234");
+        ArrayList<String> genres = new ArrayList<String>(Arrays.asList("Horror","Drama","Comedy"));
+        Book book1 = new Book("Operating System",genres,"Stephen",220.5f,"000");
+        insertByWriter(book1);
+        insertByName(book1);
+        insertByGenre(book1);
+        search("america".toLowerCase(),0);
     }
 
 }

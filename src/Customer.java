@@ -3,18 +3,24 @@ public class Customer {
     private String username;
     private String password;
     private BookCollection history;
-
+    private static Customer customer=null;
 
     public Customer(String username,String password)
     {
         this.username=username;
         this.password=password;
-        cart = new BookCollection("cart");
+        cart = new BookCollection();
+    }
+
+    public static Customer getInstance()
+    {
+        return customer;
     }
 
     public boolean removeFromCart(int index)
     {
         cart.removeBook(index);
+        return true;
     }
 
     public void clearCart()
@@ -33,5 +39,9 @@ public class Customer {
     public BookCollection getCart()
     {
         return cart;
+    }
+
+    public String getUsername() {
+        return username;
     }
 }
