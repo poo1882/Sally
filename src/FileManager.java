@@ -187,7 +187,15 @@ public class FileManager extends TextFileReader
         fileManager.initializeReader();
         Book book;
         int i=0;
+<<<<<<< HEAD
         fileManager.randomlyGenHis();
+=======
+
+
+        fileManager.randomlyGenHis();
+
+
+>>>>>>> 8c5391b9752c3feee99739e2ba97abaf2635ef38
         System.out.println(i);
         */
 
@@ -249,6 +257,10 @@ public class FileManager extends TextFileReader
         String saltStr = salt.toString();
         return saltStr;
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8c5391b9752c3feee99739e2ba97abaf2635ef38
     public void randomlyGenIDpass()
     {
         int i=0;
@@ -261,6 +273,10 @@ public class FileManager extends TextFileReader
             line="";
         }
     }
+<<<<<<< HEAD
+=======
+
+>>>>>>> 8c5391b9752c3feee99739e2ba97abaf2635ef38
     public void randomlyGenCat()
     {
         String line = new String();
@@ -293,6 +309,11 @@ public class FileManager extends TextFileReader
             line+="%"+randomGenre.get(genre1)+"%"+randomGenre.get(genre2);
             System.out.println(line);
             line = bookFile.getNextLine();
+<<<<<<< HEAD
+=======
+
+
+>>>>>>> 8c5391b9752c3feee99739e2ba97abaf2635ef38
         }
     }
     */
