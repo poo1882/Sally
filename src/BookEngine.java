@@ -173,8 +173,6 @@ public class BookEngine {
         System.out.println(engine.filterHashResult(hashResult));
     }
 
-<<<<<<< HEAD
+
 }
-=======
-}
->>>>>>> 8c5391b9752c3feee99739e2ba97abaf2635ef38
+
