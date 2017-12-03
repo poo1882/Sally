@@ -55,9 +55,14 @@ public class Customer
         return username;
     }
 
+<<<<<<< HEAD
     public void viewBuyingHistory()
     {
         //FileManager.getInstance().getHistory(username);
     }
 
 }
+=======
+}
+
+>>>>>>> 851cecb37abb929d652679bb557ad12df5a0eeee
