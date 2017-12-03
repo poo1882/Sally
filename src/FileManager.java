@@ -395,11 +395,15 @@ public class FileManager extends TextFileReader
         fileManager.initializeReader();
         Book book;
         int i=0;
+<<<<<<< HEAD
+        fileManager.randomlyGenHis();
+=======
 
 
         fileManager.randomlyGenHis();
 
 
+>>>>>>> 8c5391b9752c3feee99739e2ba97abaf2635ef38
         System.out.println(i);
         */
 
@@ -416,7 +420,6 @@ public class FileManager extends TextFileReader
             String line="";
             line+=getSaltString()+",";
             int j=0;
-
             while (j<5)
             {
                 int temp=rn.nextInt(998 - 0 + 1) + 0;
@@ -445,17 +448,12 @@ public class FileManager extends TextFileReader
                         line += "%" + bookId[j];
                     }
                 }
-
                 j++;
             }
-
-
-
             System.out.println(line);
             i++;
         }
     }
-
     private String getSaltString() {
         String SALTCHARS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
         StringBuilder salt = new StringBuilder();
@@ -466,9 +464,11 @@ public class FileManager extends TextFileReader
         }
         String saltStr = salt.toString();
         return saltStr;
-
     }
+<<<<<<< HEAD
+=======
 
+>>>>>>> 8c5391b9752c3feee99739e2ba97abaf2635ef38
     public void randomlyGenIDpass()
     {
         int i=0;
@@ -481,7 +481,10 @@ public class FileManager extends TextFileReader
             line="";
         }
     }
+<<<<<<< HEAD
+=======
 
+>>>>>>> 8c5391b9752c3feee99739e2ba97abaf2635ef38
     public void randomlyGenCat()
     {
         String line = new String();
@@ -490,7 +493,6 @@ public class FileManager extends TextFileReader
         int i=0;
         while(line!=null)
         {
-
             int price=rn.nextInt(1000 - 100 + 1) + 100;
             line+="%"+price;
             if(i<10)
@@ -505,9 +507,7 @@ public class FileManager extends TextFileReader
             {
                 line+="%"+i;
             }
-
             i++;
-
             int genre1=rn.nextInt(9 - 0 + 1) + 0;
             int genre2=rn.nextInt(9 - 0 + 1) + 0;
             while(genre2==genre1)
@@ -515,11 +515,13 @@ public class FileManager extends TextFileReader
                 genre2=rn.nextInt(9 - 0 + 1) + 0;
             }
             line+="%"+randomGenre.get(genre1)+"%"+randomGenre.get(genre2);
-
             System.out.println(line);
             line = bookFile.getNextLine();
+<<<<<<< HEAD
+=======
 
 
+>>>>>>> 8c5391b9752c3feee99739e2ba97abaf2635ef38
         }
     }
     */
