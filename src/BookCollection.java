@@ -25,7 +25,8 @@ public class BookCollection {
             books.add(newBook);
             return true;
         }
-        return false;
+        else
+            return false;
     }
 
     public boolean deleteBook(Book target)
@@ -72,7 +73,15 @@ public class BookCollection {
         books = null;
     }
 
-
+    public boolean isInCollection(String bookId)
+    {
+        for(int i =0;i<books.size();i++)
+        {
+            if(books.get(i).getBookId().equals(bookId))
+                return true;
+        }
+        return false;
+    }
 
 
 

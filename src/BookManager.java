@@ -15,8 +15,52 @@ public class BookManager
 
     }
 
-    public static void search(String keyword, int mode)
+    private static int getSearchMode ()
     {
+        boolean isValid = false;
+        int mode = 0;
+        while(isValid == false)
+        {
+            System.out.println("1. Search from book's name");
+            System.out.println("2. Search from writer's name");
+            System.out.println("Enter \"0\" to search from all above...");
+            Scanner scan = new Scanner(System.in);
+            String option = scan.next();
+            mode = Integer.parseInt(option);
+            if (mode >= 0 && mode <= 2)
+            {
+                isValid = true;
+            }
+        }
+        return mode;
+    }
+
+    private static int getReccMode()
+    {
+        boolean isValid = false;
+        int mode = 0;
+        while(isValid == false)
+        {
+            System.out.println("1. Get recommendation based on content");
+            System.out.println("2. Get recommendation based on community");
+            Scanner scan = new Scanner(System.in);
+            String option = scan.next();
+            mode = Integer.parseInt(option);
+            if (mode == 1 || mode == 2)
+            {
+                isValid = true;
+            }
+        }
+        return mode;
+    }
+
+    public static void search()
+    {
+        int mode = getSearchMode();
+        System.out.print("Enter keyword:");
+        Scanner scan = new Scanner(System.in);
+        String keyword = scan.next();
+
         if(mode == 1 || mode == 0)
         {
             if(searchByName(keyword) != null)
@@ -39,17 +83,6 @@ public class BookManager
             else
             {
                 System.out.println("No matched books in writer");
-            }
-        }
-        else if (mode == 3 || mode == 0)
-        {
-            if(searchByGenre(keyword) != null)
-            {
-                searchByGenre(keyword).viewAllBook();
-            }
-            else
-            {
-                System.out.println("No matched books in genre");
             }
         }
     }
@@ -147,6 +180,11 @@ public class BookManager
             return matchedBooks;
         }
 
+    }
+
+    private static Book searchById (String keyword)
+    {
+        return booksById.get(keyword);
     }
 
     public static boolean checkOut(Customer newCustomer)
@@ -264,31 +302,102 @@ public class BookManager
         return choice;
     }
 
+    private static int subMenu()
+    {
+        boolean isValid = false;
+        int choice = 0;
+        while(isValid == false)
+        {
+            System.out.println("1. Search for books");
+            System.out.println("2. Get recommendation");
+            System.out.println("3. View cart and check out");
+            System.out.println("4. View buying history");
+            System.out.println("5. Exit");
+            Scanner scan = new Scanner(System.in);
+            String option = scan.next();
+            choice = Integer.parseInt(option);
+            if (choice >= 1 && choice <= 5)
+            {
+                isValid = true;
+            }
+        }
+        return choice;
+    }
+
+    private static void viewBuyingHistory()
+    {
+        ArrayList<String> setOfBookId = FileManager.getInstance().getHistory(Customer.getInstance().getUsername());
+
+    }
+
+    private static boolean selectBook(BookCollection rangeOfBooks,String targetId)
+    {
+        if(rangeOfBooks.isInCollection(searchById(targetId).getBookId()) == true )
+            return true;
+        else
+            return false;
+    }
+
+
     public static void main(String[] args)
     {
         initializeBooks();
+        FileManager.getInstance();
 
-        int choice = mainMenu();
-
-        if(choice == 1)
-        {
-
+        /* Main Menu */
+        if(mainMenu() == 1)
             AccountManager.getInstance().createAccount();
+        else
             AccountManager.getInstance().login();
-        }
 
+        /* Sub menu */
+        int choice = subMenu();
+
+        if (choice == 1)
+            search();
+        else if (choice == 2)
+        {
+            if (getReccMode() == 1)
+            {
+                System.out.println("Genre:");
+                System.out.println("\tFantasy");
+                System.out.println("\tAction");
+                System.out.println("\tScience");
+                System.out.println("\tHorror");
+                System.out.println("\tDrama");
+                System.out.println("\tGuide");
+                System.out.println("\tBiography");
+                System.out.println("\tMystery");
+                System.out.println("\tHealth");
+                System.out.println("\tInvestigation");
+                System.out.print("Select genre: ");
+                Scanner scan = new Scanner(System.in);
+                String genre = scan.next();
+                BookCollection rangeOfBooks = searchByGenre(genre);
+                System.out.print("Enter book's id: ");
+                scan = new Scanner(System.in);
+                String targetId = scan.next();
+                if(targetId.equals("-1") == false)
+                {
+                    if (selectBook(searchByGenre(genre),targetId) == true)
+                        Customer.getInstance().addToCart(searchById(targetId));
+                }
+
+            }
+        }
+        else if (choice == 3)
+        {
+            checkOut(Customer.getInstance());
+        }
+        else if (choice == 4)
+        {
+            viewBuyingHistory();
+        }
         else
         {
-
+            System.out.println("Exiting program...");
         }
 
-        Customer thisCustomer = new Customer("Bobby","1234");
-        ArrayList<String> genres = new ArrayList<String>(Arrays.asList("Horror","Drama","Comedy"));
-        Book book1 = new Book("Operating System",genres,"Stephen",220.5f,"000");
-        insertByWriter(book1);
-        insertByName(book1);
-        insertByGenre(book1);
-        search("america".toLowerCase(),0);
     }
 
 }

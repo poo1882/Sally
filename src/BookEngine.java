@@ -29,10 +29,10 @@ public class BookEngine {
     }
 
 
-    private void createHistoryHash()
+    private void createHistoryHash(Customer customer)
     {
         ArrayList<String> readHis = new ArrayList<String>();
-        fileManager=FileManager.getInstance();
+        fileManager=FileManager.getInstance(customer);
         readHis = fileManager.readHistory();
         /*
         int i=0;
@@ -157,9 +157,10 @@ public class BookEngine {
     public static void main(String[] args)
     {
         ArrayList<String> hashResult = new ArrayList<String>();
+        Customer customer = new Customer("aaa","aaa");
         BookEngine engine=null;
         engine=BookEngine.getInstance();
-        engine.createHistoryHash();
+        engine.createHistoryHash(customer);
         hashResult = engine.searchHash("527");
         int i=0;
         while (hashResult.size()>i)
@@ -172,8 +173,6 @@ public class BookEngine {
         System.out.println(engine.filterHashResult(hashResult));
     }
 
-<<<<<<< HEAD
+
 }
-=======
-}
->>>>>>> 8c5391b9752c3feee99739e2ba97abaf2635ef38
+

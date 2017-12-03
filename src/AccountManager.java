@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class AccountManager
 {
-    private static AccountManager instance;
+    private static AccountManager instance = null;
     public static AccountManager getInstance()
     {
 
@@ -18,26 +18,25 @@ public class AccountManager
         }
     }
 
-    public boolean login ()
+    public void login ()
     {
-        System.out.print("Enter username: ");
-        Scanner scan = new Scanner(System.in);
-        String username = scan.next();
-        System.out.print("Enter password: ");
-        scan = new Scanner(System.in);
-        String password = scan.next();
-
-        if (password.equals(FileManager.getInstance().getAccount(username).get(username)) == true)
+        boolean isValid = false;
+        while (isValid == false)
         {
-            return true;
-        }
-        else
-        {
-            return false;
+            System.out.print("Enter username: ");
+            Scanner scan = new Scanner(System.in);
+            String username = scan.next();
+            System.out.print("Enter password: ");
+            scan = new Scanner(System.in);
+            String password = scan.next();
+            if (password.equals(FileManager.getInstance().getPassword(username).get(username)) == true)
+            {
+                isValid = true;
+            }
         }
     }
 
-    public boolean createAccount ()
+    public void createAccount ()
     {
         boolean checkNotExistingAccount = false;
 
@@ -49,14 +48,15 @@ public class AccountManager
             System.out.print("Enter password: ");
             scan = new Scanner(System.in);
             String password = scan.next();
-            checkNotExistingAccount = isNotExistingAccount(username);
-            if(checkNotExistingAccount == true)
+
+            if(FileManager.validAccount.equals("0"))
             {
                 FileManager.getInstance().addAccount(username,password);
                 Customer.getInstance(username,password);
+                System.out.println("Your account has been created.");
+                login();
             }
         }
-        return checkNotExistingAccount;
     }
 
     private boolean isNotExistingAccount (String username)

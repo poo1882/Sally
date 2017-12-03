@@ -1,20 +1,26 @@
-import java.io.File;
-import java.lang.reflect.Array;
+import java.io.*;
+
+import java.nio.file.Files;
+import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.HashMap;
-import java.util.Random;
+import java.util.List;
+
+
+
 
 
 public class FileManager extends TextFileReader
 {
-    private static HashMap<String, ArrayList<ArrayList<String>>> hisMap = new HashMap<>();
+    private static HashMap<String, ArrayList<String>> hisMap = new HashMap<>();
+    private static HashMap<String, String> IDMap = new HashMap<>();
     private static FileManager instance;
 
     private TextFileReader bookFile = new TextFileReader();
     private TextFileReader hisFile = new TextFileReader();
     private TextFileReader idFile = new TextFileReader();
 
-    private ArrayList<String> randomGenre =new ArrayList<String>();
+    private int specificLine;
 
     private FileManager()
     {
@@ -22,47 +28,224 @@ public class FileManager extends TextFileReader
     }
 
 
-
-    public void writeBuyingHistory(ArrayList<String> boughtBooks)
+    /**
+     * write to specific line
+     */
+    public void createIDMap()
     {
+        String line = idFile.getNextLine();
+
+
+        String[] fields = line.split(",");
+        while(line!=null) {
+            IDMap.put(fields[0], fields[1]);
+
+            line = idFile.getNextLine();
+        }
 
     }
 
-    private void createHisMap()
+    public void writeIDfile(String ID,String password)throws IOException
     {
-        ArrayList<String> curHis = new ArrayList<String>();
-        idFile.open("history.txt");
-        String line=idFile.getNextLine();
-        while (line!=null)
-        {
-            String[] fields = line.split(",");
-            int i=0;
-            String[] fields2 = fields[1].split("%");
-            if(fields2.length==1)
+
+
+        List<String> lines = Files.readAllLines(Paths.get("idpassword.txt"));
+        /*write part*/
+
+        BufferedWriter bw = null;
+        FileWriter fw = null;
+        try {
+            int j=0;
+            String content = "";
+            while (j<lines.size())
             {
-                curHis.add(fields2[0]);
+                content+= lines.get(j)+"\n";
+                j++;
             }
-            while (i<fields2.length)
-            {
-                curHis.add(fields2[i]);
-                i++;
+            content+=ID+","+password;
+
+            fw = new FileWriter("idpassword2.txt");
+            bw = new BufferedWriter(fw);
+            bw.write(content);
+
+            System.out.println("Done");
+
+        } catch (IOException e) {
+
+            e.printStackTrace();
+
+        } finally {
+
+            try {
+
+                if (bw != null)
+                    bw.close();
+
+                if (fw != null)
+                    fw.close();
+
+            } catch (IOException ex) {
+
+                ex.printStackTrace();
+
             }
 
-            if(hisMap.get(hisMap.get(fields[0]))==null)
-            {
-                hisMap.put(fields[0],new ArrayList<>());
-                hisMap.get(fields[0]).add(curHis);
-            }
-            else
-            {
-                hisMap.get(fields[0]).add(curHis);
-            }
-            curHis.clear();
-            line=idFile.getNextLine();
         }
     }
 
-    public static FileManager getInstance()
+    public String findPassword(String ID)
+    {
+        String password = "0";
+        if(IDMap.get(ID)!=null)
+        {
+            password = IDMap.get(ID);
+        }
+
+        return password;
+    }
+
+
+    public void writeBuyingHistory(ArrayList<String> boughtBooks,Customer customer)throws IOException
+    {
+        String toWrite = new String();
+        int i =0;
+        if(hisMap.get(customer.getUsername())==null)
+        {
+
+        }
+        else
+        {
+            while (i<hisMap.get(customer.getUsername()).size())
+            {
+                System.out.println("i="+i);
+                System.out.println(hisMap.get(customer.getUsername()).get(i));
+                i++;
+            }
+            i=0;
+            while (i<boughtBooks.size())
+            {
+                System.out.println("i="+i);
+                hisMap.get(customer.getUsername()).add(boughtBooks.get(i));
+                i++;
+            }
+            i=0;
+            while (i<hisMap.get(customer.getUsername()).size())
+            {
+                System.out.println(hisMap.get(customer.getUsername()).get(i));
+                i++;
+            }
+        }
+
+
+        i=0;
+
+        toWrite+=customer.getUsername()+",";
+        while (i<hisMap.get(customer.getUsername()).size())
+        {
+            toWrite+=hisMap.get(customer.getUsername()).get(i);
+            if(i!=hisMap.get(customer.getUsername()).size()-1)
+            {
+                toWrite+="%";
+            }
+            i++;
+        }
+
+
+
+        List<String> lines = Files.readAllLines(Paths.get("history2.txt"));
+        lines.set(specificLine,toWrite);
+        /*write part*/
+        BufferedWriter bw = null;
+        FileWriter fw = null;
+        try {
+            int j=0;
+            String content = "";
+            while (j<lines.size())
+            {
+                content+= lines.get(j)+"\n";
+                j++;
+            }
+
+
+            fw = new FileWriter("history2.txt");
+            bw = new BufferedWriter(fw);
+            bw.write(content);
+
+            System.out.println("Done");
+
+        } catch (IOException e) {
+
+            e.printStackTrace();
+
+        } finally {
+
+            try {
+
+                if (bw != null)
+                    bw.close();
+
+                if (fw != null)
+                    fw.close();
+
+            } catch (IOException ex) {
+
+                ex.printStackTrace();
+
+            }
+
+        }
+
+
+
+
+
+
+
+
+    }
+
+    private void createHisMap(Customer customer)
+    {
+
+        idFile.open("history.txt");
+        String line=idFile.getNextLine();
+        String name = customer.getUsername();
+        specificLine=0;
+        int i=0;
+        while (line!=null)
+        {
+            int j=0;
+            String[] fields = line.split(",");
+            if(fields[0].equals(name))
+            {
+                specificLine=i;
+
+            }
+
+            String[] fields2 = fields[1].split("%");
+
+
+            while (j<fields2.length)
+            {
+                if(hisMap.get(fields[0])==null)
+                {
+                    hisMap.put(fields[0],new ArrayList<>());
+                    hisMap.get(fields[0]).add(fields2[j]);
+
+                }
+                else
+                {
+                    hisMap.get(fields[0]).add(fields2[j]);
+                }
+                j++;
+            }
+
+            line=idFile.getNextLine();
+            i++;
+        }
+    }
+
+    public static FileManager getInstance(Customer customer)
     {
         if(instance==null)
         {
@@ -173,15 +356,40 @@ public class FileManager extends TextFileReader
 
             return bookHistory;
         }
+    }
 
-
-
+    public ArrayList<String> getCurCusHis(String name)
+    {
+        return hisMap.get(name);
     }
 
     public static void main(String[] args)
     {
-        FileManager fileManager = FileManager.getInstance();
-        fileManager.createHisMap();
+        Customer customer = new Customer("FVU6HNSUA08I638","1111");
+        FileManager fileManager = FileManager.getInstance(customer);
+        fileManager.createHisMap(customer);
+        ArrayList<String> boughtBooks = new ArrayList<String>();
+        boughtBooks.add("test");
+        boughtBooks.add("test2");
+        boughtBooks.add("test3");
+
+        try {
+            // constructor may throw FileNotFoundException
+            fileManager.writeBuyingHistory(boughtBooks,customer);
+        } catch (FileNotFoundException e) {
+            //do something clever with the exception
+        } catch (IOException e) {
+            //do something clever with the exception
+        }
+
+        try {
+            // constructor may throw FileNotFoundException
+            fileManager.writeIDfile("junior2341","5555");
+        } catch (FileNotFoundException e) {
+            //do something clever with the exception
+        } catch (IOException e) {
+            //do something clever with the exception
+        }
 
         /*
         fileManager.initializeReader();

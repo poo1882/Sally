@@ -16,6 +16,11 @@ public class Book
         this.bookId = bookId;
     }
 
+    public Book()
+    {
+
+    }
+
     public void printDetail()
     {
         System.out.println("Name: "+name);

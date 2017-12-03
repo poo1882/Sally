@@ -1,4 +1,5 @@
-public class Customer {
+public class Customer
+{
     private BookCollection cart;
     private String username;
     private String password;
@@ -10,6 +11,12 @@ public class Customer {
         this.username=username;
         this.password=password;
         cart = new BookCollection();
+    }
+
+    public static Customer getInstance(String username, String password)
+    {
+        Customer thisCustomer = new Customer(username,password);
+        return customer;
     }
 
     public static Customer getInstance()
@@ -30,11 +37,14 @@ public class Customer {
 
     public void addToCart(Book target)
     {
-        boolean reValue= cart.keepBook(target);
-        if(reValue==true)
-            System.out.println("added");
+        boolean hasNotBought = history.isInCollection(target.getBookId());
+        if (hasNotBought == true)
+        {
+            cart.keepBook(target);
+            System.out.println("Adding success.");
+        }
         else
-            System.out.println("error");
+            System.out.println("Adding failed");
     }
     public BookCollection getCart()
     {
@@ -44,8 +54,10 @@ public class Customer {
     public String getUsername() {
         return username;
     }
-<<<<<<< HEAD
+
+    public void viewBuyingHistory()
+    {
+        //FileManager.getInstance().getHistory(username);
+    }
+
 }
-=======
-}
->>>>>>> 8c5391b9752c3feee99739e2ba97abaf2635ef38
