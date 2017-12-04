@@ -6,12 +6,12 @@ import java.util.Scanner;
 
 public class BookManager
 {
-    private static BookManager bookManager = null;
+    private static BookManager bookManager ;
 
-    private static HashMap<Character, ArrayList<Book>> booksByName = new HashMap<>();
-    private static HashMap<Character, ArrayList<Book>> booksByWriter = new HashMap<>();
-    private static HashMap<String, ArrayList<Book>> booksByGenre = new HashMap<>();
-    private static HashMap<String, Book> booksById = new HashMap<>();
+    private static HashMap<Character, ArrayList<Book>> booksByName ;
+    private static HashMap<Character, ArrayList<Book>> booksByWriter ;
+    private static HashMap<String, ArrayList<Book>> booksByGenre ;
+    private static HashMap<String, Book> booksById ;
 
     private BookManager()
     {
@@ -22,7 +22,8 @@ public class BookManager
     {
         if(bookManager==null)
         {
-            return new BookManager();
+            bookManager= new BookManager();
+            return bookManager;
         }
         return bookManager;
     }
@@ -200,6 +201,7 @@ public class BookManager
 
     public static Book searchById (String keyword)
     {
+
         return booksById.get(keyword);
     }
 
@@ -218,16 +220,27 @@ public class BookManager
 
     public static void initializeBooks()
     {
+        booksByGenre= new HashMap<>();
+        booksByWriter= new HashMap<>();
+        booksById= new HashMap<>();
+        booksByName= new HashMap<>();
         FileManager manager = FileManager.getInstance();
         Book newBook = manager.readBookFile();
+
         while (newBook != null)
         {
             insertByName(newBook);
             insertByWriter(newBook);
             insertByGenre(newBook);
+            insertById(newBook);
             newBook = manager.readBookFile();
         }
 
+    }
+
+    private static void insertById (Book newBook)
+    {
+        booksById.put(newBook.getBookId(),newBook);
     }
 
     private static void insertByName(Book newBook)
