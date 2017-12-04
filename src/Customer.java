@@ -1,26 +1,24 @@
+import java.util.Scanner;
+
 public class Customer
 {
     private BookCollection cart;
-    private String username;
-    private String password;
+    private String username = null;
+    private String password = null;
     private BookCollection history;
     private static Customer customer=null;
 
-    public Customer(String username,String password)
+
+    private Customer()
     {
-        this.username=username;
-        this.password=password;
-        cart = new BookCollection();
+
     }
 
-    public static Customer getInstance(String username, String password)
-    {
-        Customer thisCustomer = new Customer(username,password);
-        return customer;
-    }
 
     public static Customer getInstance()
     {
+        if(customer==null)
+            return new Customer();
         return customer;
     }
 
@@ -51,18 +49,59 @@ public class Customer
         return cart;
     }
 
-    public String getUsername() {
+    private void setUsername(String username)
+    {
+        if (username == null)
+            this.username = username;
+        else
+            System.out.println("Error, username has already defined.");
+    }
+
+    private void setPassword(String password)
+    {
+        if (password == null)
+            this.password = password;
+        else
+            System.out.println("Error, password has already defined.");
+    }
+
+    public String getUsername()
+    {
         return username;
     }
 
-<<<<<<< HEAD
+    public void createAccount()
+    {
+        boolean creatingSuccess = false;
+        while (creatingSuccess == false)
+        {
+            System.out.print("Enter username: ");
+            Scanner scan = new Scanner(System.in);
+            String username = scan.next();
+            if (FileManager.getInstance().findPassword(username).equals("0") == true)
+            {
+                String password;
+                boolean passwordValid = false;
+                while (passwordValid == false)
+                {
+                    System.out.print("Enter password: ");
+                    scan = new Scanner(System.in);
+                    password = scan.next();
+                    if(password.length() >= 5)
+                    {
+                        passwordValid = true;
+                    }
+                }
+                Customer.getInstance(username,password);
+            }
+            else
+                System.out.println("This username is already used.");
+        }
+    }
+
     public void viewBuyingHistory()
     {
         //FileManager.getInstance().getHistory(username);
     }
 
 }
-=======
-}
-
->>>>>>> 851cecb37abb929d652679bb557ad12df5a0eeee

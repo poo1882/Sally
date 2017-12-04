@@ -245,7 +245,7 @@ public class FileManager extends TextFileReader
         }
     }
 
-    public static FileManager getInstance(Customer customer)
+    public static FileManager getInstance()
     {
         if(instance==null)
         {
