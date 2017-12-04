@@ -24,6 +24,9 @@ public class FileManager extends TextFileReader
 
     private FileManager()
     {
+        bookFile.open("bookdata.txt");
+        hisFile.open("history.txt");
+        idFile.open("idpassword.txt");
         createIDMap();
         createHisMap(Customer.getInstance());
     }
@@ -374,6 +377,13 @@ public class FileManager extends TextFileReader
 
     public ArrayList<String> getCurCusHis(String name)
     {
+        name = "8POXADRGLRY6H5J";
+        if (hisMap.get(name) == null)
+        {
+            System.out.println("null");
+            return null;
+        }
+        System.out.println("not null");
         return hisMap.get(name);
     }
 
