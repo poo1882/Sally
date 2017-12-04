@@ -19,6 +19,7 @@ public class Customer
     private Customer()
     {
         history = new BookCollection();
+        cart = new BookCollection();
     }
 
 
@@ -44,14 +45,38 @@ public class Customer
 
     public void addToCart(Book target)
     {
-        boolean hasNotBought = history.isInCollection(target.getBookId());
-        if (hasNotBought == true)
+        if(history != null)
         {
-            cart.keepBook(target);
-            System.out.println("Adding success.");
+            boolean hasNotBought = history.isInCollection(target.getBookId());
+            System.out.println("hasNotBought"+hasNotBought);
+            if (!hasNotBought)
+            {
+                if(!cart.isInCollection(target.getBookId()))
+                {
+                    cart.keepBook(target);
+                    System.out.println("Adding success.");
+                }
+                else
+                    System.out.println("Error: this book is already in your cart");
+
+            }
+            else
+            {
+                System.out.println("Error: you have bought this book already");
+            }
+
         }
         else
-            System.out.println("Adding failed");
+        {
+            if(!cart.isInCollection(target.getBookId()))
+            {
+                cart.keepBook(target);
+                System.out.println("Adding success.");
+            }
+            else
+                System.out.println("Error: this book is already in your cart");
+        }
+
     }
     public BookCollection getCart()
     {
@@ -172,7 +197,6 @@ public class Customer
     {
         ArrayList<String> readHis = FileManager.getInstance().getCurCusHis(username);
         System.out.println(readHis);
-        System.out.println(BookManager.searchById(readHis.get(0)).getName());
         int i=0;
 
         if (readHis != null)
@@ -183,12 +207,20 @@ public class Customer
                 i++;
             }
         }
+        else
+            history = null;
     }
 
     public void printBuyingHis()
     {
-        System.out.println("You have bought: ");
-        history.viewAllBook();
+        if (history != null)
+        {
+            System.out.println("You have bought: ");
+            history.viewAllBook();
+        }
+        else
+            System.out.println("Your history is empty.");
+
     }
 
     public void logout()
@@ -197,6 +229,54 @@ public class Customer
         this.password =null;
         this.cart = null;
         this.history = null;
+    }
+
+    public int viewCart() throws IOException
+    {
+
+        if((cart != null) && (cart.getLength() > 0))
+        {
+            System.out.println("Your cart has:");
+            cart.viewAllBook();
+            System.out.println("Total price: "+cart.calPrice()+"$\n");
+            System.out.println("1. Confirm order");
+            System.out.println("2. Continue shopping");
+            System.out.println("3. Clear cart");
+            Scanner scan = new Scanner(System.in);
+            String option = scan.next();
+            while (true)
+            {
+                if(option.equals("1"))
+                {
+                    ArrayList<String> boughtBooks = new ArrayList<>();
+                    for(int i =0;i<cart.getLength();i++)
+                    {
+                        boughtBooks.add(cart.getBookByIndex(i).getBookId());
+                    }
+                    //FileManager.getInstance().writeBuyingHistory(boughtBooks);
+                    System.out.println("Purchasing success, THANK YOU <3 !");
+                    return 1;
+                }
+                else if (option.equals("2"))
+                    return -1;
+                else if (option.equals("3"))
+                {
+                    cart.clearCollection();
+                    System.out.println("Your cart has been cleared.");
+                    return 0;
+                }
+
+
+
+
+            }
+        }
+        else
+        {
+            System.out.println("Your cart is empty.");
+            return -1;
+        }
+
     }
 
 }

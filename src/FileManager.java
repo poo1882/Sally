@@ -123,33 +123,33 @@ public class FileManager extends TextFileReader
     }
 
 
-    public void writeBuyingHistory(ArrayList<String> boughtBooks,Customer customer)throws IOException
+    public void writeBuyingHistory(ArrayList<String> boughtBooks)throws IOException
     {
         String toWrite = new String();
         int i =0;
-        if(hisMap.get(customer.getUsername())==null)
+        if(hisMap.get(Customer.getInstance().getUsername())==null)
         {
 
         }
         else
         {
-            while (i<hisMap.get(customer.getUsername()).size())
+            while (i<hisMap.get(Customer.getInstance().getUsername()).size())
             {
                 System.out.println("i="+i);
-                System.out.println(hisMap.get(customer.getUsername()).get(i));
+                System.out.println(hisMap.get(Customer.getInstance().getUsername()).get(i));
                 i++;
             }
             i=0;
             while (i<boughtBooks.size())
             {
                 System.out.println("i="+i);
-                hisMap.get(customer.getUsername()).add(boughtBooks.get(i));
+                hisMap.get(Customer.getInstance().getUsername()).add(boughtBooks.get(i));
                 i++;
             }
             i=0;
-            while (i<hisMap.get(customer.getUsername()).size())
+            while (i<hisMap.get(Customer.getInstance().getUsername()).size())
             {
-                System.out.println(hisMap.get(customer.getUsername()).get(i));
+                System.out.println(hisMap.get(Customer.getInstance().getUsername()).get(i));
                 i++;
             }
         }
@@ -157,11 +157,11 @@ public class FileManager extends TextFileReader
 
         i=0;
 
-        toWrite+=customer.getUsername()+",";
-        while (i<hisMap.get(customer.getUsername()).size())
+        toWrite+=Customer.getInstance().getUsername()+",";
+        while (i<hisMap.get(Customer.getInstance().getUsername()).size())
         {
-            toWrite+=hisMap.get(customer.getUsername()).get(i);
-            if(i!=hisMap.get(customer.getUsername()).size()-1)
+            toWrite+=hisMap.get(Customer.getInstance().getUsername()).get(i);
+            if(i!=hisMap.get(Customer.getInstance().getUsername()).size()-1)
             {
                 toWrite+="%";
             }

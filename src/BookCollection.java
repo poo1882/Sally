@@ -77,7 +77,7 @@ public class BookCollection {
 
     public void clearCollection()
     {
-        books = null;
+        books.clear();
     }
 
     public boolean isInCollection(String bookId)
@@ -104,7 +104,7 @@ public class BookCollection {
     {
         HashMap<String, Integer> booksTag = new HashMap<>();
         ArrayList<String> tags = new ArrayList<>();
-        String highestHit = new String();
+        String highestHit = null;
         int hitCount=0;
         int i=0;
         while(i<books.size())           //create map of cat and count
