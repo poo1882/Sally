@@ -413,64 +413,6 @@ public class BookManager
 
         }
 
-        /*
-        if(mainMenu() == 1)
-            Customer.getInstance().createAccount();
-        else
-            AccountManager.getInstance().login();
-
-<<<<<<< HEAD
-=======
-
-        System.out.println("test");
-        /* Sub menu */
->>>>>>> 85ec62a60a135a830271114d2613030ff244d9d4
-        int choice = subMenu();
-
-        if (choice == 1)
-            search();
-        else if (choice == 2)
-        {
-            if (getReccMode() == 1)
-            {
-                System.out.println("Genre:");
-                System.out.println("\tFantasy");
-                System.out.println("\tAction");
-                System.out.println("\tScience");
-                System.out.println("\tHorror");
-                System.out.println("\tDrama");
-                System.out.println("\tGuide");
-                System.out.println("\tBiography");
-                System.out.println("\tMystery");
-                System.out.println("\tHealth");
-                System.out.println("\tInvestigation");
-                System.out.print("Select genre: ");
-                Scanner scan = new Scanner(System.in);
-                String genre = scan.next();
-                BookCollection rangeOfBooks = searchByGenre(genre);
-                System.out.print("Enter book's id: ");
-                scan = new Scanner(System.in);
-                String targetId = scan.next();
-                if(targetId.equals("-1") == false)
-                {
-                    if (selectBook(searchByGenre(genre),targetId) == true)
-                        Customer.getInstance().addToCart(searchById(targetId));
-                }
-            }
-        }
-        else if (choice == 3)
-        {
-            checkOut(Customer.getInstance());
-        }
-        else if (choice == 4)
-        {
-            viewBuyingHistory();
-        }
-        else
-        {
-            System.out.println("Exiting program...");
-        }*/
-
     }
 
 }
