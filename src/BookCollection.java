@@ -54,9 +54,10 @@ public class BookCollection {
         int i=0;
         while (i<books.size())
         {
-            System.out.println((i+1)+". "+books.get(i).getName());
+            System.out.println("\t"+(i+1)+") "+books.get(i).getName());
             i++;
         }
+        System.out.println();
     }
 
     public int getLength()
