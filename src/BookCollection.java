@@ -9,7 +9,7 @@ public class BookCollection {
     }
 
     public BookCollection() {
-
+        books = new ArrayList<Book>();
     }
 
     public float calPrice()
@@ -53,7 +53,8 @@ public class BookCollection {
         int i=0;
         while (i<books.size())
         {
-            System.out.println(books.get(i).getName());
+            System.out.println((i+1)+". "+books.get(i).getName());
+            i++;
         }
     }
 
