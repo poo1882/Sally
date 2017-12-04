@@ -1,13 +1,19 @@
+<<<<<<< HEAD
+import java.util.Scanner;
+=======
 import java.util.ArrayList;
+>>>>>>> c8d727fa5da3a2f7139e79a6345f6c8b1454bed9
 
 public class Customer
 {
     private BookCollection cart;
-    private String username;
-    private String password;
+    private String username = null;
+    private String password = null;
     private BookCollection history;
     private static Customer customer=null;
 
+<<<<<<< HEAD
+=======
     public Customer(String username,String password)
     {
         this.username=username;
@@ -19,15 +25,18 @@ public class Customer
     public BookCollection getHistory() {
         return history;
     }
+>>>>>>> c8d727fa5da3a2f7139e79a6345f6c8b1454bed9
 
-    public static Customer getInstance(String username, String password)
+    private Customer()
     {
-        Customer thisCustomer = new Customer(username,password);
-        return customer;
+
     }
+
 
     public static Customer getInstance()
     {
+        if(customer==null)
+            return new Customer();
         return customer;
     }
 
@@ -58,10 +67,59 @@ public class Customer
         return cart;
     }
 
-    public String getUsername() {
+    private void setUsername(String username)
+    {
+        if (username == null)
+            this.username = username;
+        else
+            System.out.println("Error, username has already defined.");
+    }
+
+    private void setPassword(String password)
+    {
+        if (password == null)
+            this.password = password;
+        else
+            System.out.println("Error, password has already defined.");
+    }
+
+    public String getUsername()
+    {
         return username;
     }
 
+<<<<<<< HEAD
+    public void createAccount()
+    {
+        boolean creatingSuccess = false;
+        while (creatingSuccess == false)
+        {
+            System.out.print("Enter username: ");
+            Scanner scan = new Scanner(System.in);
+            String username = scan.next();
+            if (FileManager.getInstance().findPassword(username).equals("0") == true)
+            {
+                String password;
+                boolean passwordValid = false;
+                while (passwordValid == false)
+                {
+                    System.out.print("Enter password: ");
+                    scan = new Scanner(System.in);
+                    password = scan.next();
+                    if(password.length() >= 5)
+                    {
+                        passwordValid = true;
+                    }
+                }
+                Customer.getInstance(username,password);
+            }
+            else
+                System.out.println("This username is already used.");
+        }
+    }
+
+    public void viewBuyingHistory()
+=======
 
     public void createBuyingHistory()
     {
@@ -77,9 +135,13 @@ public class Customer
     }
 
     public void printBuyingHis()
+>>>>>>> c8d727fa5da3a2f7139e79a6345f6c8b1454bed9
     {
         history.viewAllBook();
     }
 
 }
+<<<<<<< HEAD
+=======
 
+>>>>>>> c8d727fa5da3a2f7139e79a6345f6c8b1454bed9

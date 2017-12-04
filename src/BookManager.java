@@ -393,7 +393,7 @@ public class BookManager
 
         /* Main Menu */
         if(mainMenu() == 1)
-            AccountManager.getInstance().createAccount();
+            Customer.getInstance().createAccount();
         else
             AccountManager.getInstance().login();
 
