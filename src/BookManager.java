@@ -329,21 +329,25 @@ public class BookManager
 
     private static int mainMenu()
     {
-        boolean isValid = false;
-        int choice = 0;
-        while(isValid == false)
+        while(true)
         {
-            System.out.println("1. Create account");
-            System.out.println("2. Log in");
-            Scanner scan = new Scanner(System.in);
-            String option = scan.next();
-            choice = Integer.parseInt(option);
-            if (choice == 1 || choice == 2)
+            while (true)
             {
-                isValid = true;
+                System.out.println("1. Create account");
+                System.out.println("2. Log in");
+                System.out.println("3. Exit");
+                Scanner scan = new Scanner(System.in);
+                String option = scan.next();
+                if (option.equals("3"))
+                    return -1;
+                else if (option.equals("1"))
+                    return 1;
+                else if (option.equals("2"))
+                    return 2;
+                else
+                    System.out.println("Error: please select 1-3");
             }
         }
-        return choice;
     }
 
     private static int subMenu()
@@ -388,14 +392,31 @@ public class BookManager
         initializeBooks();
         FileManager.getInstance();
 
+        int mainMenu = 0;
 
-        /* Main Menu */
+        while (true)
+        {
+            mainMenu = mainMenu();
+            if (mainMenu == -1)
+                System.exit(0);
+            else if ( mainMenu == 1)
+            {
+                Customer.getInstance().createAccount();
+            }
+            else
+            {
+                FileManager.getInstance().createIDMap();
+                Customer.getInstance().login();
+            }
+
+        }
+
+        /*
         if(mainMenu() == 1)
             Customer.getInstance().createAccount();
         else
             AccountManager.getInstance().login();
 
-        /* Sub menu */
         int choice = subMenu();
 
         if (choice == 1)
@@ -427,7 +448,6 @@ public class BookManager
                     if (selectBook(searchByGenre(genre),targetId) == true)
                         Customer.getInstance().addToCart(searchById(targetId));
                 }
-
             }
         }
         else if (choice == 3)
@@ -441,7 +461,7 @@ public class BookManager
         else
         {
             System.out.println("Exiting program...");
-        }
+        }*/
 
     }
 
