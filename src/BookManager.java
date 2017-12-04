@@ -27,53 +27,7 @@ public class BookManager
         return bookManager;
     }
 
-    public void pickCartMenu(BookCollection collection)
-    {
-        collection.viewAllBook();
-        while(true)
-        {
-            System.out.println("Pick to cart (0 to go back)");
-            Scanner scan = new Scanner(System.in);
-            String index = scan.next();
-            if(Integer.parseInt(index)==0)
-                break;
-            else if(Integer.parseInt(index)<collection.getLength())
-                Customer.getInstance().addToCart(collection.getBookByIndex(Integer.parseInt(index)));
-            else
-                System.out.println("Error input");
-        }
-    }
 
-    public BookCollection getRecByCom()
-    {
-        BookCollection reBooks = new BookCollection();
-        ArrayList<String> readBooksString=new ArrayList<>();
-        ArrayList<ArrayList<String>> recString = new ArrayList<>();
-        Customer customer = Customer.getInstance();
-        BookEngine engine = BookEngine.getInstance();
-        int i=0;
-        while(i<customer.getHistory().getLength())
-        {
-            readBooksString.add(customer.getHistory().getBookIDByIndex(i));
-            i++;
-        }
-        i=0;
-        while (i<readBooksString.size())
-        {
-            recString.add(engine.searchHash(readBooksString.get(i)));
-            i++;
-        }
-        i=0;
-
-        while (i<0)
-        {
-
-                String bookId=engine.filterHashResult(recString.get(i));
-                reBooks.keepBook(booksById.get(bookId));
-                i++;
-        }
-        return reBooks;
-    }
 
     private static int getSearchMode ()
     {
@@ -249,10 +203,10 @@ public class BookManager
         return booksById.get(keyword);
     }
 
-    public static boolean checkOut(Customer newCustomer)
+    public static boolean checkOut()
     {
-        newCustomer.getCart().viewAllBook();
-        System.out.println("Total price: "+newCustomer.getCart().calPrice());
+        Customer.getInstance().getCart().viewAllBook();
+        System.out.println("Total price: "+Customer.getInstance().getCart().calPrice());
         System.out.println("Confirm cart? (Y/N)");
         Scanner scanner = new Scanner(System.in);
         String confirm = scanner.nextLine();
@@ -315,7 +269,7 @@ public class BookManager
             }
             else
             {
-                if(newBook.equals(booksByWriter.get(fields[i].toLowerCase().charAt(0)).get(booksByWriter.get(fields[i].toLowerCase().charAt(0)).size()-1)) == false)
+                if(!newBook.equals(booksByWriter.get(fields[i].toLowerCase().charAt(0)).get(booksByWriter.get(fields[i].toLowerCase().charAt(0)).size() - 1)))
                 {
                     booksByWriter.get(fields[i].toLowerCase().charAt(0)).add(newBook);
                 }
@@ -368,40 +322,83 @@ public class BookManager
         }
     }
 
+    public BookCollection getRecByCom()
+    {
+        BookCollection reBooks = new BookCollection();
+        ArrayList<String> readBooksString=new ArrayList<>();
+        ArrayList<ArrayList<String>> recString = new ArrayList<>();
+        Customer customer = Customer.getInstance();
+        BookEngine engine = BookEngine.getInstance();
+        int i=0;
+        while(i<customer.getHistory().getLength())
+        {
+            readBooksString.add(customer.getHistory().getBookIDByIndex(i));
+            i++;
+        }
+        i=0;
+        while (i<readBooksString.size())
+        {
+            recString.add(engine.searchHash(readBooksString.get(i)));
+            i++;
+        }
+        i=0;
+
+        while (i<0)
+        {
+
+            String bookId=engine.filterHashResult(recString.get(i));
+            reBooks.keepBook(booksById.get(bookId));
+            i++;
+        }
+        return reBooks;
+    }
+
+    public void pickCartMenu(BookCollection collection)
+    {
+        collection.viewAllBook();
+        while(true)
+        {
+            System.out.println("Pick to cart (0 to go back)");
+            Scanner scan = new Scanner(System.in);
+            String index = scan.next();
+            if(Integer.parseInt(index)==0)
+                break;
+            else if(Integer.parseInt(index)<collection.getLength())
+                Customer.getInstance().addToCart(collection.getBookByIndex(Integer.parseInt(index)));
+            else
+                System.out.println("Error input");
+        }
+    }
+
     private static int subMenu()
     {
-        boolean isValid = false;
-        int choice = 0;
-        while(isValid == false)
+
+        while(true)
         {
             System.out.println("1. Search for books");
             System.out.println("2. Get recommendation");
             System.out.println("3. View cart and check out");
             System.out.println("4. View buying history");
-            System.out.println("5. Exit");
+            System.out.println("5. Log out");
             Scanner scan = new Scanner(System.in);
             String option = scan.next();
-            choice = Integer.parseInt(option);
-            if (choice >= 1 && choice <= 5)
+            if (option.equals("1"))
+                getSearchMode();
+            else if(option.equals("2"))
+                getReccMode();
+            else if(option.equals("3"))
+                checkOut();
+            else if(option.equals("4"))
             {
-                isValid = true;
+                Customer.getInstance().printBuyingHis();
+            }
+
+            else
+            {
+                Customer.getInstance().logout();
+                return -1;
             }
         }
-        return choice;
-    }
-
-    private static void viewBuyingHistory()
-    {
-        Customer customer = Customer.getInstance();
-        customer.printBuyingHis();
-    }
-
-    private static boolean selectBook(BookCollection rangeOfBooks,String targetId)
-    {
-        if(rangeOfBooks.isInCollection(searchById(targetId).getBookId()) == true )
-            return true;
-        else
-            return false;
     }
 
 
@@ -416,7 +413,11 @@ public class BookManager
         {
             mainMenu = mainMenu();
             if (mainMenu == -1)
+            {
+                System.out.println("Exiting program...");
                 System.exit(0);
+            }
+
             else if ( mainMenu == 1)
             {
                 Customer.getInstance().createAccount();
@@ -424,11 +425,16 @@ public class BookManager
             else
             {
                 FileManager.getInstance().createIDMap();
-                Customer.getInstance().login();
+                if(Customer.getInstance().login() == 1)
+                {
+                    while (true)
+                    {
+                        int subMenu = subMenu();
+                        if (subMenu == -1)
+                            break;
+                    }
+                }
             }
-
         }
-
     }
-
 }
