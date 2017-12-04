@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Customer
 {
     private BookCollection cart;
@@ -11,6 +13,11 @@ public class Customer
         this.username=username;
         this.password=password;
         cart = new BookCollection();
+        history = new BookCollection();
+    }
+
+    public BookCollection getHistory() {
+        return history;
     }
 
     public static Customer getInstance(String username, String password)
@@ -55,14 +62,24 @@ public class Customer
         return username;
     }
 
-<<<<<<< HEAD
-    public void viewBuyingHistory()
+
+    public void createBuyingHistory()
     {
-        //FileManager.getInstance().getHistory(username);
+        ArrayList<String> readHis = FileManager.getInstance().getCurCusHis(username);
+
+        int i=0;
+        while(i<readHis.size())
+        {
+            history.keepBook(BookManager.searchById(readHis.get(i)));
+            i++;
+        }
+
+    }
+
+    public void printBuyingHis()
+    {
+        history.viewAllBook();
     }
 
 }
-=======
-}
 
->>>>>>> 851cecb37abb929d652679bb557ad12df5a0eeee

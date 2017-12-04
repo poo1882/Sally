@@ -1,3 +1,4 @@
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -5,16 +6,28 @@ import java.util.Scanner;
 
 public class BookManager
 {
+    private static BookManager bookManager = null;
+
     private static HashMap<Character, ArrayList<Book>> booksByName = new HashMap<>();
     private static HashMap<Character, ArrayList<Book>> booksByWriter = new HashMap<>();
     private static HashMap<String, ArrayList<Book>> booksByGenre = new HashMap<>();
     private static HashMap<String, Book> booksById = new HashMap<>();
 
-    public BookManager()
+    private BookManager()
     {
 
     }
 
+    public static BookManager getInstance()
+    {
+        if(bookManager==null)
+        {
+            return new BookManager();
+        }
+        return bookManager;
+    }
+
+    
     public BookCollection getRecByCom()
     {
         BookCollection reBooks = new BookCollection();
@@ -213,7 +226,7 @@ public class BookManager
 
     }
 
-    private static Book searchById (String keyword)
+    public static Book searchById (String keyword)
     {
         return booksById.get(keyword);
     }
@@ -357,8 +370,8 @@ public class BookManager
 
     private static void viewBuyingHistory()
     {
-        ArrayList<String> setOfBookId = FileManager.getInstance().getHistory(Customer.getInstance().getUsername());
-
+        Customer customer = Customer.getInstance();
+        customer.printBuyingHis();
     }
 
     private static boolean selectBook(BookCollection rangeOfBooks,String targetId)
@@ -370,10 +383,11 @@ public class BookManager
     }
 
 
-    public static void main(String[] args)
+    public static void main(String[] args) throws IOException
     {
         initializeBooks();
         FileManager.getInstance();
+
 
         /* Main Menu */
         if(mainMenu() == 1)
