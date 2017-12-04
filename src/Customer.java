@@ -10,13 +10,7 @@ public class Customer
     private BookCollection history;
     private static Customer customer=null;
 
-    public Customer(String username,String password)
-    {
-        this.username=username;
-        this.password=password;
-        cart = new BookCollection();
-        history = new BookCollection();
-    }
+
 
     public BookCollection getHistory() {
         return history;
@@ -128,41 +122,6 @@ public class Customer
         }
     }
 
-    /*
-    public int createAccount()
-    {
-        boolean creatingSuccess = false;
-        while (creatingSuccess == false)
-        {
-            System.out.print("Enter username: ");
-            Scanner scan = new Scanner(System.in);
-            String username = scan.next();
-            if (FileManager.getInstance().findPassword(username).equals("0") == true)
-            {
-                String enteredPassword = null;
-                boolean passwordValid = false;
-                while (passwordValid == false)
-                {
-                    System.out.print("Enter password: ");
-                    scan = new Scanner(System.in);
-                    enteredPassword = scan.next();
-                    if(enteredPassword.length() >= 5)
-                    {
-                        passwordValid = true;
-                    }
-                }
-                Customer.getInstance(username,enteredPassword);
-            }
-            else
-                System.out.println("This username is already used.");
-        }
-    }*/
-
-    public void viewBuyingHistory()
-    {
-
-    }
-
     public int login()
     {
         while (true)
@@ -183,6 +142,10 @@ public class Customer
                         return -1;
                     if (FileManager.getInstance().findPassword(username).equals(password))
                     {
+                        Customer.getInstance().setUsername(username);
+                        Customer.getInstance().setPassword(password);
+                        FileManager.getInstance();
+                        Customer.getInstance().createBuyingHistory();
                         System.out.println("Login success!");
                         return 1;
                     }
@@ -208,17 +171,28 @@ public class Customer
         ArrayList<String> readHis = FileManager.getInstance().getCurCusHis(username);
 
         int i=0;
-        while(i<readHis.size())
-        {
-            history.keepBook(BookManager.searchById(readHis.get(i)));
-            i++;
-        }
 
+        if (readHis != null)
+        {
+            while(i<readHis.size())
+            {
+                history.keepBook(BookManager.searchById(readHis.get(i)));
+                i++;
+            }
+        }
     }
 
     public void printBuyingHis()
     {
         history.viewAllBook();
+    }
+
+    public void logout()
+    {
+        this.username = null;
+        this.password =null;
+        this.cart = null;
+        this.history = null;
     }
 
 }
