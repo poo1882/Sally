@@ -5,10 +5,10 @@ import java.util.ArrayList;
 public class Customer
 {
     private BookCollection cart;
-    private String username = null;
-    private String password = null;
+    private String username ;
+    private String password ;
     private BookCollection history;
-    private static Customer customer=null;
+    private static Customer customer;
 
 
 
@@ -18,14 +18,16 @@ public class Customer
 
     private Customer()
     {
-
+        history = new BookCollection();
     }
 
 
     public static Customer getInstance()
     {
-        if(customer==null)
-            return new Customer();
+        if(customer==null) {
+            customer = new Customer();
+            return customer;
+        }
         return customer;
     }
 
@@ -169,7 +171,8 @@ public class Customer
     public void createBuyingHistory()
     {
         ArrayList<String> readHis = FileManager.getInstance().getCurCusHis(username);
-
+        System.out.println(readHis);
+        System.out.println(BookManager.searchById(readHis.get(0)).getName());
         int i=0;
 
         if (readHis != null)
@@ -184,6 +187,7 @@ public class Customer
 
     public void printBuyingHis()
     {
+        System.out.println("You have bought: ");
         history.viewAllBook();
     }
 
