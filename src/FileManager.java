@@ -12,8 +12,8 @@ import java.util.List;
 
 public class FileManager extends TextFileReader
 {
-    private static HashMap<String, ArrayList<String>> hisMap = new HashMap<>();
-    private static HashMap<String, String> IDMap = new HashMap<>();
+    private static HashMap<String, ArrayList<String>> hisMap ;
+    private static HashMap<String, String> IDMap ;
     private static FileManager instance;
 
     private TextFileReader bookFile = new TextFileReader();
@@ -46,6 +46,7 @@ public class FileManager extends TextFileReader
      */
     public void createIDMap()
     {
+        IDMap =  new HashMap<>();
         idFile.open("idpassword.txt");
         String line = idFile.getNextLine();
 
@@ -224,6 +225,7 @@ public class FileManager extends TextFileReader
     private void createHisMap(Customer customer)
     {
 
+        hisMap=  new HashMap<>();
         idFile.open("history.txt");
         String line=idFile.getNextLine();
         String name = customer.getUsername();
@@ -377,13 +379,7 @@ public class FileManager extends TextFileReader
 
     public ArrayList<String> getCurCusHis(String name)
     {
-        name = "8POXADRGLRY6H5J";
-        if (hisMap.get(name) == null)
-        {
-            System.out.println("null");
-            return null;
-        }
-        System.out.println("not null");
+        System.out.println(hisMap.get(name));
         return hisMap.get(name);
     }
 
