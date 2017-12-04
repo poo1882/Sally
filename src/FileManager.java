@@ -25,7 +25,7 @@ public class FileManager extends TextFileReader
     private FileManager()
     {
         createIDMap();
-
+        createHisMap(Customer.getInstance());
     }
 
     public void reOpenfile()
