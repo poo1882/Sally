@@ -155,7 +155,7 @@ public class BookEngine {
 
 
     public static void main(String[] args)
-    {
+    {/*
         ArrayList<String> hashResult = new ArrayList<String>();
         Customer customer = new Customer("aaa","aaa");
         BookEngine engine=null;
@@ -171,6 +171,7 @@ public class BookEngine {
         System.out.println();
 
         System.out.println(engine.filterHashResult(hashResult));
+        */
     }
 
 
