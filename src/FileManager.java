@@ -28,6 +28,15 @@ public class FileManager extends TextFileReader
 
     }
 
+    public void reOpenfile()
+    {
+        bookFile.close();
+        hisFile.close();
+        idFile.close();
+        bookFile.open("bookdata.txt");
+        hisFile.open("history.txt");
+        idFile.open("idpassword.txt");
+    }
 
     /**
      * write to specific line
@@ -38,11 +47,13 @@ public class FileManager extends TextFileReader
         String line = idFile.getNextLine();
 
 
-        String[] fields = line.split(",");
+
         while(line!=null) {
+            String[] fields = line.split(",");
             IDMap.put(fields[0], fields[1]);
 
             line = idFile.getNextLine();
+
         }
 
     }
@@ -70,6 +81,8 @@ public class FileManager extends TextFileReader
             bw = new BufferedWriter(fw);
             bw.write(content);
 
+            bw.close();
+            fw.close();
             System.out.println("Done");
 
         } catch (IOException e) {
@@ -368,6 +381,9 @@ public class FileManager extends TextFileReader
     {
 
 
+        FileManager fileManager = FileManager.getInstance();
+        System.out.println(fileManager.findPassword("junior23419"));
+        System.out.print(IDMap.get("junior23419"));
         /*
         Customer customer = new Customer("FVU6HNSUA08I638","1111");
         FileManager fileManager = FileManager.getInstance();

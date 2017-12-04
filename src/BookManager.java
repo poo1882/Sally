@@ -109,7 +109,9 @@ public class BookManager
         {
             if(searchByName(keyword) != null)
             {
+                System.out.println("search1");
                 searchByName(keyword).viewAllBook();
+
                 System.out.println("size: "+searchByName(keyword).getLength());
             }
             else
@@ -395,6 +397,8 @@ public class BookManager
         else
             AccountManager.getInstance().login();
 
+
+        System.out.println("test");
         /* Sub menu */
         int choice = subMenu();
 

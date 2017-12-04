@@ -1,15 +1,22 @@
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.Scanner;
 
 public class AccountManager
 {
     private static AccountManager instance = null;
+
+    private AccountManager()
+    {
+
+    }
+
     public static AccountManager getInstance()
     {
 
         if(instance==null)
         {
-            instance = new FileManager();
+            instance = new AccountManager();
             return instance;
         }
         else
@@ -21,6 +28,7 @@ public class AccountManager
     public void login ()
     {
         boolean isValid = false;
+
         while (isValid == false)
         {
             System.out.print("Enter username: ");
@@ -29,14 +37,20 @@ public class AccountManager
             System.out.print("Enter password: ");
             scan = new Scanner(System.in);
             String password = scan.next();
-            if (password.equals(FileManager.getInstance().getPassword(username).get(username)) == true)
+            System.out.println(password);
+            if (password.equals(FileManager.getInstance().findPassword(username)) == true)
             {
-                isValid = true;
+
+
+                break;
+                //isValid = true;
             }
+
+
         }
     }
 
-    public void createAccount ()
+    public void createAccount () throws IOException
     {
         boolean checkNotExistingAccount = false;
 
@@ -49,19 +63,21 @@ public class AccountManager
             scan = new Scanner(System.in);
             String password = scan.next();
 
-            if(FileManager.validAccount.equals("0"))
+            if(FileManager.getInstance().findPassword(username).equals("0"))
             {
-                FileManager.getInstance().addAccount(username,password);
+                FileManager.getInstance().writeIDfile(username,password);
                 Customer.getInstance(username,password);
                 System.out.println("Your account has been created.");
+                FileManager.getInstance().createIDMap();
                 login();
+                break;
             }
         }
     }
 
     private boolean isNotExistingAccount (String username)
     {
-        if(FileManager.getInstance().getAccount(username).get(username) != null)
+        if(FileManager.getInstance().findPassword(username) == "0")
         {
             return true;
         }
