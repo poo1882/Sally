@@ -32,7 +32,7 @@ public class BookEngine {
     private void createHistoryHash(Customer customer)
     {
         ArrayList<String> readHis = new ArrayList<String>();
-        fileManager=FileManager.getInstance(customer);
+        fileManager=FileManager.getInstance();
         readHis = fileManager.readHistory();
         /*
         int i=0;
@@ -69,7 +69,7 @@ public class BookEngine {
         }
     }
 
-    private ArrayList<String> searchHash(String input)
+    public ArrayList<String> searchHash(String input)
     {
         ArrayList<ArrayList<String>> books=booksByCom.get(input);
         ArrayList<String> reBooks = new ArrayList<String>();
@@ -91,7 +91,7 @@ public class BookEngine {
         return reBooks;
     }
 
-    private String filterHashResult(ArrayList<String> input)
+    public String filterHashResult(ArrayList<String> input)
     {
         ArrayList<Integer> countDup = new ArrayList<Integer>();
         ArrayList<String> key = new ArrayList<String>();

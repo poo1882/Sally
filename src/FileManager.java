@@ -24,6 +24,7 @@ public class FileManager extends TextFileReader
 
     private FileManager()
     {
+        createIDMap();
 
     }
 
@@ -33,6 +34,7 @@ public class FileManager extends TextFileReader
      */
     public void createIDMap()
     {
+        idFile.open("idpassword.txt");
         String line = idFile.getNextLine();
 
 
@@ -64,7 +66,7 @@ public class FileManager extends TextFileReader
             }
             content+=ID+","+password;
 
-            fw = new FileWriter("idpassword2.txt");
+            fw = new FileWriter("idpassword.txt");
             bw = new BufferedWriter(fw);
             bw.write(content);
 
@@ -100,7 +102,6 @@ public class FileManager extends TextFileReader
         {
             password = IDMap.get(ID);
         }
-
         return password;
     }
 
@@ -365,8 +366,11 @@ public class FileManager extends TextFileReader
 
     public static void main(String[] args)
     {
+
+
+        /*
         Customer customer = new Customer("FVU6HNSUA08I638","1111");
-        FileManager fileManager = FileManager.getInstance(customer);
+        FileManager fileManager = FileManager.getInstance();
         fileManager.createHisMap(customer);
         ArrayList<String> boughtBooks = new ArrayList<String>();
         boughtBooks.add("test");
@@ -390,7 +394,7 @@ public class FileManager extends TextFileReader
         } catch (IOException e) {
             //do something clever with the exception
         }
-
+        */
         /*
         fileManager.initializeReader();
         Book book;

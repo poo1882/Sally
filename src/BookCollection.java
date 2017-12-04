@@ -3,6 +3,10 @@ import java.util.ArrayList;
 public class BookCollection {
     private ArrayList<Book> books = null;
 
+    public String getBookIDByIndex(int index)
+    {
+        return books.get(index).getBookId();
+    }
 
     public BookCollection() {
 

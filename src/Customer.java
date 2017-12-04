@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 import java.util.Scanner;
+=======
+import java.util.ArrayList;
+>>>>>>> c8d727fa5da3a2f7139e79a6345f6c8b1454bed9
 
 public class Customer
 {
@@ -8,6 +12,20 @@ public class Customer
     private BookCollection history;
     private static Customer customer=null;
 
+<<<<<<< HEAD
+=======
+    public Customer(String username,String password)
+    {
+        this.username=username;
+        this.password=password;
+        cart = new BookCollection();
+        history = new BookCollection();
+    }
+
+    public BookCollection getHistory() {
+        return history;
+    }
+>>>>>>> c8d727fa5da3a2f7139e79a6345f6c8b1454bed9
 
     private Customer()
     {
@@ -70,6 +88,7 @@ public class Customer
         return username;
     }
 
+<<<<<<< HEAD
     public void createAccount()
     {
         boolean creatingSuccess = false;
@@ -100,8 +119,29 @@ public class Customer
     }
 
     public void viewBuyingHistory()
+=======
+
+    public void createBuyingHistory()
     {
-        //FileManager.getInstance().getHistory(username);
+        ArrayList<String> readHis = FileManager.getInstance().getCurCusHis(username);
+
+        int i=0;
+        while(i<readHis.size())
+        {
+            history.keepBook(BookManager.searchById(readHis.get(i)));
+            i++;
+        }
+
+    }
+
+    public void printBuyingHis()
+>>>>>>> c8d727fa5da3a2f7139e79a6345f6c8b1454bed9
+    {
+        history.viewAllBook();
     }
 
 }
+<<<<<<< HEAD
+=======
+
+>>>>>>> c8d727fa5da3a2f7139e79a6345f6c8b1454bed9

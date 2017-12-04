@@ -1,3 +1,4 @@
+import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.HashMap;
@@ -5,14 +6,57 @@ import java.util.Scanner;
 
 public class BookManager
 {
+    private static BookManager bookManager = null;
+
     private static HashMap<Character, ArrayList<Book>> booksByName = new HashMap<>();
     private static HashMap<Character, ArrayList<Book>> booksByWriter = new HashMap<>();
     private static HashMap<String, ArrayList<Book>> booksByGenre = new HashMap<>();
     private static HashMap<String, Book> booksById = new HashMap<>();
 
-    public BookManager()
+    private BookManager()
     {
 
+    }
+
+    public static BookManager getInstance()
+    {
+        if(bookManager==null)
+        {
+            return new BookManager();
+        }
+        return bookManager;
+    }
+
+    
+    public BookCollection getRecByCom()
+    {
+        BookCollection reBooks = new BookCollection();
+        ArrayList<String> readBooksString=new ArrayList<>();
+        ArrayList<ArrayList<String>> recString = new ArrayList<>();
+        Customer customer = Customer.getInstance();
+        BookEngine engine = BookEngine.getInstance();
+        int i=0;
+        while(i<customer.getHistory().getLength())
+        {
+            readBooksString.add(customer.getHistory().getBookIDByIndex(i));
+            i++;
+        }
+        i=0;
+        while (i<readBooksString.size())
+        {
+            recString.add(engine.searchHash(readBooksString.get(i)));
+            i++;
+        }
+        i=0;
+
+        while (i<0)
+        {
+
+                String bookId=engine.filterHashResult(recString.get(i));
+                reBooks.keepBook(booksById.get(bookId));
+                i++;
+        }
+        return reBooks;
     }
 
     private static int getSearchMode ()
@@ -182,7 +226,7 @@ public class BookManager
 
     }
 
-    private static Book searchById (String keyword)
+    public static Book searchById (String keyword)
     {
         return booksById.get(keyword);
     }
@@ -326,8 +370,8 @@ public class BookManager
 
     private static void viewBuyingHistory()
     {
-        ArrayList<String> setOfBookId = FileManager.getInstance().getHistory(Customer.getInstance().getUsername());
-
+        Customer customer = Customer.getInstance();
+        customer.printBuyingHis();
     }
 
     private static boolean selectBook(BookCollection rangeOfBooks,String targetId)
@@ -339,7 +383,7 @@ public class BookManager
     }
 
 
-    public static void main(String[] args)
+    public static void main(String[] args) throws IOException
     {
         initializeBooks();
         FileManager.getInstance();
