@@ -88,6 +88,14 @@ public class BookCollection {
         return false;
     }
 
+    public Book getBookByIndex(int index)
+    {
+        if(index<books.size())
+        {
+            return books.get(index);
+        }
+        return null;
+    }
 
 
 }

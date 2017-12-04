@@ -183,7 +183,7 @@ public class Customer
                         return -1;
                     if (FileManager.getInstance().findPassword(username).equals(password))
                     {
-                        System.out.println("Login success!");1
+                        System.out.println("Login success!");
                         return 1;
                     }
 

@@ -27,7 +27,21 @@ public class BookManager
         return bookManager;
     }
 
-    
+    public void pickCartMenu(BookCollection collection)
+    {
+        collection.viewAllBook();
+        while(true)
+        {
+            System.out.println("Pick to cart (0 to go back)");
+            Scanner scan = new Scanner(System.in);
+            String index = scan.next();
+            if(Integer.parseInt(index)<collection.getLength())
+                Customer.getInstance().addToCart(collection.getBookByIndex(Integer.parseInt(index)));
+            else
+                System.out.println("Error input");
+        }
+    }
+
     public BookCollection getRecByCom()
     {
         BookCollection reBooks = new BookCollection();
