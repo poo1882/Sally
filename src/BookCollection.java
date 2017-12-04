@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.HashMap;
 
 public class BookCollection {
     private ArrayList<Book> books = null;
@@ -95,6 +96,49 @@ public class BookCollection {
             return books.get(index);
         }
         return null;
+    }
+
+
+    public String getPreferredCat()
+    {
+        HashMap<String, Integer> booksTag = new HashMap<>();
+        ArrayList<String> tags = new ArrayList<>();
+        String highestHit = new String();
+        int hitCount=0;
+        int i=0;
+        while(i<books.size())           //create map of cat and count
+        {
+            int j=0;
+            while (j<books.get(i).getGenre().size())
+            {
+                String genre = books.get(i).getGenre().get(j);
+                tags.add(genre);
+                if(booksTag.get(genre)==null)
+                {
+                    booksTag.put(genre,1);
+                }
+                else
+                {
+                    booksTag.put(genre,booksTag.get(genre)+1);
+                }
+                j++;
+            }
+
+            i++;
+        }
+        i=0;
+
+        while (i<tags.size())           //compare
+        {
+            if(booksTag.get(tags.get(i))>hitCount)
+            {
+                hitCount=booksTag.get(tags.get(i));
+                highestHit = tags.get(i);
+            }
+            i++;
+        }
+
+        return highestHit;
     }
 
 
