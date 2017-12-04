@@ -9,7 +9,7 @@ public class Book
     private  String bookId;
     public Book (String name, ArrayList<String> genre, String writer, float price,String bookId)
     {
-        this.name = name;
+        this.name =  name;
         this.genre = genre;
         this.writer = writer;
         this.price = price;
