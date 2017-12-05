@@ -5,21 +5,31 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-import java.util.Random;
 
+
+/**
+ * A class to mange input and output file
+ */
 
 public class FileManager extends TextFileReader
 {
+    /** history purchasing hashmap */
     private static HashMap<String, ArrayList<String>> hisMap ;
+    /** username password hashmap */
     private static HashMap<String, String> IDMap ;
+    /** instance of Filemanager */
     private static FileManager instance;
 
     private TextFileReader bookFile = new TextFileReader();
     private TextFileReader hisFile = new TextFileReader();
     private TextFileReader idFile = new TextFileReader();
 
+    /** line to write history in history.txt*/
     private int specificLine;
 
+    /**
+     *  constructor of FileManager initialize ystem
+     */
     private FileManager()
     {
         bookFile.open("bookdata.txt");
@@ -29,18 +39,9 @@ public class FileManager extends TextFileReader
         createHisMap(Customer.getInstance());
     }
 
-    public void reOpenfile()
-    {
-        bookFile.close();
-        hisFile.close();
-        idFile.close();
-        bookFile.open("bookdata.txt");
-        hisFile.open("history.txt");
-        idFile.open("idpassword.txt");
-    }
 
     /**
-     * write to specific line
+     * create username password hashmap
      */
     public void createIDMap()
     {
@@ -60,6 +61,12 @@ public class FileManager extends TextFileReader
 
     }
 
+    /**
+     * Write new username account to a data file
+     * @param ID
+     * @param password
+     * @throws IOException
+     */
     public void writeIDfile(String ID,String password)throws IOException
     {
 
@@ -110,6 +117,12 @@ public class FileManager extends TextFileReader
         }
     }
 
+    /**
+     * find password of an ID in username password hashmap
+     * @param ID
+     * @return 0 if not found
+     * @return password
+     */
     public String findPassword(String ID)
     {
         String password = "0";
@@ -121,6 +134,11 @@ public class FileManager extends TextFileReader
     }
 
 
+    /**
+     * write a history.txt after checking out
+     * @param boughtBooks bookIDs to write in a file
+     * @throws IOException
+     */
     public void writeBuyingHistory(ArrayList<String> boughtBooks)throws IOException
     {
         String toWrite = new String();
@@ -208,15 +226,12 @@ public class FileManager extends TextFileReader
 
         }
 
-
-
-
-
-
-
-
     }
 
+    /**
+     * create history of each customer hashmap
+     * @param customer instance of current customer
+     */
     private void createHisMap(Customer customer)
     {
         hisMap=  new HashMap<>();
@@ -259,19 +274,26 @@ public class FileManager extends TextFileReader
             specificLine=i;
     }
 
+    /**
+     * getInstance of FileManager class
+     * @return instance of FilaManager
+     */
     public static FileManager getInstance()
     {
         if(instance==null)
         {
+
             instance = new FileManager();
             instance.initializeReader();
             return instance;
         }
         else
         {
+            instance.initializeReader();
             return instance;
         }
     }
+
 
     private void initializeReader()
     {
@@ -279,8 +301,14 @@ public class FileManager extends TextFileReader
         hisFile.open("history.txt");
     }
 
+
+    /**
+     * read a single line of book data file
+     * @return read Book
+     */
     public Book readBookFile()
     {
+
         String name="";
         String author ;
         ArrayList<String> genre = new ArrayList<String>();
@@ -325,6 +353,7 @@ public class FileManager extends TextFileReader
 
     }
 
+    /*
     private boolean checkSameHis(int[] array,int toCheck)
     {
         int i=0;
@@ -339,9 +368,13 @@ public class FileManager extends TextFileReader
 
         return true;
     }
+    */
 
 
-
+    /**
+     * read a single line of history data of each customer
+     * @return history bookIDs
+     */
     public ArrayList<String> readHistory()
     {
         ArrayList<String> bookHistory = new ArrayList<String>();
@@ -372,12 +405,17 @@ public class FileManager extends TextFileReader
         }
     }
 
+    /**
+     * get current customer's history
+     * @param name name of current user
+     * @return ArrayList of bookIDs
+     */
     public ArrayList<String> getCurCusHis(String name)
     {
         createHisMap(Customer.getInstance());
         return hisMap.get(name);
     }
-
+    /*
     public void randomlyGenHis()
     {
         Random rn = new Random();
@@ -433,12 +471,11 @@ public class FileManager extends TextFileReader
         String saltStr = salt.toString();
         return saltStr;
     }
-
+    */
     public static void main(String[] args)
     {
 
 
-        FileManager.getInstance().randomlyGenHis();
         /*
         Customer customer = new Customer("FVU6HNSUA08I638","1111");
         FileManager fileManager = FileManager.getInstance();

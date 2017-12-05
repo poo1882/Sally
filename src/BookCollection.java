@@ -1,18 +1,34 @@
 import java.util.ArrayList;
 import java.util.HashMap;
 
+/**
+ * A class that contains ArrayList of Book object
+ */
+
 public class BookCollection {
     private ArrayList<Book> books = null;
 
+    /** Get book by bookID
+     *
+     * @param index index in arraylist of book
+     * @return book which bookID=index param
+     */
     public String getBookIDByIndex(int index)
     {
         return books.get(index).getBookId();
     }
 
+    /**
+     * Constructor to create arraylist of Book
+     */
     public BookCollection() {
         books = new ArrayList<Book>();
     }
 
+    /**
+     * calculate total price of book in bookcollection
+     * @return total price
+     */
     public float calPrice()
     {
         float price=0;
@@ -23,6 +39,11 @@ public class BookCollection {
         return price;
     }
 
+    /**
+     * Add a Book to ArrayList
+     * @param newBook book to add
+     * @return true if success, false on failure
+     */
     public boolean keepBook(Book newBook)
     {
         if(newBook!= null)
@@ -34,6 +55,11 @@ public class BookCollection {
             return false;
     }
 
+    /**
+     * remove book from bookcollection
+     * @param target a book to remove
+     * @return true if success , falsee if no target book in the collecetion
+     */
     public boolean deleteBook(Book target)
     {
         int i=0;

@@ -2,16 +2,25 @@ import java.io.IOException;
 import java.util.Scanner;
 import java.util.ArrayList;
 
+/**
+ * A class to represents customer and contains significant data
+ */
 public class Customer
 {
     private BookCollection cart;
     private String username ;
     private String password ;
     private BookCollection history;
+    /** instance of customer class (singleton)*/
     private static Customer customer;
 
 
-
+    /**
+     * Function that check if customer already purchased an input book
+     * @param bookID bookID to check
+     * @return true if customer haven't bought the book
+     * @return false if bookID is found in customer  history
+     */
     public boolean checkBoughtBooks(String bookID)
     {
         int i=0;
@@ -26,17 +35,27 @@ public class Customer
         return true;
     }
 
+    /**
+     * getter function of customer history
+     * @return purchased BookCollection
+     */
     public BookCollection getHistory() {
         return history;
     }
 
+    /**
+     * private constructor
+     */
     private Customer()
     {
         history = new BookCollection();
         cart = new BookCollection();
     }
 
-
+    /**
+     * A class that create and/or return instance of customer
+     * @return instance of Customer class
+     */
     public static Customer getInstance()
     {
         if(customer==null) {
@@ -46,17 +65,30 @@ public class Customer
         return customer;
     }
 
+    /**
+     * A function that remove specific item in cart
+     * @param index item
+     * @return true on success
+     * @return false if input index is not found
+     */
     public boolean removeFromCart(int index)
     {
         cart.removeBook(index);
         return true;
     }
 
+    /**
+     * function that clears customer's cart
+     */
     public void clearCart()
     {
         cart.clearCollection();
     }
 
+    /**
+     * A function that add a book to customer's cart
+     * @param target
+     */
     public void addToCart(Book target)
     {
         if(history != null)
@@ -92,11 +124,20 @@ public class Customer
         }
 
     }
+
+    /**
+     * A getter function of customer's cart
+     * @return customer's cart
+     */
     public BookCollection getCart()
     {
         return cart;
     }
 
+    /**
+     * setter function to set customer's username
+     * @param username
+     */
     private void setUsername(String username)
     {
         if (this.username == null)
@@ -105,6 +146,10 @@ public class Customer
             System.out.println("Error, username has already defined.");
     }
 
+    /**
+     * setter function to set customer's password
+     * @param password
+     */
     private void setPassword(String password)
     {
         if (this.password == null)
@@ -113,13 +158,19 @@ public class Customer
             System.out.println("Error, password has already defined.");
     }
 
+    /**
+     * getter function of customer's username
+     * @return customer's username
+     */
     public String getUsername()
     {
         return username;
     }
 
-    /* Create an account for a customer
-        return 1 if creating success, -1 if get back
+    /**
+     * create an account menu for customer
+     * @return 1 on success -1 on failure
+     * @throws IOException
      */
     public int createAccount() throws IOException
     {
@@ -163,6 +214,10 @@ public class Customer
         }
     }
 
+    /**
+     * login menu for main program
+     * @return -1 on failure 1 on login success
+     */
     public int login()
     {
         while (true)
@@ -206,6 +261,9 @@ public class Customer
         }
     }
 
+    /**
+     * Set buying history in customer class
+     */
     public void createBuyingHistory()
     {
         ArrayList<String> readHis = FileManager.getInstance().getCurCusHis(username);
@@ -224,6 +282,9 @@ public class Customer
             history = null;
     }
 
+    /**
+     * Shows buying history
+     */
     public void printBuyingHis()
     {
         createBuyingHistory();
@@ -237,6 +298,9 @@ public class Customer
 
     }
 
+    /**
+     * clear variable in customer class when logout
+     */
     public void logout()
     {
         this.username = null;
@@ -245,6 +309,13 @@ public class Customer
         this.history = null;
     }
 
+    /**
+     * view customer's cart and checkout
+     * @return 1 on successful checkout
+     * @return -1 to go previous menu
+     * @return 0 on clear cart
+     * @throws IOException
+     */
     public int viewCart() throws IOException
     {
 

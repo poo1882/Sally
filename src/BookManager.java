@@ -1,20 +1,35 @@
 import java.io.IOException;
 import java.util.*;
 
+/**
+ * A class that stores all books data
+ * and helps to generate recomendation by contents of customer's history
+ */
 public class BookManager
 {
+    /** instance of this class (singleton) */
     private static BookManager bookManager ;
-
+    /** hashmap by book title */
     private static HashMap<Character, ArrayList<Book>> booksByName ;
+    /** hashmap by book's author */
     private static HashMap<Character, ArrayList<Book>> booksByWriter ;
+    /** hashmap by categories of books */
     private static HashMap<String, ArrayList<Book>> booksByGenre ;
+    /** hashmap by bookID */
     private static HashMap<String, Book> booksById ;
 
+    /**
+     * private constructor
+     */
     private BookManager()
     {
 
     }
 
+    /**
+     * function creates and/or returns instance of BookManager
+     * @return
+     */
     public static BookManager getInstance()
     {
         if(bookManager==null)
@@ -26,7 +41,10 @@ public class BookManager
     }
 
 
-
+    /**
+     * Menu for searching
+     * @return
+     */
     private static int getSearchMode ()
     {
         while(true)
@@ -76,6 +94,10 @@ public class BookManager
         }
     }
 
+    /**
+     * A menu to ask for how user wants to get recommendation
+     * @return
+     */
     private static int getRecMode()
     {
         while(true)
@@ -152,6 +174,12 @@ public class BookManager
         return mode;
     }*/
 
+    /**
+     * Search book function
+     * @param mode 1=seatch by bookname , 2=search by book author
+     * @param keyword keyword to search
+     * @return BookCollection of found books
+     */
     private static BookCollection search(int mode, String keyword)
     {
 
@@ -187,6 +215,11 @@ public class BookManager
         return null;
     }
 
+    /**
+     * A searching book function that seartch a book by booktitle from hashmap
+     * @param keyword
+     * @return BookCollection of found books
+     */
     private static BookCollection searchByName (String keyword)
     {
         BookCollection matchedBooks = new BookCollection();
@@ -229,6 +262,11 @@ public class BookManager
         }
     }
 
+    /**
+     * A searching function that search by book's author name
+     * @param keyword
+     * @return BookCollection of found books.
+     */
     private static BookCollection searchByWriter (String keyword)
     {
         BookCollection matchedBooks = new BookCollection();
@@ -261,6 +299,10 @@ public class BookManager
 
     }
 
+    /**
+     * generate recomendation by using the preferable categories of customer
+     * @return BookCollection of recommended books
+     */
     private static BookCollection getRecByCon ()
     {
         BookCollection matchedBooks =  new BookCollection();
@@ -276,6 +318,11 @@ public class BookManager
         return matchedBooks;
     }
 
+    /**
+     * get a book by bookID
+     * @param keyword bookID
+     * @return found book
+     */
     public static Book searchById (String keyword)
     {
 
@@ -295,6 +342,9 @@ public class BookManager
             return false;
     }*/
 
+    /**
+     * Read file data and store in hashmaps
+     */
     public static void initializeBooks()
     {
         booksByGenre= new HashMap<>();
@@ -315,11 +365,19 @@ public class BookManager
 
     }
 
+    /**
+     * insert a book to hashmap by using bookID
+     * @param newBook book to insert
+     */
     private static void insertById (Book newBook)
     {
         booksById.put(newBook.getBookId(),newBook);
     }
 
+    /**
+     * insert a book to hashmap by using book's title
+     * @param newBook book to insert
+     */
     private static void insertByName(Book newBook)
     {
         int i = 0;
@@ -344,6 +402,10 @@ public class BookManager
         }
     }
 
+    /**
+     * insert a book to hashmap by sung author's name
+     * @param newBook a book to insert
+     */
     private static void insertByWriter(Book newBook)
     {
         int i = 0;
@@ -368,6 +430,10 @@ public class BookManager
         }
     }
 
+    /**
+     * insert a book to hashmap by its contents
+     * @param newBook a book to insert
+     */
     private static void insertByGenre(Book newBook)
     {
         int i = 0;
@@ -389,6 +455,12 @@ public class BookManager
         }
     }
 
+    /**
+     * a method that helps to generate start menu
+     * @return -1 to exit
+     * @return 1 to create account
+     * @return 2 to login with existing account
+     */
     private static int mainMenu()
     {
         while (true)
@@ -410,6 +482,10 @@ public class BookManager
     }
 
 
+    /**
+     * A function that generate recomendation by purchasing history of similar customer
+     * @return reccmended bookCollection
+     */
     private static BookCollection getRecByCom()
     {
         BookCollection reBooks = new BookCollection();
@@ -441,6 +517,7 @@ public class BookManager
         return reBooks;
     }
 
+    /*
     public void pickCartMenu(BookCollection collection)
     {
         collection.viewAllBook();
@@ -457,7 +534,13 @@ public class BookManager
                 System.out.println("Error input");
         }
     }
+    */
 
+    /**
+     * A function that generate menu of the system
+     * @return -1 to logout
+     * @throws IOException
+     */
     private static int subMenu() throws IOException
     {
 

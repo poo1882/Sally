@@ -1,21 +1,34 @@
 import java.util.ArrayList;
 import java.util.HashMap;
 
+/**
+ * A class that helps to generate a recommendation for user by their purchasing history
+ */
 public class BookEngine {
 
+    /**
+     * A hashmap that map one bookID to many bookIDs (all books which are purchased by the customers who bought the key bookID)
+     */
     private static HashMap<String, ArrayList<ArrayList<String>>> booksByCom;
 
 
 
     private FileManager fileManager=null;
     private static BookEngine instance;
+
+    /**
+     * singleton constructor
+     */
     private BookEngine()
     {
-        createHistoryHash(Customer.getInstance());
+        createHistoryHash();
     }
 
 
-
+    /**
+     * a function to create and/or return instance of Bookengine class
+     * @return instance of Bookengine class
+     */
     public static BookEngine getInstance()
     {
         if(instance==null)
@@ -29,8 +42,10 @@ public class BookEngine {
         }
     }
 
-
-    private void createHistoryHash(Customer customer)
+    /**
+     * initialize a buying history hashmap to help generating recommendation
+     */
+    private void createHistoryHash()
     {
         booksByCom =   new HashMap<>();
         ArrayList<String> readHis = new ArrayList<String>();
@@ -71,6 +86,11 @@ public class BookEngine {
         }
     }
 
+    /**
+     * get all bookIDs in the hashmap which key == input
+     * @param input key to search in hashmap
+     * @return ArrayList of bookIDs
+     */
     public ArrayList<String> searchHash(String input)
     {
         ArrayList<ArrayList<String>> books=booksByCom.get(input);
@@ -96,6 +116,11 @@ public class BookEngine {
         return reBooks;
     }
 
+    /**
+     * this function collects the most duplicate bookID from input
+     * @param input ArrayList of BookIDs
+     * @return most duplicate bookID
+     */
     public String filterHashResult(ArrayList<String> input)
     {
         ArrayList<Integer> countDup = new ArrayList<Integer>();

@@ -1,5 +1,9 @@
+
 import java.util.ArrayList;
 
+/**
+ * This class represents a single book contains title and its common info.
+ */
 public class Book
 {
     private String name;
@@ -7,6 +11,14 @@ public class Book
     private String writer;
     private float price;
     private  String bookId;
+
+    /** Constructor to create book object
+     * @param name
+     * @param genre
+     * @param writer
+     * @param price
+     * @param bookId
+     */
     public Book (String name, ArrayList<String> genre, String writer, float price,String bookId)
     {
         this.name =  name;
@@ -21,6 +33,8 @@ public class Book
 
     }
 
+    /** simple function to print book's detail
+     */
     public void printDetail()
     {
         System.out.println("Name: "+name);
