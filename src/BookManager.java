@@ -116,6 +116,7 @@ public class BookManager
                                 if(Integer.parseInt(id) > 0 && Integer.parseInt(id) <= matchedBooks.getLength())
                                 {
                                     Customer.getInstance().addToCart(matchedBooks.getBookByIndex(Integer.parseInt(id)-1));
+                                    System.out.println("added"+Integer.parseInt(id));
                                 }
                                 else
                                     System.out.println("Please select a book to buy from the above.");
@@ -415,6 +416,7 @@ public class BookManager
         ArrayList<String> readBooksString=new ArrayList<>();
         ArrayList<ArrayList<String>> recString = new ArrayList<>();
         Customer customer = Customer.getInstance();
+        customer.createBuyingHistory();
         BookEngine engine = BookEngine.getInstance();
         int i=0;
         while(i<customer.getHistory().getLength())
@@ -429,8 +431,7 @@ public class BookManager
             i++;
         }
         i=0;
-
-        while (i<0)
+        while (i<recString.size())
         {
 
             String bookId=engine.filterHashResult(recString.get(i));

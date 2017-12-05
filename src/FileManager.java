@@ -5,9 +5,7 @@ import java.nio.file.Paths;
 import java.util.ArrayList;
 import java.util.HashMap;
 import java.util.List;
-
-
-
+import java.util.Random;
 
 
 public class FileManager extends TextFileReader
@@ -129,27 +127,14 @@ public class FileManager extends TextFileReader
         int i =0;
         if(hisMap.get(Customer.getInstance().getUsername())==null)
         {
-
+            hisMap.put(Customer.getInstance().getUsername(),new ArrayList<String>());
         }
         else
         {
-            while (i<hisMap.get(Customer.getInstance().getUsername()).size())
-            {
-                System.out.println("i="+i);
-                System.out.println(hisMap.get(Customer.getInstance().getUsername()).get(i));
-                i++;
-            }
             i=0;
             while (i<boughtBooks.size())
             {
-                System.out.println("i="+i);
                 hisMap.get(Customer.getInstance().getUsername()).add(boughtBooks.get(i));
-                i++;
-            }
-            i=0;
-            while (i<hisMap.get(Customer.getInstance().getUsername()).size())
-            {
-                System.out.println(hisMap.get(Customer.getInstance().getUsername()).get(i));
                 i++;
             }
         }
@@ -158,20 +143,32 @@ public class FileManager extends TextFileReader
         i=0;
 
         toWrite+=Customer.getInstance().getUsername()+",";
-        while (i<hisMap.get(Customer.getInstance().getUsername()).size())
+        while (i<hisMap.get(Customer.getInstance().getUsername()).size()-boughtBooks.size())
         {
-            toWrite+=hisMap.get(Customer.getInstance().getUsername()).get(i);
-            if(i!=hisMap.get(Customer.getInstance().getUsername()).size()-1)
-            {
+            toWrite+=hisMap.get(Customer.getInstance().getUsername()).get(i)+"%";
+            i++;
+        }
+        ;
+        i=0;
+        while (i<boughtBooks.size())
+        {
+            toWrite+=boughtBooks.get(i);
+            if(i!=boughtBooks.size()-1)
                 toWrite+="%";
-            }
             i++;
         }
 
 
 
-        List<String> lines = Files.readAllLines(Paths.get("history2.txt"));
-        lines.set(specificLine,toWrite);
+
+        List<String> lines = Files.readAllLines(Paths.get("history.txt"));
+        if(specificLine>lines.size()-1)
+        {
+            lines.add(toWrite);
+        }
+        else {
+            lines.set(specificLine, toWrite);
+        }
         /*write part*/
         BufferedWriter bw = null;
         FileWriter fw = null;
@@ -184,11 +181,9 @@ public class FileManager extends TextFileReader
                 j++;
             }
 
-
-            fw = new FileWriter("history2.txt");
+            fw = new FileWriter("history.txt");
             bw = new BufferedWriter(fw);
             bw.write(content);
-
             System.out.println("Done");
 
         } catch (IOException e) {
@@ -224,12 +219,11 @@ public class FileManager extends TextFileReader
 
     private void createHisMap(Customer customer)
     {
-
         hisMap=  new HashMap<>();
         idFile.open("history.txt");
         String line=idFile.getNextLine();
         String name = customer.getUsername();
-        specificLine=0;
+        specificLine=-1;
         int i=0;
         while (line!=null)
         {
@@ -238,7 +232,6 @@ public class FileManager extends TextFileReader
             if(fields[0].equals(name))
             {
                 specificLine=i;
-
             }
 
             String[] fields2 = fields[1].split("%");
@@ -262,6 +255,8 @@ public class FileManager extends TextFileReader
             line=idFile.getNextLine();
             i++;
         }
+        if(specificLine== -1)
+            specificLine=i;
     }
 
     public static FileManager getInstance()
@@ -379,17 +374,71 @@ public class FileManager extends TextFileReader
 
     public ArrayList<String> getCurCusHis(String name)
     {
-        System.out.println(hisMap.get(name));
+        createHisMap(Customer.getInstance());
         return hisMap.get(name);
+    }
+
+    public void randomlyGenHis()
+    {
+        Random rn = new Random();
+        int i=0;
+        int[] bookId=new int[5];
+        while (i<1000)
+        {
+            String line="";
+            line+=getSaltString()+",";
+            int j=0;
+            while (j<5)
+            {
+                int temp=rn.nextInt(998 - 0 + 1) + 0;
+                while(checkSameHis(bookId,temp)==false)
+                {
+                    temp=rn.nextInt(998 - 0 + 1) + 0;
+                }
+                bookId[j]=temp;
+                if(j==0)
+                {
+                    if (temp < 10) {
+                        line += "" + "00" + bookId[j];
+                    } else if (temp < 100) {
+                        line += "" + "0" + bookId[j];
+                    } else if (temp < 1000) {
+                        line += "" + bookId[j];
+                    }
+                }
+                else
+                {
+                    if (temp < 10) {
+                        line += "%" + "00" + bookId[j];
+                    } else if (temp < 100) {
+                        line += "%" + "0" + bookId[j];
+                    } else if (temp < 1000) {
+                        line += "%" + bookId[j];
+                    }
+                }
+                j++;
+            }
+            System.out.println(line);
+            i++;
+        }
+    }
+    private String getSaltString() {
+        String SALTCHARS = "ABCDEFGHIJKLMNOPQRSTUVWXYZ1234567890";
+        StringBuilder salt = new StringBuilder();
+        Random rnd = new Random();
+        while (salt.length() < 15) { // length of the random string.
+            int index = (int) (rnd.nextFloat() * SALTCHARS.length());
+            salt.append(SALTCHARS.charAt(index));
+        }
+        String saltStr = salt.toString();
+        return saltStr;
     }
 
     public static void main(String[] args)
     {
 
 
-        FileManager fileManager = FileManager.getInstance();
-        System.out.println(fileManager.findPassword("junior23419"));
-        System.out.print(IDMap.get("junior23419"));
+        FileManager.getInstance().randomlyGenHis();
         /*
         Customer customer = new Customer("FVU6HNSUA08I638","1111");
         FileManager fileManager = FileManager.getInstance();

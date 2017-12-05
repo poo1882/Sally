@@ -12,6 +12,20 @@ public class Customer
 
 
 
+    public boolean checkBoughtBooks(String bookID)
+    {
+        int i=0;
+        while(i<history.getLength())
+        {
+            if(history.getBookIDByIndex(i).equals(bookID))
+            {
+                return false;
+            }
+            i++;
+        }
+        return true;
+    }
+
     public BookCollection getHistory() {
         return history;
     }
@@ -172,7 +186,6 @@ public class Customer
                         Customer.getInstance().setUsername(username);
                         Customer.getInstance().setPassword(password);
                         FileManager.getInstance();
-                        Customer.getInstance().createBuyingHistory();
                         System.out.println("Login success!");
                         return 1;
                     }
@@ -196,7 +209,7 @@ public class Customer
     public void createBuyingHistory()
     {
         ArrayList<String> readHis = FileManager.getInstance().getCurCusHis(username);
-        System.out.println(readHis);
+        history.clearCollection();
         int i=0;
 
         if (readHis != null)
@@ -213,6 +226,7 @@ public class Customer
 
     public void printBuyingHis()
     {
+        createBuyingHistory();
         if (history != null)
         {
             System.out.println("You have bought: ");
@@ -253,6 +267,7 @@ public class Customer
                     {
                         boughtBooks.add(cart.getBookByIndex(i).getBookId());
                     }
+                    FileManager.getInstance().writeBuyingHistory(boughtBooks);
                     //FileManager.getInstance().writeBuyingHistory(boughtBooks);
                     System.out.println("Purchasing success, THANK YOU <3 !");
                     return 1;

@@ -3,7 +3,7 @@ import java.util.HashMap;
 
 public class BookEngine {
 
-    private static HashMap<String, ArrayList<ArrayList<String>>> booksByCom = new HashMap<>();
+    private static HashMap<String, ArrayList<ArrayList<String>>> booksByCom;
 
 
 
@@ -11,7 +11,7 @@ public class BookEngine {
     private static BookEngine instance;
     private BookEngine()
     {
-
+        createHistoryHash(Customer.getInstance());
     }
 
 
@@ -20,7 +20,8 @@ public class BookEngine {
     {
         if(instance==null)
         {
-            return new BookEngine();
+            instance = new BookEngine();
+            return instance;
         }
         else
         {
@@ -31,6 +32,7 @@ public class BookEngine {
 
     private void createHistoryHash(Customer customer)
     {
+        booksByCom =   new HashMap<>();
         ArrayList<String> readHis = new ArrayList<String>();
         fileManager=FileManager.getInstance();
         readHis = fileManager.readHistory();
@@ -80,7 +82,10 @@ public class BookEngine {
             int j=0;
             while (j<books.get(i).size())
             {
-                reBooks.add(books.get(i).get(j));
+                if(Customer.getInstance().checkBoughtBooks(books.get(i).get(j))==true)
+                {
+                    reBooks.add(books.get(i).get(j));
+                }
                 j++;
             }
             i++;
@@ -106,10 +111,10 @@ public class BookEngine {
         {
             while (i < key.size())
             {
-                System.out.println("same" + key.get(i)+" "+input.get(word)+" i="+i);
+
                 if (key.get(i).equals(input.get(word)) == true)
                 {
-                    System.out.println("kuay" + i);
+
                     countDup.set(i, countDup.get(i) + 1);
                     flag = 1;
                     break;
@@ -118,7 +123,7 @@ public class BookEngine {
             }
             if (flag == 0)
             {
-                System.out.println("word count="+word);
+
                 key.add(input.get(word));
                 countDup.add(1);
             }
@@ -127,12 +132,14 @@ public class BookEngine {
             flag=0;
         }
         i=0;
+        /*
         while (i<countDup.size())
         {
             System.out.print(key.get(i)+"+"+countDup.get(i)+" ");
             i++;
         }
         System.out.println();
+        */
 
         int maxIndex=0;
         int max=0;
