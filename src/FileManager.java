@@ -92,7 +92,6 @@ public class FileManager extends TextFileReader
 
             bw.close();
             fw.close();
-            System.out.println("Done");
 
         } catch (IOException e) {
 
@@ -202,7 +201,6 @@ public class FileManager extends TextFileReader
             fw = new FileWriter("history.txt");
             bw = new BufferedWriter(fw);
             bw.write(content);
-            System.out.println("Done");
 
         } catch (IOException e) {
 

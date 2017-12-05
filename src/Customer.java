@@ -48,7 +48,6 @@ public class Customer
      */
     private Customer()
     {
-        history = new BookCollection();
         cart = new BookCollection();
     }
 
@@ -94,7 +93,6 @@ public class Customer
         if(history != null)
         {
             boolean hasNotBought = history.isInCollection(target.getBookId());
-            System.out.println("hasNotBought"+hasNotBought);
             if (!hasNotBought)
             {
                 if(!cart.isInCollection(target.getBookId()))
@@ -140,10 +138,8 @@ public class Customer
      */
     private void setUsername(String username)
     {
-        if (this.username == null)
-            this.username = username;
-        else
-            System.out.println("Error, username has already defined.");
+        this.username = username;
+        history = new BookCollection();
     }
 
     /**
@@ -152,10 +148,7 @@ public class Customer
      */
     private void setPassword(String password)
     {
-        if (this.password == null)
-            this.password = password;
-        else
-            System.out.println("Error, password has already defined.");
+        this.password = password;
     }
 
     /**
@@ -178,18 +171,41 @@ public class Customer
         {
             while (true)
             {
-                System.out.print("Enter username(-1 to return): ");
-                Scanner scan = new Scanner(System.in);
-                String username = scan.next();
-                if (username.equals("-1"))
-                    return -1;
+                String username;
+                while (true)
+                {
+                    boolean validUsername = false;
+                    System.out.print("Enter username(-1 to return): ");
+                    Scanner scan = new Scanner(System.in);
+                    username = scan.next().toLowerCase();
+                    if (username.equals("-1"))
+                        return -1;
+                    String invalidCharacters = "!@#$%^&*()_+-={}:[];\"'<,>.?/";
+                    for (int i=0;i<invalidCharacters.length();i++)
+                    {
+                       if(username.contains(String.valueOf(invalidCharacters.charAt(i))))
+                           break;
+                       else
+                       {
+                           if(i == invalidCharacters.length()-1)
+                               validUsername = true;
+                       }
+                    }
+                    if(validUsername)
+                        break;
+                    else
+                        System.out.println("Error: username cannot contain invalid characters.");
+                }
+
+
                 if (FileManager.getInstance().findPassword(username).equals("0"))
                 {
                     while (true)
                     {
                         System.out.print("Enter password(-1 to return): ");
-                        scan = new Scanner(System.in);
+                        Scanner scan = new Scanner(System.in);
                         String password = scan.next();
+
                         if (password.equals("-1"))
                             return -1;
                         if (password.length() >= 5)
@@ -207,7 +223,6 @@ public class Customer
                 else
                 {
                     System.out.println("Error: this username is already used.");
-                    System.out.println("Pass: "+FileManager.getInstance().findPassword(username));
                 }
 
             }
@@ -224,7 +239,7 @@ public class Customer
         {
             System.out.print("Enter username(-1 to return): ");
             Scanner scan = new Scanner(System.in);
-            String username = scan.next();
+            String username = scan.next().toLowerCase();
             if (username.equals("-1"))
                 return -1;
             else if (!FileManager.getInstance().findPassword(username).equals("0"))
@@ -240,6 +255,7 @@ public class Customer
                     {
                         Customer.getInstance().setUsername(username);
                         Customer.getInstance().setPassword(password);
+                        Customer.getInstance().createBuyingHistory();
                         FileManager.getInstance();
                         System.out.println("Login success!");
                         return 1;
@@ -252,7 +268,6 @@ public class Customer
             }
             else
             {
-                System.out.print("Password: ");
                 System.out.println(FileManager.getInstance().findPassword(username));
                 System.out.println("Error: incorrect username");
             }
@@ -267,19 +282,21 @@ public class Customer
     public void createBuyingHistory()
     {
         ArrayList<String> readHis = FileManager.getInstance().getCurCusHis(username);
-        history.clearCollection();
-        int i=0;
-
-        if (readHis != null)
+        if(readHis==null)
         {
+            System.out.println("check");
+            history.clearCollection();
+        }
+        else
+        {
+            history.clearCollection();
+            int i=0;
             while(i<readHis.size())
             {
                 history.keepBook(BookManager.searchById(readHis.get(i)));
                 i++;
             }
         }
-        else
-            history = null;
     }
 
     /**
@@ -288,7 +305,7 @@ public class Customer
     public void printBuyingHis()
     {
         createBuyingHistory();
-        if (history != null)
+        if (history.getLength() > 0)
         {
             System.out.println("You have bought: ");
             history.viewAllBook();

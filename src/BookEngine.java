@@ -51,14 +51,6 @@ public class BookEngine {
         ArrayList<String> readHis = new ArrayList<String>();
         fileManager=FileManager.getInstance();
         readHis = fileManager.readHistory();
-        /*
-        int i=0;
-        while (i<readHis.size())
-        {
-            System.out.println(readHis.get(i));
-            i++;
-        }
-        */
         int i=0;
 
         while(readHis!=null)
@@ -102,7 +94,8 @@ public class BookEngine {
             int j=0;
             while (j<books.get(i).size())
             {
-                if(Customer.getInstance().checkBoughtBooks(books.get(i).get(j))==true)
+                //if(Customer.getInstance().checkBoughtBooks(books.get(i).get(j)))
+                if(!Customer.getInstance().getHistory().isInCollection(books.get(i).get(j)))
                 {
                     reBooks.add(books.get(i).get(j));
                 }
@@ -157,14 +150,6 @@ public class BookEngine {
             flag=0;
         }
         i=0;
-        /*
-        while (i<countDup.size())
-        {
-            System.out.print(key.get(i)+"+"+countDup.get(i)+" ");
-            i++;
-        }
-        System.out.println();
-        */
 
         int maxIndex=0;
         int max=0;
@@ -182,30 +167,5 @@ public class BookEngine {
         return key.get(maxIndex);
 
     }
-
-
-
-
-    public static void main(String[] args)
-    {/*
-        ArrayList<String> hashResult = new ArrayList<String>();
-        Customer customer = new Customer("aaa","aaa");
-        BookEngine engine=null;
-        engine=BookEngine.getInstance();
-        engine.createHistoryHash(customer);
-        hashResult = engine.searchHash("527");
-        int i=0;
-        while (hashResult.size()>i)
-        {
-            System.out.print(hashResult.get(i)+" ");
-            i++;
-        }
-        System.out.println();
-
-        System.out.println(engine.filterHashResult(hashResult));
-        */
-    }
-
-
 }
 

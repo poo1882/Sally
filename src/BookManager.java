@@ -51,7 +51,8 @@ public class BookManager
         {
             System.out.println("1. Search from book's name");
             System.out.println("2. Search from writer's name");
-            System.out.print("Enter choice(-1 to return): ");
+            System.out.println("(-1 to return)");
+            System.out.print(">> ");
             Scanner scan = new Scanner(System.in);
             String option = scan.next();
             if (option.equals("-1"))
@@ -60,7 +61,8 @@ public class BookManager
             {
                 while(true)
                 {
-                    System.out.print("Enter keyword(-1 to return): ");
+                    System.out.println("Enter keyword(-1 to return)");
+                    System.out.print(">> ");
                     scan = new Scanner(System.in);
                     String keyword = scan.next();
                     if (keyword.equals("-1"))
@@ -70,7 +72,8 @@ public class BookManager
                     {
                         if( matchedBooks != null)
                         {
-                            System.out.print("Select a book(-1 to return): ");
+                            System.out.println("Enter book's id (-1 to return)");
+                            System.out.print(">> ");
                             scan = new Scanner(System.in);
                             String id = scan.next();
                             if (id.equals("-1"))
@@ -100,11 +103,13 @@ public class BookManager
      */
     private static int getRecMode()
     {
+        int flag=0;
         while(true)
         {
             System.out.println("1. Get recommendation based on content");
             System.out.println("2. Get recommendation based on community");
-            System.out.print("Enter choice(-1 to return): ");
+            System.out.println("(-1 to return)");
+            System.out.print(">> ");
             Scanner scan = new Scanner(System.in);
             String option = scan.next();
             if(option.equals("-1"))
@@ -113,6 +118,12 @@ public class BookManager
             {
                 while (true)
                 {
+                    if(Customer.getInstance().getHistory().getLength()==0)
+                    {
+                        flag=1;
+                        System.out.println("Empty history. Recommendation aborted");
+                        break;
+                    }
                     BookCollection matchedBooks = new BookCollection();
                     if( option.equals("1"))
                     {
@@ -123,12 +134,14 @@ public class BookManager
                         matchedBooks = getRecByCom();
                     }
 
+
                     if( matchedBooks != null)
                     {
                         while (true)
                         {
                             matchedBooks.viewAllBook();
-                            System.out.print("Select a book(-1 to return): ");
+                            System.out.println("Enter book's id (-1 to return)");
+                            System.out.print(">> ");
                             scan = new Scanner(System.in);
                             String id = scan.next();
                             if (id.equals("-1"))
@@ -147,32 +160,17 @@ public class BookManager
                         break;
                     }
 
+
+                }
+                if(flag==1)
+                {
+                    break;
                 }
 
-
             }
         }
+        return -1;
     }
-
-    /*
-    private static int getRecMode()
-    {
-        boolean isValid = false;
-        int mode = 0;
-        while(isValid == false)
-        {
-            System.out.println("1. Get recommendation based on content");
-            System.out.println("2. Get recommendation based on community");
-            Scanner scan = new Scanner(System.in);
-            String option = scan.next();
-            mode = Integer.parseInt(option);
-            if (mode == 1 || mode == 2)
-            {
-                isValid = true;
-            }
-        }
-        return mode;
-    }*/
 
     /**
      * Search book function
@@ -187,9 +185,7 @@ public class BookManager
         {
             if(searchByName(keyword) != null)
             {
-                System.out.println("search1");
                 searchByName(keyword).viewAllBook();
-                System.out.println("size: "+searchByName(keyword).getLength());
                 return searchByName(keyword);
             }
             else
@@ -234,15 +230,11 @@ public class BookManager
                 int j;
                 for (j=0;j<keywords.length;j++)
                 {
-                    //System.out.println("name: "+booksByName.get(keywords[0].toLowerCase().charAt(0)).get(i).getName());
-                    //System.out.println("key:"+ keywords[j]);
                     if (booksByName.get(keywords[0].toLowerCase().charAt(0)).get(i).getName().toLowerCase().contains(keywords[j]))
                     {
                         found++;
                     }
                 }
-                //System.out.println("found = "+found);
-                //System.out.println("j = "+j);
                 if (found == j)
                 {
                     if(!Customer.getInstance().getHistory().isInCollection(booksByName.get(keywords[0].toLowerCase().charAt(0)).get(i).getBookId()) && !Customer.getInstance().getCart().isInCollection(booksByName.get(keywords[0].toLowerCase().charAt(0)).get(i).getBookId()))
@@ -257,7 +249,6 @@ public class BookManager
         }
         else
         {
-            System.out.println("CHECK");
             return null;
         }
     }
@@ -318,29 +309,18 @@ public class BookManager
         return matchedBooks;
     }
 
+
     /**
      * get a book by bookID
      * @param keyword bookID
      * @return found book
      */
+
     public static Book searchById (String keyword)
     {
 
         return booksById.get(keyword);
     }
-
-    /*public static boolean checkOut()
-    {
-        Customer.getInstance().getCart().viewAllBook();
-        System.out.println("Total price: "+Customer.getInstance().getCart().calPrice());
-        System.out.println("Confirm cart? (Y/N)");
-        Scanner scanner = new Scanner(System.in);
-        String confirm = scanner.nextLine();
-        if(confirm.equals("Y"))
-            return true;
-        else
-            return false;
-    }*/
 
     /**
      * Read file data and store in hashmaps
@@ -468,6 +448,7 @@ public class BookManager
             System.out.println("1. Create account");
             System.out.println("2. Log in");
             System.out.println("3. Exit");
+            System.out.print(">> ");
             Scanner scan = new Scanner(System.in);
             String option = scan.next();
             if (option.equals("3"))
@@ -493,6 +474,7 @@ public class BookManager
         ArrayList<ArrayList<String>> recString = new ArrayList<>();
         Customer customer = Customer.getInstance();
         customer.createBuyingHistory();
+
         BookEngine engine = BookEngine.getInstance();
         int i=0;
         while(i<customer.getHistory().getLength())
@@ -500,41 +482,26 @@ public class BookManager
             readBooksString.add(customer.getHistory().getBookIDByIndex(i));
             i++;
         }
+
         i=0;
         while (i<readBooksString.size())
         {
             recString.add(engine.searchHash(readBooksString.get(i)));
             i++;
         }
+
         i=0;
         while (i<recString.size())
         {
 
             String bookId=engine.filterHashResult(recString.get(i));
-            reBooks.keepBook(booksById.get(bookId));
+
+            if(!Customer.getInstance().getHistory().isInCollection(bookId) && !Customer.getInstance().getCart().isInCollection(bookId) && !reBooks.isInCollection(bookId))
+                reBooks.keepBook(booksById.get(bookId));
             i++;
         }
         return reBooks;
     }
-
-    /*
-    public void pickCartMenu(BookCollection collection)
-    {
-        collection.viewAllBook();
-        while(true)
-        {
-            System.out.println("Pick to cart (0 to go back)");
-            Scanner scan = new Scanner(System.in);
-            String index = scan.next();
-            if(Integer.parseInt(index)==0)
-                break;
-            else if(Integer.parseInt(index)<collection.getLength())
-                Customer.getInstance().addToCart(collection.getBookByIndex(Integer.parseInt(index)));
-            else
-                System.out.println("Error input");
-        }
-    }
-    */
 
     /**
      * A function that generate menu of the system
@@ -551,6 +518,7 @@ public class BookManager
             System.out.println("3. View cart and check out");
             System.out.println("4. View buying history");
             System.out.println("5. Log out");
+            System.out.print(">> ");
             Scanner scan = new Scanner(System.in);
             String option = scan.next();
             if (option.equals("1"))
